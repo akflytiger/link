@@ -7,11 +7,11 @@ import re  # 导入正则表达式模块
 
 # --- 配置 ---
 # 要读取的 URL
-github_issue_url = "https://github.com/wzdnzd/aggregator/issues/91" # GitHub issue URL
-url = "" # 先定义 url，后续会赋值
+github_issue_url = "https://github.com/wzdnzd/aggregator/issues/91"  # GitHub issue URL
+url = ""  # 先定义 url，后续会赋值
 # 要保留的关键字 (香港 或 日本)
 keywords = ["香港", "日本"]
-# 输出文件名（仅用于Gist中的文件名）
+# 输出文件名（仅用于Gist中的文件名和本地文件）
 output_filename = "hk.yaml"
 
 # --- 函数定义 ---
@@ -160,14 +160,13 @@ if __name__ == "__main__":
         print(f"下载过程中发生未知错误: {e}", file=sys.stderr)
         sys.exit(1)
 
-    
     print("正在解析 YAML 数据...")
     try:
         # 使用 safe_load 解析 YAML
         data = yaml.safe_load(yaml_content)
         if data is None:
-             print("错误：YAML 内容为空或无效。", file=sys.stderr)
-             sys.exit(1)
+            print("错误：YAML 内容为空或无效。", file=sys.stderr)
+            sys.exit(1)
         print("YAML 解析成功。")
 
     except yaml.YAMLError as e:
@@ -186,11 +185,20 @@ if __name__ == "__main__":
         print("未能生成过滤后的数据。", file=sys.stderr)
         sys.exit(1)
 
-    # 将YAML数据转换为字符串
+    # 将 YAML 数据转换为字符串
     try:
         yaml_content = yaml.dump(filtered_data, allow_unicode=True, sort_keys=False)
     except Exception as e:
-        print(f"错误：YAML转换失败: {e}", file=sys.stderr)
+        print(f"错误：YAML 转换失败: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    # 保存到本地文件 hk.yaml
+    try:
+        with open(output_filename, 'w', encoding='utf-8') as f:
+            f.write(yaml_content)
+        print(f"数据已成功保存到本地文件: {output_filename}")
+    except Exception as e:
+        print(f"错误：保存到本地文件失败: {e}", file=sys.stderr)
         sys.exit(1)
 
     # 将数据保存到 Gist
