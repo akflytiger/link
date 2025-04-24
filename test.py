@@ -160,6 +160,7 @@ if __name__ == "__main__":
         print(f"下载过程中发生未知错误: {e}", file=sys.stderr)
         sys.exit(1)
 
+    
     print("正在解析 YAML 数据...")
     try:
         # 使用 safe_load 解析 YAML
