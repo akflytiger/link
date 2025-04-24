@@ -7,19 +7,14 @@ import re  # 导入正则表达式模块
 
 # --- 配置 ---
 # 要读取的 URL
-# url = "https://paste.xxxxi.filegear-sg.me/r/0cb5xdd0"  # 替换为从 GitHub issue 提取的 URL
 github_issue_url = "https://github.com/wzdnzd/aggregator/issues/91" # GitHub issue URL
 url = "" # 先定义 url，后续会赋值
 # 要保留的关键字 (香港 或 日本)
 keywords = ["香港", "日本"]
-# 输出文件名
+# 输出文件名（仅用于Gist中的文件名）
 output_filename = "hk.yaml"
 
 # --- 函数定义 ---
-
-def get_desktop_path():
-    """获取跨平台的桌面路径"""
-    return os.path.join(os.path.expanduser("~"), "Desktop")
 
 def filter_proxies(data, keywords_to_keep):
     """
@@ -49,10 +44,8 @@ def filter_proxies(data, keywords_to_keep):
             # 检查名称是否包含任何一个关键字
             if any(keyword in proxy_name for keyword in keywords_to_keep):
                 filtered_proxies.append(proxy)
-                # print(f"  保留: {proxy_name}") # 取消注释以查看保留的节点
         else:
             print(f"警告：跳过格式不正确的代理条目：{proxy}")
-
 
     print(f"过滤完成，保留了 {len(filtered_proxies)} 个节点。")
     # 用过滤后的列表替换原始列表
@@ -129,16 +122,12 @@ def create_gist(filename, content, token, gist_id=None):
         print(f"错误：创建/更新 Gist 失败，状态码: {response.status_code}, 响应: {response.text}", file=sys.stderr)
         return None
 
-
-
 # --- 主程序逻辑 ---
 
 if __name__ == "__main__":
     # 从环境变量中获取 GitHub 令牌和 Gist ID
     github_token = os.environ.get("GIST_PAT")
     gist_id = os.environ.get("GIST_LINK")  # 允许更新现有的 Gist
-    
-    
 
     if not github_token:
         print("错误：请设置 GITHUB_TOKEN 环境变量。", file=sys.stderr)
@@ -150,9 +139,8 @@ if __name__ == "__main__":
         url = clash_url  # 将提取的 URL 赋值给 url 变量
         print(f"从 GitHub issue 提取到 Clash 订阅 URL: {url}")
     else:
-        print("错误：无法获取 Clash 订阅 URL，程序将使用默认 URL (如果存在)。", file=sys.stderr)
-        if not url: # 如果url为空
-            sys.exit(1) # 退出
+        print("错误：无法获取 Clash 订阅 URL。", file=sys.stderr)
+        sys.exit(1)
 
     print(f"正在从 URL 下载数据: {url}")
     try:
@@ -167,11 +155,10 @@ if __name__ == "__main__":
 
     except requests.exceptions.RequestException as e:
         print(f"错误：无法从 URL 下载数据。{e}", file=sys.stderr)
-        sys.exit(1) # 退出脚本
+        sys.exit(1)
     except Exception as e:
         print(f"下载过程中发生未知错误: {e}", file=sys.stderr)
         sys.exit(1)
-
 
     print("正在解析 YAML 数据...")
     try:
@@ -184,7 +171,6 @@ if __name__ == "__main__":
 
     except yaml.YAMLError as e:
         print(f"错误：无法解析 YAML 数据。{e}", file=sys.stderr)
-        # 打印可能有助于调试的部分内容
         print("\n--- YAML 内容片段 (前 500 字符) ---", file=sys.stderr)
         print(yaml_content[:500], file=sys.stderr)
         print("------------------------------------", file=sys.stderr)
@@ -193,45 +179,23 @@ if __name__ == "__main__":
         print(f"解析过程中发生未知错误: {e}", file=sys.stderr)
         sys.exit(1)
 
-
     # 过滤代理
     filtered_data = filter_proxies(data, keywords)
-    yaml_content = ""
-    if filtered_data:
-        # 获取桌面路径
-        desktop_path = get_desktop_path()
-        output_path = os.path.join(desktop_path, output_filename)
-
-        print(f"准备将过滤后的数据保存到: {output_path}")
-
-        try:
-            # 使用 'w' 模式写入文件，并指定 utf-8 编码
-            # 使用 allow_unicode=True 保留非 ASCII 字符
-            # 使用 sort_keys=False 尽量保持原始顺序
-            with open(output_path, 'w', encoding='utf-8') as outfile:
-                yaml.dump(filtered_data, outfile, allow_unicode=True, sort_keys=False, indent=2)
-            print(f"成功将过滤后的 {len(filtered_data.get('proxies',[]))} 个节点保存到文件: {output_path}")
-            with open(output_path, 'r', encoding='utf-8') as infile:
-                yaml_content = infile.read()
-
-        except IOError as e:
-            print(f"错误：无法写入文件到桌面。{e}", file=sys.stderr)
-            print("请检查是否有写入权限或桌面路径是否正确。", file=sys.stderr)
-            sys.exit(1)
-        except Exception as e:
-            print(f"保存文件时发生未知错误: {e}", file=sys.stderr)
-            sys.exit(1)
-    else:
-        print("未能生成过滤后的数据，无法保存文件。")
+    if not filtered_data:
+        print("未能生成过滤后的数据。", file=sys.stderr)
         sys.exit(1)
+
+    # 将YAML数据转换为字符串
+    try:
+        yaml_content = yaml.dump(filtered_data, allow_unicode=True, sort_keys=False)
+    except Exception as e:
+        print(f"错误：YAML转换失败: {e}", file=sys.stderr)
+        sys.exit(1)
+
     # 将数据保存到 Gist
-    if yaml_content:
-        gist_url = create_gist(output_filename, yaml_content, github_token, gist_id)
-        if gist_url:
-            print(f"数据已成功保存到 Gist: {gist_url}")
-        else:
-            print("错误：保存数据到 Gist 失败。", file=sys.stderr)
-            sys.exit(1)
+    gist_url = create_gist(output_filename, yaml_content, github_token, gist_id)
+    if gist_url:
+        print(f"数据已成功保存到 Gist: {gist_url}")
     else:
-        print("没有数据要保存到 Gist。", file=sys.stderr)
+        print("错误：保存数据到 Gist 失败。", file=sys.stderr)
         sys.exit(1)
