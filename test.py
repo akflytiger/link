@@ -202,9 +202,11 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # 将数据保存到 Gist
+    """
     gist_url = create_gist(output_filename, yaml_content, github_token, gist_id)
     if gist_url:
         print(f"数据已成功保存到 Gist: {gist_url}")
     else:
         print("错误：保存数据到 Gist 失败。", file=sys.stderr)
         sys.exit(1)
+    """
