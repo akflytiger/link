@@ -38,9 +38,7 @@ jobs:
     - name: 节点获取并发布
       run: | 
         python test.py
-        #python ss-out.py
-        #python sstoclash.py
-        #python sstoclashbysub.py
+       
     - name: Commit and push output file
       run: |
         git config --local user.email "186155633@qq.com"  # 替换为你的 GitHub 注册邮箱
