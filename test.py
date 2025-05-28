@@ -14,10 +14,15 @@ soup = BeautifulSoup(html_content, 'html.parser')
 paragraphs = soup.find_all('code')
 print (paragraphs[1].get_text())
 token = paragraphs[1].get_text()
+paragraphs2 = soup.find_all('p')
+url=paragraphs2[10].get_text().split('?', 1)[0].split('：',1)[1]
 
+print (url)
 
-# 第二步：使用token构建订阅URL并获取内容
-subscribe_url = f'https://ohayoo-pm.hf.space/api/v1/subscribe?token={token}&target=clash&list=0'
+print("正在获取订阅内容URL:", subscribe_url)
+# 第二步：使用url+token构建订阅URL并获取内容
+subscribe_url = f'{url}?token={token}&target=clash&list=0'
+
 #print("正在获取订阅内容URL:", subscribe_url)
 
 '''
