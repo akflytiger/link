@@ -17,7 +17,7 @@ token = paragraphs[0].get_text()
 
 
 # 第二步：使用token构建订阅URL并获取内容
-subscribe_url = f'https://ohayoo-distribute.hf.space/api/v1/subscribe?token={token}&target=clash&list=0'
+subscribe_url = f'https://ohayoo-pm.hf.space/api/v1/subscribe?token={token}&target=clash&list=0'
 #print("正在获取订阅内容URL:", subscribe_url)
 
 '''
