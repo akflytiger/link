@@ -12,8 +12,8 @@ soup = BeautifulSoup(html_content, 'html.parser')
 
 # 提取code标签中的token
 paragraphs = soup.find_all('code')
-print (paragraphs[0].get_text())
-token = paragraphs[0].get_text()
+print (paragraphs[1].get_text())
+token = paragraphs[1].get_text()
 
 
 # 第二步：使用token构建订阅URL并获取内容
