@@ -6,106 +6,106 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🔔 关注https://github.com/wzdnzd不迷路 2, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇹🇼 台湾 167, server: 118.170.211.57, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: c13cbbd6-3630-4800-bf20-bec5f81497e9, udp: true}
-  - {name: 🇹🇼 台湾 361, server: 114.33.53.80, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: b79d6a0c-9b90-4f39-8755-b7f4f84d4042, udp: true}
-  - {name: 🇹🇼 台湾 076, server: 118.170.228.117, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: cc72685d-c4b6-4d37-9edb-606afa58e012, udp: true}
-  - {name: 🇺🇸 美国 170, server: 45.159.218.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 459, server: 205.233.181.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇩🇪 德国 05, server: dg.dport.top, port: 33653, type: hysteria2, password: 3f6e4e25-9b9d-4433-8964-21fa356d8a5f, auth: 3f6e4e25-9b9d-4433-8964-21fa356d8a5f, sni: dg.dport.top, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
-  - {name: 🇹🇼 台湾 302, server: 1.170.32.139, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
-  - {name: 🇺🇸 美国 392, server: 45.136.245.177, port: 22101, type: vmess, uuid: 3c93400e-6f2d-41f2-abaa-e66a89ec9a4e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇹🇼 台湾 143, server: 1.165.98.202, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: c13cbbd6-3630-4800-bf20-bec5f81497e9, udp: true}
-  - {name: 🇸🇨 塞舌尔 01, server: 156.251.179.139, port: 636, type: ss, cipher: aes-256-gcm, password: 0b191076d18f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk6v1.dsjsapp.com, path: /ugiibpkbca, tls: true, mux: true}, udp: true}
-  - {name: 🇹🇼 台湾 332, server: 118.170.228.117, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 3b90ab29-4a87-4d3c-8334-449cf3df0a75, udp: true}
-  - {name: 🇺🇸 美国 140, server: 103.116.7.156, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram🇨🇳 @WangCai2 /, headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇹🇼 台湾 212, server: 118.170.211.57, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 3b90ab29-4a87-4d3c-8334-449cf3df0a75, udp: true}
-  - {name: 🇹🇼 台湾 001, server: 220.135.202.250, port: 81, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇹🇼 台湾 080, server: 36.234.88.193, port: 10078, type: ss, cipher: chacha20-ietf-poly1305, password: 9c148944-7bca-4ed3-96a4-514d874226e8, udp: true}
-  - {name: 🇺🇸 美国 183, server: 91.209.253.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 068, server: 89.116.250.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 235, server: 89.116.250.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: bitget1.asdasd.click}}, udp: true}
-  - {name: 🇹🇼 台湾 273, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: c13cbbd6-3630-4800-bf20-bec5f81497e9, udp: true}
-  - {name: 🇹🇼 台湾 162, server: 36.234.105.48, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: d45329b9-8a29-41a0-8101-7f9cab1a773a, udp: true}
-  - {name: 🇺🇸 美国 286, server: 45.40.147.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇹🇼 台湾 219, server: 125.231.86.134, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: 3b90ab29-4a87-4d3c-8334-449cf3df0a75, udp: true}
-  - {name: 🇹🇼 台湾 019, server: 1.170.2.14, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: d45329b9-8a29-41a0-8101-7f9cab1a773a, udp: true}
-  - {name: 🇺🇸 美国 552, server: 162.159.129.11, port: 2053, type: vless, uuid: d6b8011a-c725-435a-9fec-bf6d3530392c, tls: true, servername: vle.amclubsapp.dpdns.org, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=vless&NAT64=true", headers: {Host: vle.amclubsapp.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 114, server: 5.10.215.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: ip.langmanshanxi.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 070, server: 185.135.9.247, port: 8880, type: vless, uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc, tls: false, servername: ex.sue.x10.mx, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram, headers: {Host: ex.sue.x10.mx}}, udp: true}
-  - {name: 🇺🇸 美国 244, server: 205.233.181.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram, headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇹🇼 台湾 105, server: 114.46.90.10, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: 8a83c67e-9d6d-4f40-8617-fbdb5f0dba76, udp: true}
-  - {name: 🇺🇸 美国 354, server: tun.tuzivip.pw, port: 42394, type: ss, cipher: chacha20-ietf-poly1305, password: 1b39270b-88e1-4be3-bbbd-c6a2f3dbdfa5, udp: true}
-  - {name: 🇺🇸 美国 539, server: unlimited.spauu.web.id, port: 443, type: vless, uuid: 4b921362-35a7-4bd5-8323-338de6f7f8bb, tls: true, servername: unlimited.spauu.web.id, network: ws, ws-opts: {path: /, headers: {Host: unlimited.spauu.web.id}}, udp: true}
-  - {name: 🇹🇼 台湾 297, server: 118.170.211.57, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: 26997e99-57a0-48e3-8aea-8cebab89fecd, udp: true}
-  - {name: 🇺🇸 美国 272, server: 50.62.198.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 260, server: 62.72.166.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram @WangCai2 /, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 261, server: 63.141.128.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇺🇸 美国 071, server: 185.133.35.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram, headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 057, server: 46.202.30.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 275, server: 45.40.154.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 167, server: 114.129.43.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 278, server: 45.40.152.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇹🇼 台湾 028, server: 1.165.90.239, port: 10017, type: ss, cipher: chacha20-ietf-poly1305, password: 8a83c67e-9d6d-4f40-8617-fbdb5f0dba76, udp: true}
-  - {name: 🇺🇸 美国 094, server: 185.238.228.39, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram🇨🇳 @MxlShare @WangCai2 /, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 367, server: 45.136.245.177, port: 23165, type: vmess, uuid: 5f5514ff-a5c3-4b0d-a6c2-44c9cb1955d9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 506, server: 91.193.58.35, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 143, server: 45.142.120.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yg.bantony199.top}}, udp: true}
-  - {name: 🇺🇸 美国 582, server: 104.17.148.22, port: 443, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: true, alpn: [h2%2Chttp%2F1.1], servername: jaegbsem36.cfd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: jaegbsem36.cfd}}, udp: true}
-  - {name: 🇺🇸 美国 017, server: 103.245.228.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇹🇼 台湾 323, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 3b90ab29-4a87-4d3c-8334-449cf3df0a75, udp: true}
-  - {name: 🇺🇸 美国 084, server: 185.59.218.29, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: hk.laoyoutiao.link}}, udp: true}
-  - {name: 🇹🇼 台湾 042, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918, udp: true}
-  - {name: 🇹🇼 台湾 081, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 381a837c-e89b-4f84-9a7e-89685b7f1bea, udp: true}
-  - {name: 🇷🇺 俄罗斯联邦 08, server: els2.dimoyun.top, port: 40001, type: hysteria2, password: 0379cc07-c48c-4b2a-b22c-f568ed49d654, auth: 0379cc07-c48c-4b2a-b22c-f568ed49d654, sni: els1.dimoyun.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 127, server: 188.42.89.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇷🇺 俄罗斯联邦 02, server: 45.136.245.177, port: 25036, type: vmess, uuid: e1903548-176e-44ac-af6e-57d03d4ee6bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇹🇼 台湾 038, server: 118.170.200.140, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: 381a837c-e89b-4f84-9a7e-89685b7f1bea, udp: true}
-  - {name: 🇺🇸 美国 349, server: 92.53.188.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, servername: cf.d3z.net, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇺🇸 美国 554, server: 172.67.157.254, port: 443, type: vless, uuid: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc, tls: true, alpn: [http/1.1], servername: DdDdDddFffGgBN.444752.xyZ, client-fingerprint: chrome, network: ws, ws-opts: {path: /laTDC7FYNlEa06b88JSo, headers: {Host: dddddddfffggbn.444752.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 381, server: 147.78.140.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, servername: yg.bantony199.top, network: ws, ws-opts: {path: /Telegram, headers: {Host: yg.bantony199.top}}, udp: true}
-  - {name: 🇺🇸 美国 421, server: 50.62.89.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 541, server: 168.100.6.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 002, server: 154.83.2.200, port: 443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubssss.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan&NAT64=true", headers: {Host: vle.amclubssss.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 384, server: 45.67.215.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 452, server: 66.235.200.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram, headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇹🇼 台湾 227, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: a1a8765b-b0d9-4a7e-aac3-3138711d9e4e, udp: true}
-  - {name: 🇹🇼 台湾 378, server: 1.170.47.148, port: 10116, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
-  - {name: 🇺🇸 美国 417, server: 45.40.145.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇹🇼 台湾 201, server: 125.229.191.103, port: 10023, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
-  - {name: 🇹🇼 台湾 021, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: d45329b9-8a29-41a0-8101-7f9cab1a773a, udp: true}
-  - {name: 🇺🇸 美国 036, server: 104.129.166.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 090, server: 185.251.82.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇹🇼 台湾 041, server: 114.46.88.93, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
-  - {name: 🇺🇸 美国 246, server: 194.36.55.156, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇹🇼 台湾 177, server: 36.232.85.67, port: 10143, type: ss, cipher: chacha20-ietf-poly1305, password: 26997e99-57a0-48e3-8aea-8cebab89fecd, udp: true}
-  - {name: 🇯🇵 日本 15, server: tun.tuzivip.pw, port: 47296, type: ss, cipher: chacha20-ietf-poly1305, password: 1bf8262f-70e2-4a5f-84ea-64563fbd223a, udp: true}
-  - {name: 🇺🇸 美国 110, server: 185.176.26.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 173, server: 5.10.214.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 042, server: 77.232.140.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 048, server: 94.247.142.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇺🇸 美国 496, server: 5.175.141.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇺🇸 美国 366, server: 45.136.245.177, port: 23165, type: vmess, uuid: 767de8f3-de46-4a5e-a203-086f4b800665, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 504, server: 185.251.82.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 346, server: 46.254.92.8, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, network: ws, ws-opts: {path: "Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇹🇼 台湾 093, server: 1.170.41.78, port: 10101, type: ss, cipher: chacha20-ietf-poly1305, password: 26997e99-57a0-48e3-8aea-8cebab89fecd, udp: true}
-  - {name: 🇺🇸 美国 470, server: 195.13.45.251, port: 8880, type: vless, uuid: 0132166f-e702-48ed-a9e7-b07af768faf8, tls: false, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /, headers: {Host: cf.d3z.net}}, udp: true}
-  - {name: 🇺🇸 美国 184, server: 185.148.106.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 560, server: 104.21.9.71, port: 443, type: vless, uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8, tls: true, alpn: [http/1.1], servername: ddDDdDDdDDF.777198.XyZ, client-fingerprint: chrome, network: ws, ws-opts: {path: /OjdW89Bpg4ykd4O, headers: {Host: ddDDdDDdDDF.777198.XyZ}}, udp: true}
-  - {name: 🇺🇸 美国 178, server: 89.116.250.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: yg.bantony199.top}}, udp: true}
-  - {name: 🇹🇼 台湾 400, server: 36.232.91.227, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918, udp: true}
-  - {name: 🇺🇸 美国 224, server: 91.193.58.112, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, client-fingerprint: chrome, network: ws, ws-opts: {path: /freecodesfreecodes, headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇹🇼 台湾 370, server: 1.170.24.42, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: c13cbbd6-3630-4800-bf20-bec5f81497e9, udp: true}
-  - {name: 🇺🇸 美国 165, server: 135.84.74.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@WangCai2/, headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 454, server: 185.176.26.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@freecodes/, headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇹🇼 台湾 124, server: 114.46.69.124, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918, udp: true}
-  - {name: 🇹🇼 台湾 274, server: 1.170.61.218, port: 10084, type: ss, cipher: chacha20-ietf-poly1305, password: 8a83c67e-9d6d-4f40-8617-fbdb5f0dba76, udp: true}
-  - {name: 🇺🇸 美国 334, server: 216.24.57.20, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: us.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@WangCai2, headers: {Host: us.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 422, server: h23.cpddx.club, port: 8443, type: hysteria2, password: 9945ee29-823f-48e7-8a7c-a8391bc1d8f1, auth: 9945ee29-823f-48e7-8a7c-a8391bc1d8f1, sni: h23.cpddx.club, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾 012, server: 36.232.83.98, port: 10149, type: ss, cipher: chacha20-ietf-poly1305, password: 99a82766-3973-4bc0-8b5b-e04327db4bb7, udp: true}
-  - {name: 🇺🇸 美国 220, server: 160.153.1.247, port: 8880, type: vless, uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc, tls: false, servername: ex.sue.x10.mx, client-fingerprint: chrome, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: ex.sue.x10.mx}}, udp: true}
-  - {name: 🇹🇼 台湾 033, server: 111.253.199.144, port: 10144, type: ss, cipher: chacha20-ietf-poly1305, password: 9c148944-7bca-4ed3-96a4-514d874226e8, udp: true}
+  - {name: 🇹🇼 台湾 1375, server: 36.234.110.22, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9, udp: true}
+  - {name: 🇺🇸 美国 054, server: 89.116.250.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, network: ws, ws-opts: {path: /Telegram🇨🇳, headers: {Host: bitget1.asdasd.click}}, udp: true}
+  - {name: 🇹🇼 台湾 0798, server: 36.234.105.48, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: 209422c6-2a35-401e-8252-9c1e170489c9, udp: true}
+  - {name: 🇹🇼 台湾 1344, server: 36.234.118.152, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
+  - {name: 🇺🇸 美国 809, server: 188.164.248.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 1218, server: 36.232.84.216, port: 10140, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇹🇼 台湾 1441, server: 1.170.38.202, port: 10086, type: ss, cipher: chacha20-ietf-poly1305, password: 72ba05a3-632e-490b-ad00-158578664c18, udp: true}
+  - {name: 🇺🇸 美国 460, server: v4.lmjiasu.xyz, port: 12004, type: vmess, uuid: 8e94290a-b98b-4fde-9141-c16bd557d9fa, alterId: 0, cipher: auto, tls: true, servername: v4.lmjiasu.xyz, network: ws, ws-opts: {path: /lmjiasu, headers: {Host: www.bing.com}}, udp: true}
+  - {name: 🇹🇼 台湾 1022, server: 125.229.191.100, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: cb8c9b66-cf5d-4c20-a6d9-459073dc4bb2, udp: true}
+  - {name: 🇺🇸 美国 625, server: 188.42.89.3, port: 8880, type: vless, uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /, headers: {Host: bitget1.asdasd.click}}, udp: true}
+  - {name: 🇹🇼 台湾 0538, server: 125.228.180.250, port: 10081, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇺🇸 美国 145, server: 188.42.145.186, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
+  - {name: 🇺🇸 美国 717, server: 86.38.214.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: "/Telegram@WangCai2/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
+  - {name: 🇹🇼 台湾 1457, server: 125.228.31.117, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: 3341fa67-7fa6-4f02-94b5-ce8868f114d8, udp: true}
+  - {name: 🇹🇼 台湾 0222, server: 36.232.80.194, port: 10114, type: ss, cipher: chacha20-ietf-poly1305, password: 06cff021-3f19-4168-80d1-3716cdfdc60a, udp: true}
+  - {name: 🇹🇼 台湾 1042, server: 36.234.109.221, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: 06cff021-3f19-4168-80d1-3716cdfdc60a, udp: true}
+  - {name: 🇬🇧 英国 10, server: s6.lmjiasu.xyz, port: 11006, type: ss, cipher: chacha20-ietf-poly1305, password: cf80e8b5-5fd0-4439-a88d-57407fb5164d, udp: true}
+  - {name: 🇺🇸 美国 070, server: 147.78.140.254, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, servername: yg.bantony199.top, network: ws, ws-opts: {path: /Telegram, headers: {Host: yg.bantony199.top}}, udp: true}
+  - {name: 🇹🇼 台湾 0486, server: 1.165.104.17, port: 10018, type: ss, cipher: chacha20-ietf-poly1305, password: face09df-dd67-423a-91c6-bca3ba4ea615, udp: true}
+  - {name: 🇭🇰 香港 14, server: 47.239.64.163, port: 443, type: trojan, password: Aimer, sni: epge.esslh.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epge.esslh.filegear-sg.me}}, udp: true}
+  - {name: 🇹🇼 台湾 0332, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇹🇼 台湾 0935, server: 1.170.32.139, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9, udp: true}
+  - {name: 🇺🇸 美国 099, server: 199.68.156.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇺🇸 美国 818, server: 172.67.196.73, port: 443, type: trojan, password: 20e89a95-cedf-4fe3-9421-517ce66be170, sni: d8879F63-E1Dd-6Cd3-d53d-3C603014b56f.hUaNGZi.CFD, alpn: [h2], skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: 8y30nl6G2U0xOfo1zTYgBe8V}, udp: true}
+  - {name: 🇹🇼 台湾 0684, server: 125.229.88.58, port: 10121, type: ss, cipher: chacha20-ietf-poly1305, password: a48c11be-f5e3-4a9f-b2a1-27458d480951, udp: true}
+  - {name: 🇹🇼 台湾 1142, server: 36.234.99.6, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: a1a8765b-b0d9-4a7e-aac3-3138711d9e4e, udp: true}
+  - {name: 🇺🇸 美国 081, server: 89.116.180.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}, udp: true}
+  - {name: 🇺🇸 美国 050, server: 103.245.228.29, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: hk.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: hk.laoyoutiao.link}}, udp: true}
+  - {name: 🇹🇼 台湾 1029, server: 118.170.208.251, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: 3341fa67-7fa6-4f02-94b5-ce8868f114d8, udp: true}
+  - {name: 🇹🇼 台湾 1224, server: 36.232.91.227, port: 10147, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
+  - {name: 🇺🇸 美国 182, server: 108.165.216.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram@freecodes/?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 19, server: 45.136.245.177, port: 80, type: hysteria2, password: 33d0a099-3eb5-455e-891b-290589c1a764, auth: 33d0a099-3eb5-455e-891b-290589c1a764, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇹🇼 台湾 1225, server: 1.170.37.210, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: 151fe4cf-eccb-4cb1-b094-6b75d8fdf716, udp: true}
+  - {name: 🇹🇼 台湾 1061, server: 1.170.11.60, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇹🇼 台湾 1447, server: 36.234.109.221, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: 99a82766-3973-4bc0-8b5b-e04327db4bb7, udp: true}
+  - {name: 🇹🇼 台湾 0309, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 151fe4cf-eccb-4cb1-b094-6b75d8fdf716, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 12, server: 45.136.245.177, port: 80, type: hysteria2, password: da131273-1d09-4667-bdf5-3a6aacef5959, auth: da131273-1d09-4667-bdf5-3a6aacef5959, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国 812, server: 185.193.29.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇺🇸 美国 743, server: 45.131.209.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: "%25252FTelegram", headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 0786, server: 125.229.191.101, port: 10007, type: ss, cipher: chacha20-ietf-poly1305, password: a1a8765b-b0d9-4a7e-aac3-3138711d9e4e, udp: true}
+  - {name: 🇹🇼 台湾 0905, server: 114.46.101.207, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: 99a82766-3973-4bc0-8b5b-e04327db4bb7, udp: true}
+  - {name: 🇹🇼 台湾 1464, server: 125.228.162.233, port: 10145, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef634f2-13cf-4acf-af16-19305b1c9ce6, udp: true}
+  - {name: 🇺🇸 美国 186, server: 91.209.253.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@WangCai2, headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
+  - {name: 🇹🇼 台湾 0103, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 209422c6-2a35-401e-8252-9c1e170489c9, udp: true}
+  - {name: 🇹🇼 台湾 1165, server: 1.165.69.73, port: 10029, type: ss, cipher: chacha20-ietf-poly1305, password: 06cff021-3f19-4168-80d1-3716cdfdc60a, udp: true}
+  - {name: 🇹🇼 台湾 1158, server: 114.46.90.10, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9, udp: true}
+  - {name: 🇺🇸 美国 164, server: 63.141.128.143, port: 8880, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: yg.bantony199.top}}, udp: true}
+  - {name: 🇺🇸 美国 609, server: 63.141.128.15, port: 80, type: vless, uuid: 5fd9c3f7-bd70-4dab-8915-4c57bfe2b309, tls: false, network: ws, ws-opts: {path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: d.jOin.zEdMoDeOn.oNl.}}, udp: true}
+  - {name: 🇹🇼 台湾 0884, server: 1.165.69.73, port: 10029, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇹🇼 台湾 1106, server: 114.46.87.110, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: face09df-dd67-423a-91c6-bca3ba4ea615, udp: true}
+  - {name: 🇭🇰 香港 27, server: 120.233.44.206, port: 39524, type: ss, cipher: chacha20-ietf-poly1305, password: d7408ed2-d66a-43ae-92e2-cc92ab3b2d7d, udp: true}
+  - {name: 🇹🇼 台湾 0900, server: 125.228.31.10, port: 10113, type: ss, cipher: chacha20-ietf-poly1305, password: 06cff021-3f19-4168-80d1-3716cdfdc60a, udp: true}
+  - {name: 🇹🇼 台湾 0898, server: 114.46.93.14, port: 10074, type: ss, cipher: chacha20-ietf-poly1305, password: ded36cae-402e-461f-ae41-3b94bad1842f, udp: true}
+  - {name: 🇺🇸 美国 672, server: 103.245.228.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: /TelegramU0001F1E8U0001F1F3, headers: {Host: jp.laoyoutiao.link}}, udp: true}
+  - {name: 🇺🇸 美国 230, server: 25.26.27.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 1314, server: 118.170.228.117, port: 10022, type: ss, cipher: chacha20-ietf-poly1305, password: 9c148944-7bca-4ed3-96a4-514d874226e8, udp: true}
+  - {name: 🇹🇼 台湾 0896, server: 118.170.205.122, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: 209422c6-2a35-401e-8252-9c1e170489c9, udp: true}
+  - {name: 🇺🇸 美国 704, server: 190.93.244.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 1437, server: 1.170.2.14, port: 10091, type: ss, cipher: chacha20-ietf-poly1305, password: eb62cacb-5637-4ea9-ad6a-fa9f958e50e1, udp: true}
+  - {name: 🇹🇼 台湾 1320, server: 36.234.99.6, port: 10070, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇹🇼 台湾 1499, server: 125.231.76.216, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: face09df-dd67-423a-91c6-bca3ba4ea615, udp: true}
+  - {name: 🇹🇼 台湾 0375, server: 125.229.191.104, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 06cff021-3f19-4168-80d1-3716cdfdc60a, udp: true}
+  - {name: 🇹🇼 台湾 0615, server: 114.46.92.220, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: face09df-dd67-423a-91c6-bca3ba4ea615, udp: true}
+  - {name: 🇹🇼 台湾 1492, server: 114.35.114.182, port: 10129, type: ss, cipher: chacha20-ietf-poly1305, password: 3341fa67-7fa6-4f02-94b5-ce8868f114d8, udp: true}
+  - {name: 🇹🇼 台湾 0558, server: 114.46.101.207, port: 10012, type: ss, cipher: chacha20-ietf-poly1305, password: ded36cae-402e-461f-ae41-3b94bad1842f, udp: true}
+  - {name: 🇹🇼 台湾 0998, server: 1.170.23.40, port: 10103, type: ss, cipher: chacha20-ietf-poly1305, password: 72ba05a3-632e-490b-ad00-158578664c18, udp: true}
+  - {name: 🇹🇼 台湾 0294, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: 209422c6-2a35-401e-8252-9c1e170489c9, udp: true}
+  - {name: 🇹🇼 台湾 1033, server: 36.232.106.237, port: 10131, type: ss, cipher: chacha20-ietf-poly1305, password: 99a82766-3973-4bc0-8b5b-e04327db4bb7, udp: true}
+  - {name: 🇹🇼 台湾 0677, server: 114.46.118.178, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: ad14ac91-6101-4888-9d17-ca11150d823e, udp: true}
+  - {name: 🇸🇬 新加坡 21, server: h22.cpddx.club, port: 8443, type: hysteria2, password: bbda7b5c-0866-49e9-ac77-dc5353f3bbdb, auth: bbda7b5c-0866-49e9-ac77-dc5353f3bbdb, sni: h22.cpddx.club, up: 200, down: 1000, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 191, server: 198.62.62.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram🇨🇳, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 0442, server: 125.231.76.216, port: 10049, type: ss, cipher: chacha20-ietf-poly1305, password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9, udp: true}
+  - {name: 🇸🇬 新加坡 20, server: h22.cpddx.club, port: 8443, type: hysteria2, password: b3c6150d-6c2d-4224-9e43-99fdb8f04414, auth: b3c6150d-6c2d-4224-9e43-99fdb8f04414, sni: h22.cpddx.club, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 0897, server: 114.46.69.124, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef634f2-13cf-4acf-af16-19305b1c9ce6, udp: true}
+  - {name: 🇹🇼 台湾 0502, server: 118.170.208.251, port: 10021, type: ss, cipher: chacha20-ietf-poly1305, password: a1a8765b-b0d9-4a7e-aac3-3138711d9e4e, udp: true}
+  - {name: 🇰🇷 韩国 09, server: 125.135.43.66, port: 50001, type: trojan, password: Aimer, sni: epge.esslh.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epge.esslh.filegear-sg.me}}, udp: true}
+  - {name: 🇹🇼 台湾 0554, server: 1.170.32.139, port: 10118, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef634f2-13cf-4acf-af16-19305b1c9ce6, udp: true}
+  - {name: 🇸🇬 新加坡 24, server: h22.cpddx.club, port: 8443, type: hysteria2, password: f7d9a708-da89-48d8-a105-d11749ca833f, auth: f7d9a708-da89-48d8-a105-d11749ca833f, sni: h22.cpddx.club, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 691, server: 195.13.54.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: jp.laoyoutiao.link}}, udp: true}
+  - {name: 🇹🇼 台湾 1175, server: 125.228.180.215, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef634f2-13cf-4acf-af16-19305b1c9ce6, udp: true}
+  - {name: 🇹🇼 台湾 1023, server: 1.170.37.210, port: 10109, type: ss, cipher: chacha20-ietf-poly1305, password: 30437510-b11a-402e-8e43-585d6bd05608, udp: true}
+  - {name: 🇺🇸 美国 727, server: 45.153.7.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇺🇸 美国 443, server: 198.62.62.156, port: 443, type: vless, uuid: d6b8011a-c725-435a-9fec-bf6d3530392c, tls: true, servername: vle.amclubsdns.dpdns.org, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=vless&NAT64=true", headers: {Host: vle.amclubsdns.dpdns.org}}, udp: true}
+  - {name: 🇬🇧 英国 11, server: t6.lmjiasu.xyz, port: 13006, type: trojan, password: 3ae2ef94-c6c3-4e78-b2c3-00e3e27eec9c, sni: t6.lmjiasu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 0425, server: 114.46.64.69, port: 10071, type: ss, cipher: chacha20-ietf-poly1305, password: 9c148944-7bca-4ed3-96a4-514d874226e8, udp: true}
+  - {name: 🇹🇼 台湾 1311, server: 36.234.118.152, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: ded36cae-402e-461f-ae41-3b94bad1842f, udp: true}
+  - {name: 🇹🇼 台湾 1131, server: 118.170.222.48, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: a48c11be-f5e3-4a9f-b2a1-27458d480951, udp: true}
+  - {name: 🇺🇸 美国 698, server: 25.129.196.213, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: jp.laoyoutiao.link}}, udp: true}
+  - {name: 🇺🇸 美国 336, server: 74.49.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 1498, server: 1.165.75.175, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: 3341fa67-7fa6-4f02-94b5-ce8868f114d8, udp: true}
+  - {name: 🇹🇼 台湾 1537, server: cdntwa.xiaomispeed.com, port: 38522, type: trojan, password: d7408ed2-d66a-43ae-92e2-cc92ab3b2d7d, sni: cdntwa.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 0938, server: 111.253.195.213, port: 10135, type: ss, cipher: chacha20-ietf-poly1305, password: 2663374d-ebd2-4cea-b3bd-fb274b857632, udp: true}
+  - {name: 🇺🇸 美国 194, server: 45.159.218.63, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: jp.laoyoutiao.link, network: ws, ws-opts: {path: "/TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome", headers: {Host: jp.laoyoutiao.link}}, udp: true}
+  - {name: 🇭🇰 香港 15, server: 47.243.206.137, port: 443, type: trojan, password: Aimer, sni: epge.esslh.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epge.esslh.filegear-sg.me}}, udp: true}
+  - {name: 🇹🇼 台湾 0793, server: 36.234.109.221, port: 10063, type: ss, cipher: chacha20-ietf-poly1305, password: ded36cae-402e-461f-ae41-3b94bad1842f, udp: true}
+  - {name: 🇺🇸 美国 722, server: 25.25.25.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, network: ws, ws-opts: {path: Telegram%252525F0%2525259F%25252587%252525A8%252525F0%2525259F%25252587%252525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 🇹🇼 台湾 0910, server: 125.229.191.102, port: 10019, type: ss, cipher: chacha20-ietf-poly1305, password: 72ba05a3-632e-490b-ad00-158578664c18, udp: true}
+  - {name: 🇺🇸 美国 522, server: 92.53.188.168, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: kjgx.laoyoutiao.link, network: ws, ws-opts: {path: /Telegram@freecodes, headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
+  - {name: 🇹🇼 台湾 0125, server: 125.231.86.134, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9, udp: true}
+  - {name: 🇺🇸 美国 060, server: 139.64.235.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -113,212 +113,212 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -326,106 +326,106 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -445,143 +445,172 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇹🇼 台湾 302
-      - 🇹🇼 台湾 143
-      - 🇹🇼 台湾 332
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇹🇼 台湾 105
-      - 🇹🇼 台湾 297
-      - 🇹🇼 台湾 028
-      - 🇹🇼 台湾 323
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇹🇼 台湾 038
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇹🇼 台湾 041
-      - 🇹🇼 台湾 177
-      - 🇹🇼 台湾 093
-      - 🇹🇼 台湾 400
-      - 🇹🇼 台湾 370
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇹🇼 台湾 012
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 1375
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇹🇼 台湾 1022
+      - 🇹🇼 台湾 0538
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇹🇼 台湾 0442
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇹🇼 台湾 0554
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇹🇼 台湾 0910
+      - 🇹🇼 台湾 0125
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -589,212 +618,212 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -802,106 +831,106 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -918,106 +947,106 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🔔 关注https://github.com/wzdnzd不迷路 2
-      - 🇹🇼 台湾 167
-      - 🇹🇼 台湾 361
-      - 🇹🇼 台湾 076
-      - 🇺🇸 美国 170
-      - 🇺🇸 美国 459
-      - 🇩🇪 德国 05
-      - 🇹🇼 台湾 302
-      - 🇺🇸 美国 392
-      - 🇹🇼 台湾 143
-      - 🇸🇨 塞舌尔 01
-      - 🇹🇼 台湾 332
-      - 🇺🇸 美国 140
-      - 🇹🇼 台湾 212
-      - 🇹🇼 台湾 001
-      - 🇹🇼 台湾 080
-      - 🇺🇸 美国 183
-      - 🇺🇸 美国 068
-      - 🇺🇸 美国 235
-      - 🇹🇼 台湾 273
-      - 🇹🇼 台湾 162
-      - 🇺🇸 美国 286
-      - 🇹🇼 台湾 219
-      - 🇹🇼 台湾 019
-      - 🇺🇸 美国 552
-      - 🇺🇸 美国 114
+      - 🇹🇼 台湾 1375
+      - 🇺🇸 美国 054
+      - 🇹🇼 台湾 0798
+      - 🇹🇼 台湾 1344
+      - 🇺🇸 美国 809
+      - 🇹🇼 台湾 1218
+      - 🇹🇼 台湾 1441
+      - 🇺🇸 美国 460
+      - 🇹🇼 台湾 1022
+      - 🇺🇸 美国 625
+      - 🇹🇼 台湾 0538
+      - 🇺🇸 美国 145
+      - 🇺🇸 美国 717
+      - 🇹🇼 台湾 1457
+      - 🇹🇼 台湾 0222
+      - 🇹🇼 台湾 1042
+      - 🇬🇧 英国 10
       - 🇺🇸 美国 070
-      - 🇺🇸 美国 244
-      - 🇹🇼 台湾 105
-      - 🇺🇸 美国 354
-      - 🇺🇸 美国 539
-      - 🇹🇼 台湾 297
-      - 🇺🇸 美国 272
-      - 🇺🇸 美国 260
-      - 🇺🇸 美国 261
-      - 🇺🇸 美国 071
-      - 🇺🇸 美国 057
-      - 🇺🇸 美国 275
-      - 🇺🇸 美国 167
-      - 🇺🇸 美国 278
-      - 🇹🇼 台湾 028
-      - 🇺🇸 美国 094
-      - 🇺🇸 美国 367
-      - 🇺🇸 美国 506
-      - 🇺🇸 美国 143
-      - 🇺🇸 美国 582
-      - 🇺🇸 美国 017
-      - 🇹🇼 台湾 323
-      - 🇺🇸 美国 084
-      - 🇹🇼 台湾 042
-      - 🇹🇼 台湾 081
-      - 🇷🇺 俄罗斯联邦 08
-      - 🇺🇸 美国 127
-      - 🇷🇺 俄罗斯联邦 02
-      - 🇹🇼 台湾 038
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 554
-      - 🇺🇸 美国 381
-      - 🇺🇸 美国 421
-      - 🇺🇸 美国 541
-      - 🇺🇸 美国 002
-      - 🇺🇸 美国 384
-      - 🇺🇸 美国 452
-      - 🇹🇼 台湾 227
-      - 🇹🇼 台湾 378
-      - 🇺🇸 美国 417
-      - 🇹🇼 台湾 201
-      - 🇹🇼 台湾 021
-      - 🇺🇸 美国 036
-      - 🇺🇸 美国 090
-      - 🇹🇼 台湾 041
-      - 🇺🇸 美国 246
-      - 🇹🇼 台湾 177
-      - 🇯🇵 日本 15
-      - 🇺🇸 美国 110
-      - 🇺🇸 美国 173
-      - 🇺🇸 美国 042
-      - 🇺🇸 美国 048
-      - 🇺🇸 美国 496
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 366
-      - 🇺🇸 美国 504
-      - 🇺🇸 美国 346
-      - 🇹🇼 台湾 093
-      - 🇺🇸 美国 470
-      - 🇺🇸 美国 184
-      - 🇺🇸 美国 560
-      - 🇺🇸 美国 178
-      - 🇹🇼 台湾 400
-      - 🇺🇸 美国 224
-      - 🇹🇼 台湾 370
-      - 🇺🇸 美国 165
-      - 🇺🇸 美国 454
-      - 🇹🇼 台湾 124
-      - 🇹🇼 台湾 274
-      - 🇺🇸 美国 334
-      - 🇺🇸 美国 422
-      - 🇹🇼 台湾 012
-      - 🇺🇸 美国 220
-      - 🇹🇼 台湾 033
+      - 🇹🇼 台湾 0486
+      - 🇭🇰 香港 14
+      - 🇹🇼 台湾 0332
+      - 🇹🇼 台湾 0935
+      - 🇺🇸 美国 099
+      - 🇺🇸 美国 818
+      - 🇹🇼 台湾 0684
+      - 🇹🇼 台湾 1142
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 050
+      - 🇹🇼 台湾 1029
+      - 🇹🇼 台湾 1224
+      - 🇺🇸 美国 182
+      - 🇷🇺 俄罗斯联邦 19
+      - 🇹🇼 台湾 1225
+      - 🇹🇼 台湾 1061
+      - 🇹🇼 台湾 1447
+      - 🇹🇼 台湾 0309
+      - 🇷🇺 俄罗斯联邦 12
+      - 🇺🇸 美国 812
+      - 🇺🇸 美国 743
+      - 🇹🇼 台湾 0786
+      - 🇹🇼 台湾 0905
+      - 🇹🇼 台湾 1464
+      - 🇺🇸 美国 186
+      - 🇹🇼 台湾 0103
+      - 🇹🇼 台湾 1165
+      - 🇹🇼 台湾 1158
+      - 🇺🇸 美国 164
+      - 🇺🇸 美国 609
+      - 🇹🇼 台湾 0884
+      - 🇹🇼 台湾 1106
+      - 🇭🇰 香港 27
+      - 🇹🇼 台湾 0900
+      - 🇹🇼 台湾 0898
+      - 🇺🇸 美国 672
+      - 🇺🇸 美国 230
+      - 🇹🇼 台湾 1314
+      - 🇹🇼 台湾 0896
+      - 🇺🇸 美国 704
+      - 🇹🇼 台湾 1437
+      - 🇹🇼 台湾 1320
+      - 🇹🇼 台湾 1499
+      - 🇹🇼 台湾 0375
+      - 🇹🇼 台湾 0615
+      - 🇹🇼 台湾 1492
+      - 🇹🇼 台湾 0558
+      - 🇹🇼 台湾 0998
+      - 🇹🇼 台湾 0294
+      - 🇹🇼 台湾 1033
+      - 🇹🇼 台湾 0677
+      - 🇸🇬 新加坡 21
+      - 🇺🇸 美国 191
+      - 🇹🇼 台湾 0442
+      - 🇸🇬 新加坡 20
+      - 🇹🇼 台湾 0897
+      - 🇹🇼 台湾 0502
+      - 🇰🇷 韩国 09
+      - 🇹🇼 台湾 0554
+      - 🇸🇬 新加坡 24
+      - 🇺🇸 美国 691
+      - 🇹🇼 台湾 1175
+      - 🇹🇼 台湾 1023
+      - 🇺🇸 美国 727
+      - 🇺🇸 美国 443
+      - 🇬🇧 英国 11
+      - 🇹🇼 台湾 0425
+      - 🇹🇼 台湾 1311
+      - 🇹🇼 台湾 1131
+      - 🇺🇸 美国 698
+      - 🇺🇸 美国 336
+      - 🇹🇼 台湾 1498
+      - 🇹🇼 台湾 1537
+      - 🇹🇼 台湾 0938
+      - 🇺🇸 美国 194
+      - 🇭🇰 香港 15
+      - 🇹🇼 台湾 0793
+      - 🇺🇸 美国 722
+      - 🇹🇼 台湾 0910
+      - 🇺🇸 美国 522
+      - 🇹🇼 台湾 0125
+      - 🇺🇸 美国 060
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
