@@ -6,106 +6,106 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇸🇬 新加坡 09, server: starlink-sg2.2513142.xyz, port: 443, type: hysteria2, password: _RP5WBvhkvkfK72mu4gwgQtv, auth: _RP5WBvhkvkfK72mu4gwgQtv, sni: www.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西 19, server: 194.87.198.32, port: 62316, type: tuic, password: 608d47f6-1025-4681-b800-20ea087f47d5, uuid: 608d47f6-1025-4681-b800-20ea087f47d5, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇻🇳 越南 111, server: 103.186.154.165, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 109, server: 103.186.154.194, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 004, server: 45.144.174.60, port: 25156, type: vmess, uuid: fc00469f-a4d4-4901-8611-1457badc86c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 051, server: 45.144.174.60, port: 23172, type: vmess, uuid: fb2eecb9-60cd-46f7-b9ba-5febabd2f00d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 005, server: 166.88.142.46, port: 10101, type: vless, uuid: 985e0d8c-5b97-409d-8a73-d4750b45c71d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: NZvgcP62A2MqgU6AQa_wSWW85BBc5wMIUQVNxbKBWR0, short-id: "f304b3aa" }, servername: www.hongkongdisneyland.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 044, server: 45.144.174.60, port: 23172, type: vmess, uuid: f60ba5f8-2fe5-4446-a00c-b5cf03383349, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 166, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 1792a5a9-0845-44a9-a0e2-8cf3e2d33a94, auth: 1792a5a9-0845-44a9-a0e2-8cf3e2d33a94, sni: dg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 103, server: 103.186.155.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 164, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 331302eb-3f6c-48ab-bd67-5c747c6b5496, auth: 331302eb-3f6c-48ab-bd67-5c747c6b5496, sni: dg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国家宽 18, server: 1002.952326.xyz, port: 10001, type: vless, uuid: c177eee0-c47c-498c-b48d-a4a6b3a77192, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇩🇪 德国 04, server: 3.79.170.110, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 122, server: 103.186.154.41, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 124, server: 103.186.154.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 56, server: ss.017.node-for-bigairport.win, port: 15098, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
-  - {name: 🇭🇰 香港 16, server: yd-07.paofunlink.com, port: 5957, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南 014, server: 103.186.155.240, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 07, server: yd-01.paofunlink.com, port: 5952, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南 043, server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇦🇺 澳大利亚 03, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32012, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 083, server: 103.186.154.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 099, server: 103.186.154.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 139, server: tw.xilucloud.top, port: 14558, type: hysteria2, password: 6891fdc2-6d18-4a37-99cb-5320a07263db, auth: 6891fdc2-6d18-4a37-99cb-5320a07263db, sni: tw.xilucloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 119, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 3c8af0e2-544a-4253-88d4-af8c877858f4, auth: 3c8af0e2-544a-4253-88d4-af8c877858f4, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 04, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32000, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 101, server: 103.186.154.225, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 34, server: 45.144.174.60, port: 31008, type: hysteria2, password: 484bbe71-d161-447e-82f1-db1c1c6e0638, auth: 484bbe71-d161-447e-82f1-db1c1c6e0638, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇻🇳 越南 108, server: 103.186.155.62, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 120, server: 103.186.155.79, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 011, server: 172.233.153.209, port: 10001, type: vless, uuid: e4412006-94f2-4f3c-b568-22a3e31dc264, tls: true, reality-opts: {public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo, short-id: "1a24af87" }, servername: yahoo.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 045, server: 45.144.174.60, port: 23172, type: vmess, uuid: c5ed9583-9769-4947-a92d-a9074d04014b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 135, server: xjp.foldjc.top, port: 37012, type: hysteria2, password: 8391a553-d045-4184-bb68-746aaf9617b5, auth: 8391a553-d045-4184-bb68-746aaf9617b5, sni: xjp.foldjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 128, server: 103.186.155.125, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇷🇺 俄罗斯联邦 01, server: els2.dimoyun.top, port: 40001, type: hysteria2, password: 407297e6-39f8-4a01-aa52-924571172670, auth: 407297e6-39f8-4a01-aa52-924571172670, sni: els1.dimoyun.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 099, server: mg2.jjzcloud.top, port: 57338, type: hysteria2, password: cb223828-57af-4aa0-be36-79e0439a1d62, auth: cb223828-57af-4aa0-be36-79e0439a1d62, sni: mg2.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 057, server: 45.144.174.60, port: 22111, type: vmess, uuid: 8dd4dcf9-8b23-48f1-a5f2-34669f48679a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇻🇳 越南 012, server: 103.186.155.127, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 172, server: b47a2e-co.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: b47a2e-co.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 048, server: 45.144.174.60, port: 23172, type: vmess, uuid: 5d16ac2f-bb01-4b6e-8255-d6f3591448ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯联邦 04, server: wkl.jjzcloud.top, port: 57338, type: hysteria2, password: 838282bf-646b-44d8-9075-41dac5e44e2d, auth: 838282bf-646b-44d8-9075-41dac5e44e2d, sni: wkl.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 128, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: b297b22e-e630-4d8a-81f4-fd0a811a37b2, auth: b297b22e-e630-4d8a-81f4-fd0a811a37b2, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 104, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 067, server: 155.117.19.221, port: 8880, type: vless, uuid: f2f00a89-cc9d-450f-b8bb-0d5b2d4c5a65, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: zQw1fAQByQ8nSFvliZS4NsIWdhfzMnRMnK_xCFRwFQQ}, servername: aws.amazon.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇫🇷 法国 06, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32009, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西 14, server: 194.87.198.32, port: 62436, type: tuic, password: 4827b0dc-79fa-412e-adbf-a1f8f53d2562, uuid: 4827b0dc-79fa-412e-adbf-a1f8f53d2562, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇦🇺 澳大利亚 04, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32023, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 160, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 9e507422-de8c-4aeb-b856-fd013b7ae6be, auth: 9e507422-de8c-4aeb-b856-fd013b7ae6be, sni: dg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 07, server: dehub.xg-hub.icu, port: 25784, type: hysteria2, password: 9f4fe8bc-5bcf-4182-b885-32aca3cc833f, auth: 9f4fe8bc-5bcf-4182-b885-32aca3cc833f, sni: dehub.xg-hub.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, udp: true}
-  - {name: 🇺🇸 美国 096, server: mg2.jjzcloud.top, port: 57338, type: hysteria2, password: d494721e-e62d-474c-be9b-2dffd028039a, auth: d494721e-e62d-474c-be9b-2dffd028039a, sni: mg2.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 013, server: 154.9.254.63, port: 25677, type: vless, uuid: 1fefef5b-39ab-4380-c5ed-fc87212f4f8e, tls: false, network: ws, ws-opts: {path: 1fefef5b-39ab/}, udp: true}
-  - {name: 🇺🇸 美国 125, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: e93dc504-a894-4f70-94d5-b282361c7531, auth: e93dc504-a894-4f70-94d5-b282361c7531, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 113, server: us.xilucloud.top, port: 14558, type: hysteria2, password: 722bb127-df7c-4fa5-b94a-3ee6438dcb95, auth: 722bb127-df7c-4fa5-b94a-3ee6438dcb95, sni: us.xilucloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 114, server: us3.xilucloud.top, port: 14558, type: hysteria2, password: 8cec5bed-ccfc-4603-a1a4-dc8641f362a2, auth: 8cec5bed-ccfc-4603-a1a4-dc8641f362a2, sni: us3.xilucloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇨 塞舌尔 04, server: dg.xfy003.cfd, port: 26565, type: hysteria2, password: 4bc431c8-496e-4b8b-ae29-d640f62597d0, auth: 4bc431c8-496e-4b8b-ae29-d640f62597d0, sni: dg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
-  - {name: 🇺🇸 美国 180, server: rb1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 3c8af0e2-544a-4253-88d4-af8c877858f4, auth: 3c8af0e2-544a-4253-88d4-af8c877858f4, sni: rb1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 046, server: 103.186.154.252, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 033, server: 103.186.154.140, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 154, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: b15f1706-dbd5-401c-934d-a3325b995875, auth: b15f1706-dbd5-401c-934d-a3325b995875, sni: dg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 021, server: yd-03.paofunlink.com, port: 1086, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡 10, server: dv-sg.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: dv-sg.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 13, server: www.tiktok.com.jp1.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: www.linemo.jp, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 066, server: 103.186.155.76, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 19, server: yd-04.paofunlink.com, port: 5956, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国家宽 04, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 38158e5a-bc29-487e-a34e-fdbfdad5209a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇬🇧 英国 03, server: 185.44.67.7, port: 65535, type: vless, uuid: 32e9e2c6-1f76-4ff5-9681-c98a5961e7f6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Y_ei1rx-mbYQxm4f5Ay-t_L2bTBvL2ok8MaehiDFGhU, short-id: "977dca84" }, servername: www.royalmail.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: 🇻🇳 越南 091, server: 103.186.155.113, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 169, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: d494721e-e62d-474c-be9b-2dffd028039a, auth: d494721e-e62d-474c-be9b-2dffd028039a, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 116, server: 103.186.155.15, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 037, server: 103.186.154.151, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 094, server: 103.186.155.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 082, server: 103.186.155.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 129, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 49904f74-629c-40e4-ab64-19613e557ca8, auth: 49904f74-629c-40e4-ab64-19613e557ca8, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 04, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 🇻🇳 越南 019, server: 103.186.155.59, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇸🇨 塞舌尔 03, server: dg.xfy003.cfd, port: 26565, type: hysteria2, password: b535ed91-cf2e-4def-96d3-9cb11f5e9b5e, auth: b535ed91-cf2e-4def-96d3-9cb11f5e9b5e, sni: dg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
-  - {name: 🇻🇳 越南 061, server: 103.186.155.205, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇧🇷 巴西 22, server: 194.87.198.32, port: 62436, type: tuic, password: f89a6eaf-0436-414f-8811-0cf68d793f55, uuid: f89a6eaf-0436-414f-8811-0cf68d793f55, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇺🇸 美国家宽 14, server: 1002.952326.xyz, port: 10001, type: vless, uuid: fdb9a5df-9e50-4afa-af52-8d3347388561, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇫🇷 法国 03, server: 46.29.34.205, port: 44774, type: vless, uuid: 20447cea-457f-426c-88ec-3208588250af, tls: false, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 20, server: starlink-jp2.2513142.xyz, port: 443, type: hysteria2, password: _RP5WBvhkvkfK72mu4gwgQtv, auth: _RP5WBvhkvkfK72mu4gwgQtv, sni: www.cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 01, server: 104.20.2.221, port: 8443, type: vless, uuid: 6c7a6a6a-6a6a-4000-8000-000000000002, tls: true, servername: bycf.lzjnb.shop, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: bycf.lzjnb.shop}}, udp: true}
-  - {name: 🇯🇵 日本 25, server: jp003.421421.xyz, port: 20230, type: vless, uuid: 790f4282-a179-446e-bc2a-4eba58e669d5, tls: true, reality-opts: {public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c, short-id: "d3b6f0c3" }, servername: www.nvidia.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: tj}, udp: true}
-  - {name: 🇻🇳 越南 064, server: 103.186.154.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇫🇷 法国 05, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34009, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国家宽 02, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 4620a4d4-a5ab-41f5-ac39-ce9bfd1d08d8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇻🇳 越南 081, server: 103.186.155.117, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇳🇬 尼日利亚 01, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34034, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 009, server: 45.144.174.60, port: 22111, type: vmess, uuid: ea691556-67cf-4198-a092-3dc2cdc6808b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇮🇪 爱尔兰 03, server: 23.95.231.71, port: 1024, type: vless, uuid: 32e9e2c6-1f76-4ff5-9681-c98a5961e7f6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 721JBxuxy_fJBCfQ6fY1-SIYm7QVXOSKV8m6Nz1Ah3Q, short-id: "ca111825" }, servername: www.douyin.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 188, server: 166.88.164.9, port: 27704, type: hysteria2, password: peEduuHzbExjK7UQHzazXwqgA, auth: peEduuHzbExjK7UQHzazXwqgA, sni: bing.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 05, server: 23.165.200.112, port: 26902, type: ss, cipher: chacha20-ietf-poly1305, password: zaq1@WSXcde3$RFV, plugin: obfs, plugin-opts: {mode: tls, host: falkenstein.ticoag.fun}, udp: true}
-  - {name: 🇸🇨 塞舌尔 01, server: dg.xfy003.cfd, port: 26565, type: hysteria2, password: 1c8d81e3-eea2-48df-9c60-ac86c94bf5f8, auth: 1c8d81e3-eea2-48df-9c60-ac86c94bf5f8, sni: dg.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
-  - {name: 🇻🇳 越南 050, server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 007, server: 45.144.174.60, port: 22111, type: vmess, uuid: bdfceb3b-7f80-4133-99c4-d1c8b1dd83ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇺🇸 美国 175, server: rb1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 04a94329-98f4-453e-9318-3853f10fcf74, auth: 04a94329-98f4-453e-9318-3853f10fcf74, sni: rb1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 151, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: e33b95f1-4363-40d4-afdd-1ce468882df4, auth: e33b95f1-4363-40d4-afdd-1ce468882df4, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 038, server: 103.186.154.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 191, server: yd-03.paofunlink.com, port: 1085, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港家宽 03, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34042, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 004, server: 103.186.155.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 027, server: yd-03.paofunlink.com, port: 1087, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
+  - {name: 🇻🇳 越南 133, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇦🇺 澳大利亚 01, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34012, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西 15, server: 194.87.198.32, port: 12517, type: tuic, password: 0e8689b2-5d47-478e-8655-4f1818611f51, uuid: 0e8689b2-5d47-478e-8655-4f1818611f51, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: 🇻🇳 越南 067, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 165, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 1c3c6df4-6e25-4a32-90d6-519832cfb746, auth: 1c3c6df4-6e25-4a32-90d6-519832cfb746, sni: dg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 001, server: 45.144.174.60, port: 23172, type: vmess, uuid: 92386fa3-b184-4bb1-ade8-9b5cf814889e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇧🇷 巴西 16, server: 194.87.198.32, port: 12536, type: tuic, password: 8bd19584-f233-4050-9718-e193b70cf18e, uuid: 8bd19584-f233-4050-9718-e193b70cf18e, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: 🇷🇺 俄罗斯联邦 06, server: wkl.jjzcloud.top, port: 57338, type: hysteria2, password: 696d48d3-44c9-4e59-91c7-778200ba7c90, auth: 696d48d3-44c9-4e59-91c7-778200ba7c90, sni: wkl.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 130, server: tw2.jjzcloud.top, port: 57338, type: hysteria2, password: b2ef2b03-4754-4e64-abb7-7d0f449ca677, auth: b2ef2b03-4754-4e64-abb7-7d0f449ca677, sni: tw2.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 063, server: 45.144.174.60, port: 22111, type: vmess, uuid: f1d309ef-7a6c-4557-856c-282083c45fd8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇷 克罗地亚 01, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇺🇸 美国 185, server: 20f7cc-330-co-hk.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 20f7cc-330-co-hk.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 24, server: starlink-jp6.2513142.xyz, port: 443, type: trojan, password: _RP5WBvhkvkfK72mu4gwgQtv, sni: www.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 01, server: k2.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 006, server: 103.186.154.246, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 077, server: 103.186.154.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 36, server: 45.144.174.60, port: 31008, type: hysteria2, password: 9540a2a8-3497-43db-b074-46e6f051f502, auth: 9540a2a8-3497-43db-b074-46e6f051f502, up: 15, down: 15, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 153, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 3997f23e-2d49-44ef-8f52-292ff3e73633, auth: 3997f23e-2d49-44ef-8f52-292ff3e73633, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国家宽 21, server: 1002.952326.xyz, port: 10001, type: vless, uuid: e5fdf52f-fc09-4196-a588-008926767195, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦 05, server: wkl.jjzcloud.top, port: 57338, type: hysteria2, password: 754eb16a-4d52-4e45-b7b9-d1af6cc86d66, auth: 754eb16a-4d52-4e45-b7b9-d1af6cc86d66, sni: wkl.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 07, server: hg1.xfy003.cfd, port: 26546, type: hysteria2, password: 794283d6-0e98-4849-87a4-c93f8eb8c39b, auth: 794283d6-0e98-4849-87a4-c93f8eb8c39b, sni: hg1.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
+  - {name: 🇬🇷 希腊 01, server: 185.39.207.121, port: 443, type: vless, uuid: 6035325d-399a-5148-9126-29cedfd5966a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M, short-id: "0fa84b90" }, servername: outlook.office.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇻🇳 越南 063, server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 101, server: mg.dimoyun.top, port: 40001, type: hysteria2, password: cf299cae-52af-46fc-9be5-b2b0eb9510ee, auth: cf299cae-52af-46fc-9be5-b2b0eb9510ee, sni: mg.dimoyun.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 184, server: rb1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 199cd6fd-3012-4d9b-b28d-8aa86fffa039, auth: 199cd6fd-3012-4d9b-b28d-8aa86fffa039, sni: rb1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 053, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 027, server: 103.186.155.68, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 109, server: us003.421421.xyz, port: 20230, type: trojan, password: 790f4282-a179-446e-bc2a-4eba58e669d5, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true}
+  - {name: 🇦🇺 澳大利亚 02, server: freev2.cloudflare.182682.xyz, port: 443, type: vless, uuid: aac03257-ebba-494a-a2a2-dc529a7d4395, tls: true, servername: do-sgp1.008883.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/freev2.net?ed=2048", headers: {Host: do-sgp1.008883.xyz}}, udp: true}
+  - {name: 🇻🇳 越南 040, server: 103.15.91.104, port: 10102, type: vless, uuid: 8851f122-ef90-4f55-aaff-990dae03784c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: FnHoBB90auLfU9niYc67uNQQbDvXuBmVQ6ffI26KH1s, short-id: "fddf7062" }, servername: www.douyin.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 150, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: aa57ea6d-0218-4e7d-bb8e-c7864f8e3e38, auth: aa57ea6d-0218-4e7d-bb8e-c7864f8e3e38, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 04, server: fr.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 015, server: 103.186.155.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇹🇭 泰国 02, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34043, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 149, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 5e0c9776-1635-49a8-9fb2-7e348ca04c18, auth: 5e0c9776-1635-49a8-9fb2-7e348ca04c18, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 54, server: ss.008.node-for-bigairport.win, port: 19888, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
+  - {name: 🇳🇱 荷兰 01, server: crazy-identity.oneeat.co, port: 80, type: vless, uuid: 64d6d0d4-3706-4837-b154-cda2816adcc5, tls: false, network: ws, ws-opts: {path: /, headers: {Host: crazy-identity.oneeat.co}}, udp: true}
+  - {name: 🇺🇸 美国 046, server: 45.144.174.60, port: 23172, type: vmess, uuid: c6e71ff5-b123-4f6a-8e8b-47d7199b68eb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇻🇳 越南 080, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 13, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34445, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 31, server: tw.foldjc.top, port: 37013, type: hysteria2, password: 102f34e6-7042-48c6-9877-a89ccef7f69b, auth: 102f34e6-7042-48c6-9877-a89ccef7f69b, sni: tw.foldjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 03, server: ca.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 072, server: 45.144.174.60, port: 25156, type: vmess, uuid: 54c7de29-2dc3-4792-91f9-62c11422e351, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 118, server: us.xilucloud.top, port: 14558, type: hysteria2, password: 390d1cf4-02ba-40ad-9322-0fa4e0cbb7c7, auth: 390d1cf4-02ba-40ad-9322-0fa4e0cbb7c7, sni: us.xilucloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 098, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 52, server: hg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 199cd6fd-3012-4d9b-b28d-8aa86fffa039, auth: 199cd6fd-3012-4d9b-b28d-8aa86fffa039, sni: hg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 076, server: 103.186.155.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 061, server: 45.144.174.60, port: 22111, type: vmess, uuid: 0cc28663-3af6-40e4-b72f-dcc92339a41d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港 51, server: hg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 5cb02d92-b2a5-4c7d-b984-3622b419c5eb, auth: 5cb02d92-b2a5-4c7d-b984-3622b419c5eb, sni: hg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 02, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32027, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 016, server: us003.421421.xyz, port: 20230, type: trojan, password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true}
+  - {name: 🇯🇵 日本 27, server: jp006.421421.xyz, port: 20230, type: trojan, password: 813e7fc5-2c9a-4967-802b-6443930ecb7e, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "", headers: {Host: www.alibaba.com}}, udp: true}
+  - {name: 🇺🇸 美国 181, server: rb1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 43be7ece-bdd9-4f00-88e0-5c6bb092f80c, auth: 43be7ece-bdd9-4f00-88e0-5c6bb092f80c, sni: rb1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 064, server: 45.144.174.60, port: 22111, type: vmess, uuid: 2cbf8f15-59e6-477f-828c-4f42576c3dde, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港家宽 02, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34033, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 03, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34011, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 042, server: 45.144.174.60, port: 23172, type: vmess, uuid: ea691556-67cf-4198-a092-3dc2cdc6808b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 111, server: us3.xilucloud.top, port: 14558, type: hysteria2, password: 31763e6e-c8e5-4659-9e8b-51185314ea4a, auth: 31763e6e-c8e5-4659-9e8b-51185314ea4a, sni: us3.xilucloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 163, server: dg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 15a0d2e5-3cb8-40e2-b746-bda2dcd9cbf8, auth: 15a0d2e5-3cb8-40e2-b746-bda2dcd9cbf8, sni: dg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 020, server: 45.144.174.60, port: 25156, type: vmess, uuid: 2ecaf88b-6470-4b2f-81e8-b9aebd0cd35d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇻🇳 越南 042, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 124, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: e542ea29-98e8-4043-941d-01d1f9d0dd45, auth: e542ea29-98e8-4043-941d-01d1f9d0dd45, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 081, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34031, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 187, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: cb223828-57af-4aa0-be36-79e0439a1d62, auth: cb223828-57af-4aa0-be36-79e0439a1d62, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 02, server: c5574bec-5eda-4bd9-a326-ea83e63f80ac.bnsepserv.com, port: 34010, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 24, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32037, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 146, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: c0b7ec35-d4d8-4e6c-aecf-9e2a18efd2e2, auth: c0b7ec35-d4d8-4e6c-aecf-9e2a18efd2e2, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 116, server: us2.xilucloud.top, port: 14558, type: hysteria2, password: 2a15dec6-fb46-440e-983b-4641d19ef915, auth: 2a15dec6-fb46-440e-983b-4641d19ef915, sni: us2.xilucloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 079, server: www.visa.com.sg, port: 8880, type: vless, uuid: ce3fd4b2-2300-45ac-bf90-7082ff95abfe, tls: false, servername: odd-sun-be36.linqiang-d8e.workers.dev, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: odd-sun-be36.linqiang-d8e.workers.dev}}, udp: true}
+  - {name: 🇺🇸 美国 122, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 3cd3fac3-7ace-4f60-8002-d2a1efe8db28, auth: 3cd3fac3-7ace-4f60-8002-d2a1efe8db28, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 173, server: yd.jjzcloud.top, port: 57338, type: hysteria2, password: 838282bf-646b-44d8-9075-41dac5e44e2d, auth: 838282bf-646b-44d8-9075-41dac5e44e2d, sni: yd.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 056, server: 103.186.155.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 071, server: 103.186.154.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇲🇩 摩尔多瓦 01, server: 217.156.67.194, port: 10102, type: vless, uuid: 32e9e2c6-1f76-4ff5-9681-c98a5961e7f6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: I7hVUcBLsnf8yRe7PBuihN-8Zk2-Nl00vj8moU3z5z0, short-id: "5932d9ef" }, servername: www.douyin.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇰🇷 韩国 06, server: hg1.xfy003.cfd, port: 26546, type: hysteria2, password: cf4d0a69-f4d1-4198-876e-cbd1c03e82ef, auth: cf4d0a69-f4d1-4198-876e-cbd1c03e82ef, sni: hg1.xfy003.cfd, up: 50, down: 100, skip-cert-verify: false, obfs: salamander, obfs-password: zTCsHcttqdA0PniW, udp: true}
+  - {name: 🇺🇸 美国家宽 05, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 15f55604-933d-4ca3-8295-3fce0013aa84, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 034, server: 45.144.174.60, port: 23172, type: vmess, uuid: 2ecaf88b-6470-4b2f-81e8-b9aebd0cd35d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 香港 39, server: 45.144.174.60, port: 33079, type: hysteria2, password: 0cc28663-3af6-40e4-b72f-dcc92339a41d, auth: 0cc28663-3af6-40e4-b72f-dcc92339a41d, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 57, server: ss.039.node-for-bigairport.win, port: 40402, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
+  - {name: 🇯🇵 日本 23, server: jp003.421421.xyz, port: 20230, type: vless, uuid: 910eff70-917c-49d8-81d1-6c0bc0e27e3c, tls: true, reality-opts: {public-key: 4DQqVav-gK4Y1cMDDt4qyVpQf0GB6NkPgCPnjwude3c, short-id: "d3b6f0c3" }, servername: www.nvidia.com, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: tj}, udp: true}
+  - {name: 🇺🇸 美国 077, server: 45.144.174.60, port: 25156, type: vmess, uuid: e881c886-6543-4e48-b68d-186feeb20a27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 142, server: tw.xilucloud.top, port: 14558, type: hysteria2, password: 53a40efc-563f-4fc5-91a6-a9660d77a5ea, auth: 53a40efc-563f-4fc5-91a6-a9660d77a5ea, sni: tw.xilucloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 087, server: 103.186.155.52, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 094, server: yg.foldjc.top, port: 37011, type: hysteria2, password: 70171110-cbef-4945-96fa-cc4803680adf, auth: 70171110-cbef-4945-96fa-cc4803680adf, sni: yg.foldjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 17, server: yd-04.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
+  - {name: 🇻🇳 越南 125, server: 103.186.154.49, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国家宽 15, server: 1002.952326.xyz, port: 10001, type: vless, uuid: 0a9bc681-342e-4af7-a06b-1bf4e637288b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4}, servername: www.python.org, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 196, server: gercdn.bm04.xyz, port: 2053, type: trojan, password: 94cf288d-f764-4ce9-a547-a7228144f056, sni: gercdn.bm04.xyz, alpn: [h3%2Ch2%2Chttp%2F1.1], skip-cert-verify: true, network: ws, ws-opts: {path: /project/activity/ws/, headers: {Host: gercdn.bm04.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 039, server: 45.144.174.60, port: 23172, type: vmess, uuid: fc00469f-a4d4-4901-8611-1457badc86c3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇦🇷 阿根廷 01, server: 94a5070b-cff9-4b4d-9223-c7bb66ea49a0.bnsepserv.com, port: 32015, type: trojan, password: 8b6f8337-ccc6-4a5b-8aa4-df221d59d9a3, sni: w1.ding-doc.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 127, server: mg1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a3d9e79d-3a67-4a04-adc4-30ffa6518947, auth: a3d9e79d-3a67-4a04-adc4-30ffa6518947, sni: mg1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西 20, server: 194.87.198.32, port: 14536, type: tuic, password: 012e1eab-ae5c-4260-8124-a03762c49661, uuid: 012e1eab-ae5c-4260-8124-a03762c49661, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
+  - {name: 🇻🇳 越南 127, server: 103.186.155.81, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 059, server: 103.186.155.231, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 010, server: 103.186.155.82, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 089, server: 103.186.154.148, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 42, server: 45.144.174.60, port: 80, type: hysteria2, password: ea691556-67cf-4198-a092-3dc2cdc6808b, auth: ea691556-67cf-4198-a092-3dc2cdc6808b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇻🇳 越南 093, server: 103.186.155.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -113,212 +113,212 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -326,106 +326,106 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -445,117 +445,124 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇭🇰 香港 07
-      - 🇭🇰 香港家宽 04
-      - 🇭🇰 香港 34
-      - 🇭🇰 香港 19
-      - 🇭🇰 香港家宽 03
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 36
+      - 🇭🇰 香港 54
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇭🇰 香港 52
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇭🇰 香港家宽 02
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇭🇰 香港 17
+      - 🇭🇰 香港 42
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -563,212 +570,212 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -776,106 +783,106 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -892,106 +899,106 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 09
-      - 🇧🇷 巴西 19
-      - 🇻🇳 越南 111
-      - 🇻🇳 越南 109
-      - 🇺🇸 美国 004
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 005
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 166
-      - 🇻🇳 越南 103
-      - 🇺🇸 美国 164
-      - 🇺🇸 美国家宽 18
-      - 🇩🇪 德国 04
-      - 🇻🇳 越南 122
-      - 🇻🇳 越南 124
-      - 🇭🇰 香港 56
-      - 🇭🇰 香港 16
-      - 🇻🇳 越南 014
-      - 🇭🇰 香港 07
-      - 🇻🇳 越南 043
-      - 🇦🇺 澳大利亚 03
-      - 🇻🇳 越南 083
-      - 🇻🇳 越南 099
-      - 🇺🇸 美国 139
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港家宽 04
-      - 🇻🇳 越南 101
-      - 🇭🇰 香港 34
-      - 🇻🇳 越南 108
-      - 🇻🇳 越南 120
-      - 🇺🇸 美国 011
-      - 🇺🇸 美国 045
-      - 🇺🇸 美国 135
-      - 🇻🇳 越南 128
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇺🇸 美国 099
-      - 🇺🇸 美国 057
-      - 🇻🇳 越南 012
-      - 🇺🇸 美国 172
-      - 🇺🇸 美国 048
-      - 🇷🇺 俄罗斯联邦 04
-      - 🇺🇸 美国 128
-      - 🇻🇳 越南 104
-      - 🇺🇸 美国 067
-      - 🇫🇷 法国 06
-      - 🇧🇷 巴西 14
-      - 🇦🇺 澳大利亚 04
-      - 🇺🇸 美国 160
-      - 🇩🇪 德国 07
-      - 🇺🇸 美国 096
-      - 🇺🇸 美国 013
-      - 🇺🇸 美国 125
-      - 🇺🇸 美国 113
-      - 🇺🇸 美国 114
-      - 🇸🇨 塞舌尔 04
-      - 🇺🇸 美国 180
-      - 🇻🇳 越南 046
-      - 🇻🇳 越南 033
-      - 🇺🇸 美国 154
-      - 🇺🇸 美国 021
-      - 🇸🇬 新加坡 10
-      - 🇯🇵 日本 13
-      - 🇻🇳 越南 066
-      - 🇭🇰 香港 19
-      - 🇺🇸 美国家宽 04
-      - 🇬🇧 英国 03
-      - 🇻🇳 越南 091
-      - 🇺🇸 美国 169
-      - 🇻🇳 越南 116
-      - 🇻🇳 越南 037
-      - 🇻🇳 越南 094
-      - 🇻🇳 越南 082
-      - 🇺🇸 美国 129
-      - 🇰🇷 韩国 04
-      - 🇻🇳 越南 019
-      - 🇸🇨 塞舌尔 03
-      - 🇻🇳 越南 061
-      - 🇧🇷 巴西 22
-      - 🇺🇸 美国家宽 14
-      - 🇫🇷 法国 03
-      - 🇯🇵 日本 20
-      - 🇩🇪 德国 01
-      - 🇯🇵 日本 25
-      - 🇻🇳 越南 064
-      - 🇫🇷 法国 05
-      - 🇺🇸 美国家宽 02
-      - 🇻🇳 越南 081
-      - 🇳🇬 尼日利亚 01
-      - 🇺🇸 美国 009
-      - 🇮🇪 爱尔兰 03
-      - 🇺🇸 美国 188
-      - 🇩🇪 德国 05
-      - 🇸🇨 塞舌尔 01
-      - 🇻🇳 越南 050
-      - 🇺🇸 美国 007
-      - 🇺🇸 美国 175
-      - 🇺🇸 美国 151
-      - 🇻🇳 越南 038
-      - 🇺🇸 美国 191
-      - 🇭🇰 香港家宽 03
+      - 🇻🇳 越南 004
+      - 🇺🇸 美国 027
+      - 🇻🇳 越南 133
+      - 🇦🇺 澳大利亚 01
+      - 🇧🇷 巴西 15
+      - 🇻🇳 越南 067
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 001
+      - 🇧🇷 巴西 16
+      - 🇷🇺 俄罗斯联邦 06
+      - 🇺🇸 美国 130
+      - 🇺🇸 美国 063
+      - 🇭🇷 克罗地亚 01
+      - 🇺🇸 美国 185
+      - 🇯🇵 日本 24
+      - 🇭🇰 香港 01
+      - 🇻🇳 越南 006
+      - 🇻🇳 越南 077
+      - 🇭🇰 香港 36
+      - 🇺🇸 美国 153
+      - 🇺🇸 美国家宽 21
+      - 🇷🇺 俄罗斯联邦 05
+      - 🇰🇷 韩国 07
+      - 🇬🇷 希腊 01
+      - 🇻🇳 越南 063
+      - 🇺🇸 美国 101
+      - 🇺🇸 美国 184
+      - 🇻🇳 越南 053
+      - 🇻🇳 越南 027
+      - 🇺🇸 美国 109
+      - 🇦🇺 澳大利亚 02
+      - 🇻🇳 越南 040
+      - 🇺🇸 美国 150
+      - 🇫🇷 法国 04
+      - 🇻🇳 越南 015
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 149
+      - 🇭🇰 香港 54
+      - 🇳🇱 荷兰 01
+      - 🇺🇸 美国 046
+      - 🇻🇳 越南 080
+      - 🇭🇰 香港 13
+      - 🇭🇰 香港 31
+      - 🇨🇦 加拿大 03
+      - 🇺🇸 美国 072
+      - 🇺🇸 美国 118
+      - 🇻🇳 越南 098
+      - 🇭🇰 香港 52
+      - 🇻🇳 越南 076
+      - 🇺🇸 美国 061
+      - 🇭🇰 香港 51
+      - 🇭🇰 香港 02
+      - 🇺🇸 美国 016
+      - 🇯🇵 日本 27
+      - 🇺🇸 美国 181
+      - 🇺🇸 美国 064
+      - 🇭🇰 香港家宽 02
+      - 🇩🇪 德国 03
+      - 🇺🇸 美国 042
+      - 🇺🇸 美国 111
+      - 🇺🇸 美国 163
+      - 🇺🇸 美国 020
+      - 🇻🇳 越南 042
+      - 🇺🇸 美国 124
+      - 🇺🇸 美国 081
+      - 🇺🇸 美国 187
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 24
+      - 🇺🇸 美国 146
+      - 🇺🇸 美国 116
+      - 🇺🇸 美国 079
+      - 🇺🇸 美国 122
+      - 🇺🇸 美国 173
+      - 🇻🇳 越南 056
+      - 🇻🇳 越南 071
+      - 🇲🇩 摩尔多瓦 01
+      - 🇰🇷 韩国 06
+      - 🇺🇸 美国家宽 05
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港 39
+      - 🇭🇰 香港 57
+      - 🇯🇵 日本 23
+      - 🇺🇸 美国 077
+      - 🇺🇸 美国 142
+      - 🇻🇳 越南 087
+      - 🇺🇸 美国 094
+      - 🇭🇰 香港 17
+      - 🇻🇳 越南 125
+      - 🇺🇸 美国家宽 15
+      - 🇺🇸 美国 196
+      - 🇺🇸 美国 039
+      - 🇦🇷 阿根廷 01
+      - 🇺🇸 美国 127
+      - 🇧🇷 巴西 20
+      - 🇻🇳 越南 127
+      - 🇻🇳 越南 059
+      - 🇻🇳 越南 010
+      - 🇻🇳 越南 089
+      - 🇭🇰 香港 42
+      - 🇻🇳 越南 093
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
