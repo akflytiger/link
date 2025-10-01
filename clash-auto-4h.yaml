@@ -6,91 +6,156 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇺🇸 美国 128, server: wmg1.wanlidag.top, port: 5555, type: hysteria2, password: bcc06b10-fe23-41c2-b781-95a44cd952a1, auth: bcc06b10-fe23-41c2-b781-95a44cd952a1, sni: wmg1.wanlidag.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 194, server: www.visa.com.sg, port: 8880, type: vless, uuid: 66935ad3-b519-4593-a641-417a39f1ccfe, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ancient-mountain-3bc8.linqiang-d8e.workers.dev}}, udp: true}
-  - {name: 🇺🇸 美国 160, server: els.ylccloud.top, port: 16090, type: hysteria2, password: 38dfd82f-5eb6-4b54-ad3e-167a9c4e6359, auth: 38dfd82f-5eb6-4b54-ad3e-167a9c4e6359, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其 01, server: a40dc7-20.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: a40dc7-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇮 芬兰 08, server: fi1-5.9966662.xyz, port: 20223, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 2hmTpdZk2JPHCIBM0ism_AAr9HjtnyMV9syarwvj-Q4, short-id: "587d20c4" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 043, server: us1-1.9966662.xyz, port: 20133, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GbNAnIWBHu4NRuaJsE5X1dIRLSWjmREoudx7TZltYS0, short-id: "4926f6d9" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 195, server: us1-4.9966662.xyz, port: 20133, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GbNAnIWBHu4NRuaJsE5X1dIRLSWjmREoudx7TZltYS0, short-id: "4926f6d9" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 196, server: us1-5.9966662.xyz, port: 20133, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GbNAnIWBHu4NRuaJsE5X1dIRLSWjmREoudx7TZltYS0, short-id: "4926f6d9" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 巴林 03, server: 57bf2d-20-3.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 57bf2d-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 149, server: els.ylccloud.top, port: 16090, type: hysteria2, password: b06dc287-412d-40fa-8253-92a687ecb151, auth: b06dc287-412d-40fa-8253-92a687ecb151, sni: els.ylccloud.top, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南 045, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 073, server: 103.186.154.211, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇫🇷 法国 05, server: 6a471e-20-4.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 6a471e-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇷 希腊 04, server: gr1-1.9966662.xyz, port: 20223, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: dRgK6_86Zkd_nFhiUxmrBjAbO_nis9zCEKZpiCl2Z2Q, short-id: "ec372208" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇫🇷 法国 03, server: 6a471e-20.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: 6a471e-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 014, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: bc4b33b3-b706-40e9-a612-3c5a967ca1c9, auth: bc4b33b3-b706-40e9-a612-3c5a967ca1c9, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 081, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: 0fe762b5-1b6f-4ff4-b4f4-9b2260f93b9f, auth: 0fe762b5-1b6f-4ff4-b4f4-9b2260f93b9f, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 009, server: 103.186.155.35, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 039, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 017, server: 103.186.154.73, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇮🇳 印度 09, server: 74c5a9-20-3.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 74c5a9-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南 059, server: 103.186.155.120, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 116, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: bceae433-e84f-4c0a-b6d4-20f170c87a14, auth: bceae433-e84f-4c0a-b6d4-20f170c87a14, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 041, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: a3d9e79d-3a67-4a04-adc4-30ffa6518947, auth: a3d9e79d-3a67-4a04-adc4-30ffa6518947, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 07, server: dv-jp-4.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: dv-jp.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 098, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: 9ce26ac2-edbf-45f4-9534-093a23766dfc, auth: 9ce26ac2-edbf-45f4-9534-093a23766dfc, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 134, server: 03e37e-330-co-3.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 03e37e-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 法国 04, server: 6a471e-20-5.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 6a471e-20.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 123, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: 98d0c08a-addb-4fda-867d-1e5053571ea1, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 28, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 072, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 407fd047-288a-4ff4-af81-5ef031684af2, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 074, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: 407fd047-288a-4ff4-af81-5ef031684af2, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 094, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 48001c46-b4cc-49b5-bf29-bc250303c2bf, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 096, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: a5fdbe3f-f770-4825-9133-b824713cf849, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 31, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 058, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: dfcad48b-77ef-402d-9a85-323999cbac2c, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 165, server: jr9yl-g06.jp05-h6-vm0.entry.fr0528.art, port: 46487, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南 117, server: 103.186.155.230, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇮🇹 意大利 01, server: 5f6a56-20-2.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: 5f6a56-20.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 168, server: dcf741e8.epeius-2gy.pages.dev, port: 443, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}, udp: true}
+  - {name: 🇯🇵 日本 082, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: a28532ad-0584-44c4-bee1-a5bdeddbcdce, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 103, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 037, server: 103.186.154.176, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇯🇵 日本 144, server: enr84-g04.jp02-e3-vm0.entry.fr0528.art, port: 11776, type: vmess, uuid: c18c4112-fb51-3167-bb76-515d7a2b512d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 23, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 162b69d6-c1d7-430c-8834-b1a8bfa3aee7, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 05, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: e5ecc13f-5bb2-4053-a4dd-75d1393cc98b, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 223, server: els.ylccloud.top, port: 16090, type: hysteria2, password: c9a506d6-919b-4c0d-9769-6eeb34bc7e57, auth: c9a506d6-919b-4c0d-9769-6eeb34bc7e57, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 010, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 0f59bd88-d7c6-4799-b0bd-4192982970ec, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 022, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: a5fdbe3f-f770-4825-9133-b824713cf849, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇭 泰国 11, server: th1.jueduibupao.top, port: 30000, type: hysteria2, password: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, auth: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, sni: th1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 060, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: 69485c4d-48df-457d-a17d-4728581585a2, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 154, server: 03e37e-330-co-4.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: 03e37e-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 11, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 777fec4f-0a18-494b-950a-852bdb271638, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 88, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 2fa132be-a5c4-4ef0-800a-deea21311f15, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 062, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: a5fdbe3f-f770-4825-9133-b824713cf849, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 016, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 777fec4f-0a18-494b-950a-852bdb271638, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 245, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 88d594e6-0689-4fb0-9d65-1f3a5df70b8e, auth: 88d594e6-0689-4fb0-9d65-1f3a5df70b8e, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 251, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: e33b95f1-4363-40d4-afdd-1ce468882df4, auth: e33b95f1-4363-40d4-afdd-1ce468882df4, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 38, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: f48c1926-e92d-4180-bd9b-edda946c6e1a, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 08, server: 40.233.82.111, port: 30300, type: hysteria2, password: 2429bee3-e0c1-47dd-b420-75e6512b184b, auth: 2429bee3-e0c1-47dd-b420-75e6512b184b, sni: www.bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇻🇳 越南 039, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 237, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: ef553253-723c-4724-a2cf-15e9fb2c72d6, auth: ef553253-723c-4724-a2cf-15e9fb2c72d6, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 17, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 477896b1-d41f-4902-b1cc-8c800b8a2ff4, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 059, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 70b1464a-1268-4536-8bdc-9e37c0d4e970, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 206, server: 89.117.112.253, port: 2096, type: vless, uuid: e191ac99-e071-4e36-9a01-107eaf26a780, tls: true, servername: krill.xfan01.sbs, network: ws, ws-opts: {path: "/Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: krill.xfan01.sbs}}, udp: true}
+  - {name: 🇻🇳 越南 081, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: f48c1926-e92d-4180-bd9b-edda946c6e1a, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 01, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 9587395f-b23e-4451-a3f3-4446065803de, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 163, server: gb94s-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 25, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: a1d8d834-7c01-4718-9ed2-aa6eeecba797, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 195, server: 16m4j-g01.jp06-jz-vm0.entry.fr0528.art, port: 28783, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 218, server: tlvdv-g05.jp07-sh-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 8ee65c79-4487-32ff-b896-62c8dce05921, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 115, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: d3b02e52-1fb1-4d31-8469-dd4dea7132d1, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 095, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: f48c1926-e92d-4180-bd9b-edda946c6e1a, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 100, server: 742343-u-jv-hk2.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 742343-u-jv-hk2.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 51, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 9a4d5ed4-1e08-4e58-9a29-1facc7f937e4, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 114, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 087, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: 7bcc0f74-a9f3-4bcb-8547-da0be73e8e28, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 095, server: hzhz2.sssyun.xyz, port: 40023, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==, udp: true}
+  - {name: 🇰🇷 韩国 47, server: kr2.jueduibupao.top, port: 30000, type: hysteria2, password: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, auth: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, sni: kr2.jueduibupao.top, up: 200, down: 300, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 165, server: 72.167.25.253, port: 2096, type: vless, uuid: f61a4285-7264-4d07-9408-7b9ba1922c26, tls: true, servername: gaosir.unfeeling.sbs, network: ws, ws-opts: {path: /Telegram, headers: {Host: gaosir.unfeeling.sbs}}, udp: true}
+  - {name: 🇺🇸 美国 028, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: b356766b-edbf-417d-8ef3-1d9e8c7cec44, auth: b356766b-edbf-417d-8ef3-1d9e8c7cec44, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 089, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 5455c473-28d6-42df-9c5e-b67f2a211b7d, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 149, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: 879fa4e5-4d26-4dab-aa15-39fbaa0419a1, auth: 879fa4e5-4d26-4dab-aa15-39fbaa0419a1, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 068, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 7bcc0f74-a9f3-4bcb-8547-da0be73e8e28, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 050, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: dfcad48b-77ef-402d-9a85-323999cbac2c, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 34, server: baigou1.kkieo555.cn, port: 21871, type: trojan, password: 9a4d5ed4-1e08-4e58-9a29-1facc7f937e4, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 034, server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 089, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 180, server: 16xhb-g06.jp02-e3-vm0.entry.fr0528.art, port: 11778, type: vmess, uuid: 8e0c2bc2-705f-375f-a246-82955b5165ef, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 241, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: aa96aabe-750c-4726-8d16-939a8411cd58, auth: aa96aabe-750c-4726-8d16-939a8411cd58, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 142, server: hzhz1.sssyun.xyz, port: 19529, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==, udp: true}
+  - {name: 🇯🇵 日本 146, server: dv-jp-2.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: dv-jp.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 034, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 4c59eb89-cad3-403f-8d6c-d5d8f5af4f87, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 231, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: d4645231-e4ad-4310-ae53-137b4230f7de, auth: d4645231-e4ad-4310-ae53-137b4230f7de, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 030, server: 103.186.155.130, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇯🇵 日本 110, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 8129a45a-8ded-4434-ae7e-5f3d2168e0d1, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 090, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 99eead3f-8db1-420c-94ff-3b0f681bdbf9, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 232, server: dyss2-g05.jp03-j7-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: e35ab9dc-4a18-342e-83fd-b31079522dd1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇭 泰国 03, server: af01e9-330-3.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: af01e9-330.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 07, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 48001c46-b4cc-49b5-bf29-bc250303c2bf, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 100, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 58e4bf84-475e-4ff3-b4c0-1b8fa13a437f, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 106, server: baigou1.kkieo555.cn, port: 21865, type: trojan, password: 0f59bd88-d7c6-4799-b0bd-4192982970ec, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 23, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: e0006eeb-33b5-4b31-8858-a9d7bfc1c794, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 42, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: c47266b2-4ecc-413f-ab72-3941fac429a3, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 250, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 9596fba6-7f65-49b5-a36e-38571a549389, auth: 9596fba6-7f65-49b5-a36e-38571a549389, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 057, server: 103.186.154.65, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 244, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: f139baf1-a317-49eb-8105-00581c322ca4, auth: f139baf1-a317-49eb-8105-00581c322ca4, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 191, server: 8qm7g-g05.jp06-jz-vm0.entry.fr0528.art, port: 28787, type: vmess, uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇹🇭 泰国 02, server: af01e9-330-4.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: af01e9-330.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 151, server: els.ylccloud.top, port: 16090, type: hysteria2, password: b356766b-edbf-417d-8ef3-1d9e8c7cec44, auth: b356766b-edbf-417d-8ef3-1d9e8c7cec44, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰 06, server: fd0017-20.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: fd0017-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 12, server: 103.36.91.32, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 🇺🇸 美国 011, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: bbd27921-0581-47a7-b8be-4d873767bb3c, auth: bbd27921-0581-47a7-b8be-4d873767bb3c, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 089, server: 103.186.155.204, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇧🇷 巴西 32, server: 194.87.198.32, port: 62436, type: tuic, password: 4887241d-0a03-4c01-8a6d-e5fc24838d58, uuid: 4887241d-0a03-4c01-8a6d-e5fc24838d58, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇺🇸 美国 061, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: 17f2aeda-0930-4a22-86f4-eca659abc776, auth: 17f2aeda-0930-4a22-86f4-eca659abc776, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇩 孟加拉国家宽 08, server: kh1.9966662.xyz, port: 51423, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 2IbS5DAoAxEG9wEG99huRaHljbEDQdhpcKE9q9x52TE, short-id: "1ce76a90" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇭 泰国 03, server: af01e9-330-5.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: af01e9-330.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: 162.159.43.92, port: 443, type: vless, uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed, tls: true, servername: juzi.634676.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: juzi.634676.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 215, server: 20f7cc-330-co-uk1.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 20f7cc-330-co-uk1.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 176, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
-  - {name: 🇻🇳 越南 101, server: vnvnnian-u-do-vn2-2.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: vnvnnian-u-do-vn2.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 146, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: e0cc849a-3a46-4358-96ef-f7700984f7a7, auth: e0cc849a-3a46-4358-96ef-f7700984f7a7, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇩 孟加拉国家宽 06, server: kh3.9966662.xyz, port: 51423, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 2IbS5DAoAxEG9wEG99huRaHljbEDQdhpcKE9q9x52TE, short-id: "1ce76a90" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 08, server: w6.luoli.de, port: 443, type: vmess, uuid: 42a99644-b90b-3627-8809-a2d6c4078b59, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ws, headers: {Host: w6.luoli.de}}, udp: true}
-  - {name: 🇺🇸 美国 048, server: 03e37e-330-co.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: 03e37e-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 荷兰 15, server: gavazn.lnmarketplace.net, port: 45000, type: hysteria2, password: Telegram-->@Ln2Ray, auth: Telegram-->@Ln2Ray, sni: gavazn.55994421.xyz, skip-cert-verify: false, obfs: salamander, obfs-password: Telegram-->@Ln2Ray, udp: true}
-  - {name: 🇺🇸 美国 094, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: 6cf6eebe-f0ff-48b5-8444-494fde397d0b, auth: 6cf6eebe-f0ff-48b5-8444-494fde397d0b, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西 15, server: 194.87.198.32, port: 12536, type: tuic, password: 0b5d9b6b-e4f9-4549-a5bc-281f82fb64b7, uuid: 0b5d9b6b-e4f9-4549-a5bc-281f82fb64b7, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇺🇸 美国 208, server: f0ba91-20.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: f0ba91-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 181, server: w8.luoli.de, port: 443, type: vmess, uuid: 42a99644-b90b-3627-8809-a2d6c4078b59, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ws, headers: {Host: w8.luoli.de}}, udp: true}
-  - {name: 🇯🇵 日本 04, server: dv-jp-2.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: dv-jp.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 巴西 27, server: 194.87.198.32, port: 62436, type: tuic, password: 8c111c4f-af43-43fe-bbf8-d7e075479557, uuid: 8c111c4f-af43-43fe-bbf8-d7e075479557, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇺🇸 美国 185, server: us1-5.9966662.xyz, port: 20133, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GbNAnIWBHu4NRuaJsE5X1dIRLSWjmREoudx7TZltYS0, short-id: "4926f6d9" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 154, server: els.ylccloud.top, port: 16090, type: hysteria2, password: b66c248f-1644-4c27-9fe1-23a5aca78800, auth: b66c248f-1644-4c27-9fe1-23a5aca78800, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇷 希腊 06, server: gr1-2.9966662.xyz, port: 20223, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: dRgK6_86Zkd_nFhiUxmrBjAbO_nis9zCEKZpiCl2Z2Q, short-id: "ec372208" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 102, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: 4e5c855b-ce85-4362-9af1-183dfe5c9257, auth: 4e5c855b-ce85-4362-9af1-183dfe5c9257, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 178, server: w9.luoli.de, port: 443, type: vmess, uuid: 42a99644-b90b-3627-8809-a2d6c4078b59, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ws, headers: {Host: w9.luoli.de}}, udp: true}
-  - {name: 🇳🇱 荷兰 07, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true}
-  - {name: 🇩🇪 德国 04, server: de1-3.9966662.xyz, port: 20133, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 65E6IjBrQMYqhrtISS0F2kUFIjT5aSxgNPKCf88fGFw, short-id: "3b03febe" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 091, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: a523da1c-1dae-45d1-be4f-ccb800321315, auth: a523da1c-1dae-45d1-be4f-ccb800321315, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 016, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: d9ecfba7-c435-44c6-a747-554fd476570a, auth: d9ecfba7-c435-44c6-a747-554fd476570a, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 068, server: 103.186.154.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 039, server: 69.84.182.18, port: 443, type: vless, uuid: 93d6ba39-0f7d-4961-a414-2e393ec56499, tls: true, servername: cdn-node-oss-93.paofu.de, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: cdn-node-oss-93.paofu.de}}, udp: true}
-  - {name: 🇺🇸 美国 187, server: 71.19.148.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gqkUCvmeOTghYJXF1YIuk5, udp: true}
-  - {name: 🇻🇳 越南 001, server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 184, server: us1-3.9966662.xyz, port: 20133, type: vless, uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GbNAnIWBHu4NRuaJsE5X1dIRLSWjmREoudx7TZltYS0, short-id: "4926f6d9" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇻🇳 越南 070, server: 103.186.154.187, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 15, server: 742343-u-jv-hk2-5.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 742343-u-jv-hk2.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 172, server: els.ylccloud.top, port: 16090, type: hysteria2, password: e9681ca4-4057-4cf9-880a-9f208cd45c8d, auth: e9681ca4-4057-4cf9-880a-9f208cd45c8d, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇭 瑞士 01, server: f0ba91-20-5.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: f0ba91-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 069, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: c86814b3-dcda-42ba-ae8f-75e9e94277bb, auth: c86814b3-dcda-42ba-ae8f-75e9e94277bb, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西 10, server: 194.87.198.32, port: 12517, type: tuic, password: 4887241d-0a03-4c01-8a6d-e5fc24838d58, uuid: 4887241d-0a03-4c01-8a6d-e5fc24838d58, sni: apple.com, skip-cert-verify: true, alpn: [h3], disable-sni: false, reduce-rtt: false, request-timeout: 0, udp-relay-mode: native, congestion-controller: bbr}
-  - {name: 🇳🇱 荷兰 20, server: pvt.moonop.tech, port: 443, type: vless, uuid: 45be1c2b-4bb1-44f4-89e4-c026ad211d04, tls: true, servername: pvt.moonop.tech, network: ws, ws-opts: {path: /aws5, headers: {Host: pvt.moonop.tech}}, udp: true}
-  - {name: 🇺🇸 美国 120, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: 5053816f-e508-48ff-bb15-eecbc4401fd9, auth: 5053816f-e508-48ff-bb15-eecbc4401fd9, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 030, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: c91b3cf1-9780-4f0a-bf37-a376db8d18c9, auth: c91b3cf1-9780-4f0a-bf37-a376db8d18c9, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 136, server: 03e37e-330-co.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 03e37e-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南 013, server: 103.186.154.75, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 091, server: vn2-1.9966662.xyz, port: 20223, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WWuWxGdNTeiOpHqEkrHfv4sepTP9z-09ZtK4p71o-yM, short-id: "583d93a1" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇫🇮 芬兰 04, server: fi1-1.9966662.xyz, port: 20223, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 2hmTpdZk2JPHCIBM0ism_AAr9HjtnyMV9syarwvj-Q4, short-id: "587d20c4" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 荷兰 10, server: fd0017-20-2.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: fd0017-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南 011, server: 103.186.154.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇻🇳 越南 075, server: 103.186.154.43, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 207, server: 6a471e-20.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: 6a471e-20.9966661.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南 099, server: vnvn-u-do-vn1-2.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: vnvn-u-do-vn1.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 212, server: gy2.hdcloud.link, port: 60007, type: hysteria2, password: 9b6419f8-8120-442e-a48c-6bf52aef0abf, auth: 9b6419f8-8120-442e-a48c-6bf52aef0abf, up: 1000, down: 1000, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 20, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 5455c473-28d6-42df-9c5e-b67f2a211b7d, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 138, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: 0ecd8e7d-eb8f-402e-8cb1-beef52e3fd18, auth: 0ecd8e7d-eb8f-402e-8cb1-beef52e3fd18, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 046, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: 8e61821e-cef9-4f11-a6d3-f86748ae6f65, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 33, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: a1d8d834-7c01-4718-9ed2-aa6eeecba797, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 069, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 777fec4f-0a18-494b-950a-852bdb271638, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 169, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: fd28e1cf-77ad-4af5-9ffd-dbdecd7b08e0, auth: fd28e1cf-77ad-4af5-9ffd-dbdecd7b08e0, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 09, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 58e4bf84-475e-4ff3-b4c0-1b8fa13a437f, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 192, server: mg1.jjzcloud.top, port: 57238, type: hysteria2, password: 754eb16a-4d52-4e45-b7b9-d1af6cc86d66, auth: 754eb16a-4d52-4e45-b7b9-d1af6cc86d66, sni: mg1.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 236, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: a411e0db-8437-4169-9649-273aece86bbd, auth: a411e0db-8437-4169-9649-273aece86bbd, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 17, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 27, server: baigou1.kkieo555.cn, port: 21878, type: trojan, password: 58e4bf84-475e-4ff3-b4c0-1b8fa13a437f, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 017, server: 103.186.154.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇦🇪 阿联酋 06, server: ae1-2.9966662.xyz, port: 20223, type: vless, uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM, short-id: "c6842be1" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇯🇵 日本 128, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 40ec8eba-dd4b-4e95-94e1-775a5cbe0157, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 200, server: xg.jjzcloud.top, port: 57338, type: hysteria2, password: b9e696f4-8877-42a6-8918-078987d64aed, auth: b9e696f4-8877-42a6-8918-078987d64aed, sni: xg.jjzcloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 090, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 73ca514a-b0cf-474d-a41e-acb95b1aeb5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 005, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 81c9051e-0d8f-4cac-bb27-6ab6e96b8596, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 010, server: els.ylccloud.top, port: 16090, type: hysteria2, password: 17f2aeda-0930-4a22-86f4-eca659abc776, auth: 17f2aeda-0930-4a22-86f4-eca659abc776, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 139, server: hzhz2.sssyun.xyz, port: 40020, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:NmZlMDM5ZmQtNDFlYS00MWMzLThjNzMtOWY4MmNhMjk=, udp: true}
+  - {name: 🇯🇵 日本 060, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: a28532ad-0584-44c4-bee1-a5bdeddbcdce, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 155, server: rc1hd-g03.jp01-nn-vm0.entry.fr0528.art, port: 21583, type: vmess, uuid: 5c44094f-43bb-301c-9878-37fd5e87d358, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇱🇹 立陶宛 02, server: lt2.9966662.xyz, port: 51423, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: MvjyJD_JDqDnDKSG2r8il6gSrEijZtdmlvXOOuvqO0w, short-id: "a6b64b8c" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇸🇬 新加坡 36, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: e5ecc13f-5bb2-4053-a4dd-75d1393cc98b, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 59, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 134, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 407fd047-288a-4ff4-af81-5ef031684af2, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 001, server: baigou1.kkieo555.cn, port: 21869, type: trojan, password: a1d8d834-7c01-4718-9ed2-aa6eeecba797, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 91, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: 4c59eb89-cad3-403f-8d6c-d5d8f5af4f87, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇱🇹 立陶宛 05, server: lt1.9966662.xyz, port: 51423, type: vless, uuid: a24c6851-2055-42c1-9c20-2d3bad97334f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: MvjyJD_JDqDnDKSG2r8il6gSrEijZtdmlvXOOuvqO0w, short-id: "a6b64b8c" }, servername: www.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇻🇳 越南 060, server: 103.186.154.74, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 101, server: baigou1.kkieo555.cn, port: 27865, type: trojan, password: 69485c4d-48df-457d-a17d-4728581585a2, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 048, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: b2f345c7-3279-4ec8-8601-43428144ad5e, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 049, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: e0006eeb-33b5-4b31-8858-a9d7bfc1c794, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 075, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 270206e6-31f8-4d15-828b-4f458bf2970b, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 107, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 162b69d6-c1d7-430c-8834-b1a8bfa3aee7, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 006, server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇯🇵 日本 031, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: 5455c473-28d6-42df-9c5e-b67f2a211b7d, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 226, server: ffygf-g01.jp03-j7-vm0.entry.fr0528.art, port: 21581, type: vmess, uuid: 6ad7034c-bcba-3f4b-9386-99bccd49bbdc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 047, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: 99eead3f-8db1-420c-94ff-3b0f681bdbf9, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 18, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 4c59eb89-cad3-403f-8d6c-d5d8f5af4f87, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 005, server: 103.186.154.180, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇯🇵 日本 135, server: baigou1.kkieo555.cn, port: 21868, type: trojan, password: 8129a45a-8ded-4434-ae7e-5f3d2168e0d1, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 137, server: 03e37e-330-co-4.9966661.xyz, port: 3000, type: hysteria2, password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6, sni: 03e37e-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 54, server: hzhz1.sssyun.xyz, port: 39204, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:NmZlMDM5ZmQtNDFlYS00MQ==, udp: true}
+  - {name: 🇻🇳 越南 028, server: 103.186.155.137, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇯🇵 日本 150, server: dv-jp-5.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: dv-jp.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾 78, server: baigou1.kkieo555.cn, port: 21874, type: trojan, password: e5ecc13f-5bb2-4053-a4dd-75d1393cc98b, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 224, server: els.ylccloud.top, port: 16090, type: hysteria2, password: bed7a2d0-acef-4896-a486-9aa7cfd462ba, auth: bed7a2d0-acef-4896-a486-9aa7cfd462ba, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 216, server: 1e3fb9-330-co-5.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: 1e3fb9-330-co.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 169, server: kgljx-g01.jp05-h6-vm0.entry.fr0528.art, port: 46482, type: vmess, uuid: e30e0cfb-61c5-39aa-ba45-c6835b01f236, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 002, server: els.ylccloud.top, port: 16090, type: hysteria2, password: e9681ca4-4057-4cf9-880a-9f208cd45c8d, auth: e9681ca4-4057-4cf9-880a-9f208cd45c8d, sni: els.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 045, server: baigou1.kkieo555.cn, port: 21866, type: trojan, password: e5ecc13f-5bb2-4053-a4dd-75d1393cc98b, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 210, server: fjgk6-g04.jp07-sh-vm0.entry.fr0528.art, port: 28786, type: vmess, uuid: c18c4112-fb51-3167-bb76-515d7a2b512d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 31, server: baigou1.kkieo555.cn, port: 21877, type: trojan, password: 477896b1-d41f-4902-b1cc-8c800b8a2ff4, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 073, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 856e7f69-6f59-458c-ad20-a86f046b3cb8, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 047, server: 103.186.154.168, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 023, server: vnvnnian-u-do-vn2.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: vnvnnian-u-do-vn2.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 111, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: fe45f8ef-2dda-4236-b141-b96635b2a565, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 017, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: 162b69d6-c1d7-430c-8834-b1a8bfa3aee7, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 248, server: xjp1.xiaohuolongjc.top, port: 37771, type: hysteria2, password: 9cb769d9-01f5-4b92-aa3a-a8752d18a3b5, auth: 9cb769d9-01f5-4b92-aa3a-a8752d18a3b5, sni: xjp1.xiaohuolongjc.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 061, server: baigou1.kkieo555.cn, port: 21863, type: trojan, password: e0006eeb-33b5-4b31-8858-a9d7bfc1c794, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 007, server: baigou1.kkieo555.cn, port: 21867, type: trojan, password: e0006eeb-33b5-4b31-8858-a9d7bfc1c794, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 214, server: lvs.jueduibupao.top, port: 50001, type: hysteria2, password: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, auth: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, sni: lvs.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 053, server: baigou1.kkieo555.cn, port: 21864, type: trojan, password: 477896b1-d41f-4902-b1cc-8c800b8a2ff4, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 079, server: baigou1.kkieo555.cn, port: 21870, type: trojan, password: 234d3f47-9f4f-42ff-9ea2-2d4cb241b351, sni: douyin.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇭 泰国 04, server: af01e9-330-2.9966661.xyz, port: 3000, type: hysteria2, password: a24c6851-2055-42c1-9c20-2d3bad97334f, auth: a24c6851-2055-42c1-9c20-2d3bad97334f, sni: af01e9-330.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南 115, server: vnvn-u-do-vn1.9966661.xyz, port: 3000, type: hysteria2, password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d, sni: vnvn-u-do-vn1.9966661.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 015, server: mf1.ylccloud.top, port: 16090, type: hysteria2, password: 834f205e-90b1-4d9b-9583-d9bacb43c0ca, auth: 834f205e-90b1-4d9b-9583-d9bacb43c0ca, sni: mf1.ylccloud.top, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 加拿大 10, server: ca1.jueduibupao.top, port: 45408, type: hysteria2, password: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, auth: 6fe039fd-41ea-41c3-8c73-9f82ca29fc7d, sni: ca1.jueduibupao.top, up: 300, down: 300, skip-cert-verify: true, ports: 40000-50000, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -98,182 +163,312 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -281,91 +476,156 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -385,96 +645,182 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 15
+      - 🇭🇰 香港 072
+      - 🇭🇰 香港 010
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇹🇼 台湾 38
+      - 🇹🇼 台湾 25
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇭🇰 香港 095
+      - 🇭🇰 香港 089
+      - 🇹🇼 台湾 23
+      - 🇹🇼 台湾 20
+      - 🇹🇼 台湾 27
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇹🇼 台湾 59
+      - 🇹🇼 台湾 91
+      - 🇭🇰 香港 047
+      - 🇹🇼 台湾 78
+      - 🇭🇰 香港 045
+      - 🇭🇰 香港 017
+      - 🇭🇰 香港 061
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -482,182 +828,312 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -665,91 +1141,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -766,91 +1307,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 128
-      - 🇺🇸 美国 194
-      - 🇺🇸 美国 160
-      - 🇹🇷 土耳其 01
-      - 🇫🇮 芬兰 08
-      - 🇺🇸 美国 043
-      - 🇺🇸 美国 195
-      - 🇺🇸 美国 196
-      - 巴林 03
-      - 🇺🇸 美国 149
-      - 🇻🇳 越南 045
-      - 🇻🇳 越南 073
-      - 🇫🇷 法国 05
-      - 🇬🇷 希腊 04
-      - 🇫🇷 法国 03
-      - 🇺🇸 美国 014
-      - 🇺🇸 美国 081
-      - 🇻🇳 越南 009
-      - 🇻🇳 越南 039
-      - 🇻🇳 越南 017
-      - 🇮🇳 印度 09
-      - 🇻🇳 越南 059
-      - 🇺🇸 美国 116
-      - 🇺🇸 美国 041
-      - 🇯🇵 日本 07
-      - 🇺🇸 美国 098
-      - 🇺🇸 美国 134
-      - 🇫🇷 法国 04
-      - 🇹🇭 泰国 02
-      - 🇺🇸 美国 151
-      - 🇳🇱 荷兰 06
-      - 🇸🇬 新加坡 12
-      - 🇺🇸 美国 011
-      - 🇻🇳 越南 089
-      - 🇧🇷 巴西 32
-      - 🇺🇸 美国 061
-      - 🇧🇩 孟加拉国家宽 08
-      - 🇹🇭 泰国 03
-      - 🇸🇬 新加坡 02
-      - 🇺🇸 美国 215
-      - 🇺🇸 美国 176
-      - 🇻🇳 越南 101
-      - 🇺🇸 美国 146
-      - 🇧🇩 孟加拉国家宽 06
-      - 🇯🇵 日本 08
-      - 🇺🇸 美国 048
-      - 🇳🇱 荷兰 15
-      - 🇺🇸 美国 094
-      - 🇧🇷 巴西 15
-      - 🇺🇸 美国 208
-      - 🇺🇸 美国 181
-      - 🇯🇵 日本 04
-      - 🇧🇷 巴西 27
-      - 🇺🇸 美国 185
+      - 🇺🇸 美国 123
+      - 🇰🇷 韩国 28
+      - 🇭🇰 香港 072
+      - 🇺🇸 美国 074
+      - 🇯🇵 日本 094
+      - 🇺🇸 美国 096
+      - 🇰🇷 韩国 31
+      - 🇯🇵 日本 058
+      - 🇯🇵 日本 165
+      - 🇻🇳 越南 117
+      - 🇮🇹 意大利 01
+      - 🇺🇸 美国 168
+      - 🇯🇵 日本 082
+      - 🇯🇵 日本 103
+      - 🇻🇳 越南 037
+      - 🇯🇵 日本 144
+      - 🇰🇷 韩国 23
+      - 🇰🇷 韩国 05
+      - 🇺🇸 美国 223
+      - 🇭🇰 香港 010
+      - 🇯🇵 日本 022
+      - 🇹🇭 泰国 11
+      - 🇺🇸 美国 060
       - 🇺🇸 美国 154
-      - 🇬🇷 希腊 06
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 178
-      - 🇳🇱 荷兰 07
-      - 🇩🇪 德国 04
-      - 🇺🇸 美国 091
-      - 🇺🇸 美国 016
-      - 🇻🇳 越南 068
-      - 🇺🇸 美国 039
-      - 🇺🇸 美国 187
-      - 🇻🇳 越南 001
-      - 🇺🇸 美国 184
-      - 🇻🇳 越南 070
-      - 🇭🇰 香港 15
-      - 🇺🇸 美国 172
-      - 🇨🇭 瑞士 01
+      - 🇹🇼 台湾 11
+      - 🇹🇼 台湾 88
+      - 🇻🇳 越南 062
+      - 🇯🇵 日本 016
+      - 🇺🇸 美国 245
+      - 🇺🇸 美国 251
+      - 🇹🇼 台湾 38
+      - 🇨🇦 加拿大 08
+      - 🇻🇳 越南 039
+      - 🇺🇸 美国 237
+      - 🇰🇷 韩国 17
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 206
+      - 🇻🇳 越南 081
+      - 🇰🇷 韩国 01
+      - 🇯🇵 日本 163
+      - 🇹🇼 台湾 25
+      - 🇯🇵 日本 195
+      - 🇯🇵 日本 218
+      - 🇺🇸 美国 115
+      - 🇯🇵 日本 095
+      - 🇭🇰 香港 100
+      - 🇹🇼 台湾 51
+      - 🇺🇸 美国 114
+      - 🇺🇸 美国 087
+      - 🇭🇰 香港 095
+      - 🇰🇷 韩国 47
+      - 🇺🇸 美国 165
+      - 🇺🇸 美国 028
+      - 🇺🇸 美国 089
+      - 🇺🇸 美国 149
+      - 🇯🇵 日本 068
+      - 🇯🇵 日本 050
+      - 🇰🇷 韩国 34
+      - 🇻🇳 越南 034
+      - 🇭🇰 香港 089
+      - 🇯🇵 日本 180
+      - 🇺🇸 美国 241
+      - 🇯🇵 日本 142
+      - 🇯🇵 日本 146
+      - 🇺🇸 美国 034
+      - 🇺🇸 美国 231
+      - 🇻🇳 越南 030
+      - 🇯🇵 日本 110
+      - 🇯🇵 日本 090
+      - 🇯🇵 日本 232
+      - 🇹🇭 泰国 03
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 100
+      - 🇺🇸 美国 106
+      - 🇹🇼 台湾 23
+      - 🇸🇬 新加坡 42
+      - 🇺🇸 美国 250
+      - 🇻🇳 越南 057
+      - 🇺🇸 美国 244
+      - 🇯🇵 日本 191
+      - 🇹🇭 泰国 02
+      - 🇺🇸 美国 212
+      - 🇹🇼 台湾 20
+      - 🇺🇸 美国 138
+      - 🇯🇵 日本 046
+      - 🇸🇬 新加坡 33
       - 🇺🇸 美国 069
-      - 🇧🇷 巴西 10
-      - 🇳🇱 荷兰 20
-      - 🇺🇸 美国 120
-      - 🇺🇸 美国 030
-      - 🇺🇸 美国 136
-      - 🇻🇳 越南 013
-      - 🇻🇳 越南 091
-      - 🇫🇮 芬兰 04
-      - 🇳🇱 荷兰 10
-      - 🇻🇳 越南 011
+      - 🇺🇸 美国 169
+      - 🇸🇬 新加坡 09
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 236
+      - 🇸🇬 新加坡 17
+      - 🇹🇼 台湾 27
+      - 🇻🇳 越南 017
+      - 🇦🇪 阿联酋 06
+      - 🇯🇵 日本 128
+      - 🇺🇸 美国 200
+      - 🇭🇰 香港 090
+      - 🇭🇰 香港 005
+      - 🇺🇸 美国 010
+      - 🇯🇵 日本 139
+      - 🇯🇵 日本 060
+      - 🇯🇵 日本 155
+      - 🇱🇹 立陶宛 02
+      - 🇸🇬 新加坡 36
+      - 🇹🇼 台湾 59
+      - 🇯🇵 日本 134
+      - 🇯🇵 日本 001
+      - 🇹🇼 台湾 91
+      - 🇱🇹 立陶宛 05
+      - 🇻🇳 越南 060
+      - 🇺🇸 美国 101
+      - 🇻🇳 越南 048
+      - 🇻🇳 越南 049
       - 🇻🇳 越南 075
-      - 🇺🇸 美国 207
-      - 🇻🇳 越南 099
+      - 🇯🇵 日本 107
+      - 🇻🇳 越南 006
+      - 🇯🇵 日本 031
+      - 🇯🇵 日本 226
+      - 🇭🇰 香港 047
+      - 🇸🇬 新加坡 18
+      - 🇻🇳 越南 005
+      - 🇯🇵 日本 135
+      - 🇺🇸 美国 137
+      - 🇸🇬 新加坡 54
+      - 🇻🇳 越南 028
+      - 🇯🇵 日本 150
+      - 🇹🇼 台湾 78
+      - 🇺🇸 美国 224
+      - 🇺🇸 美国 216
+      - 🇯🇵 日本 169
+      - 🇺🇸 美国 002
+      - 🇭🇰 香港 045
+      - 🇯🇵 日本 210
+      - 🇸🇬 新加坡 31
+      - 🇻🇳 越南 073
+      - 🇻🇳 越南 047
+      - 🇻🇳 越南 023
+      - 🇯🇵 日本 111
+      - 🇭🇰 香港 017
+      - 🇺🇸 美国 248
+      - 🇭🇰 香港 061
+      - 🇯🇵 日本 007
+      - 🇺🇸 美国 214
+      - 🇺🇸 美国 053
+      - 🇻🇳 越南 079
+      - 🇹🇭 泰国 04
+      - 🇻🇳 越南 115
+      - 🇺🇸 美国 015
+      - 🇨🇦 加拿大 10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
