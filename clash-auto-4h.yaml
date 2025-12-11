@@ -6,156 +6,150 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇰🇷 韩国 01, server: kr037.jd.kunlunpx.com, port: 45921, type: ss, cipher: aes-128-gcm, password: d7577ca6729babe0790f, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 034, server: 85.209.53.170, port: 443, type: hysteria2, password: f86d2a91-7647-4bf4-b05e-9338415b995a, auth: f86d2a91-7647-4bf4-b05e-9338415b995a, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇻🇳 越南 17, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇦🇺 澳大利亚 12, server: 152.69.160.74, port: 50000, type: hysteria2, password: 50af7daf-50d9-48ab-892f-ddbe53a177b7, auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7, sni: fastcdn.hoyoverse.com, skip-cert-verify: true, ports: 50000-53000, udp: true}
-  - {name: 🇫🇷 法国 02, server: 183.60.254.163, port: 41319, type: vmess, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 30, server: dc696949-t75z40-t83bw1-1f596.hk2.hyhuawei.com, port: 443, type: hysteria2, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, auth: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 香港 30, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 9e26541e-a897-4d03-b8f7-7c6574557678, udp: true}
-  - {name: 🇮🇳 印度 05, server: hxb.dashuai.help, port: 45073, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 142, server: 85.209.53.170, port: 80, type: hysteria2, password: f6c73169-9b67-47ae-bc96-dcc6da48ea56, auth: f6c73169-9b67-47ae-bc96-dcc6da48ea56, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 38, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: a07d1b91-364b-462b-aacd-3cd8d65dd24f, udp: true}
-  - {name: 🇻🇳 越南 16, server: 103.186.155.119, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 09, server: co-7be4b6-20.9966663.xyz, port: 20135, type: anytls, password: 2e73ef78-ee16-4f30-9fc1-556d9f70f84a, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🇩🇪 德国 140, server: 85.209.53.170, port: 80, type: hysteria2, password: bd1dfe53-2109-4bd3-a534-e382b505aeb3, auth: bd1dfe53-2109-4bd3-a534-e382b505aeb3, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇸🇬 新加坡 09, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: 6b49e262-eab9-40aa-93b3-50a9783ec67c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 53, server: 108.181.24.53, port: 50000, type: hysteria2, password: 50af7daf-50d9-48ab-892f-ddbe53a177b7, auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7, sni: www.microsoft.com, skip-cert-verify: true, ports: 50000-53000, udp: true}
-  - {name: 🇩🇪 德国 097, server: 85.209.53.170, port: 80, type: hysteria2, password: b486a4bc-3913-4136-b360-c3588066ea0a, auth: b486a4bc-3913-4136-b360-c3588066ea0a, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 057, server: 85.209.53.170, port: 443, type: hysteria2, password: e24f77fb-0c1c-44cb-b2d4-98464e428bda, auth: e24f77fb-0c1c-44cb-b2d4-98464e428bda, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 119, server: 85.209.53.170, port: 80, type: hysteria2, password: fc355127-5bba-4f07-bd6e-8628612ffab6, auth: fc355127-5bba-4f07-bd6e-8628612ffab6, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇮🇹 意大利 01, server: it091.jd.kunlunpx.com, port: 45587, type: ss, cipher: chacha20-ietf-poly1305, password: 6180d9dc7075e7fe509b, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇸🇬 新加坡 08, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大 02, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度 01, server: in048.jd.kunlunpx.com, port: 45932, type: ss, cipher: aes-128-gcm, password: 1954df8a5f3876000ea6, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇳🇱 荷兰 01, server: 51.159.226.1, port: 49003, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 🇩🇪 德国 052, server: 85.209.53.170, port: 443, type: hysteria2, password: 48450252-623c-475d-aba4-45fc055726df, auth: 48450252-623c-475d-aba4-45fc055726df, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇫🇷 法国 05, server: 195.154.200.40, port: 15010, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 100, down: 100, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 🇧🇷 巴西 02, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: a07d1b91-364b-462b-aacd-3cd8d65dd24f, udp: true}
-  - {name: 🇻🇳 越南 05, server: 103.186.155.5, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港家宽 04, server: hk017.jd.kunlunpx.com, port: 45900, type: ss, cipher: aes-128-gcm, password: 51f8c7454c93d0d83c29, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 021, server: 85.209.53.170, port: 443, type: hysteria2, password: bbf34805-a2e3-4077-ae88-9f9330b1fcbe, auth: bbf34805-a2e3-4077-ae88-9f9330b1fcbe, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇹🇼 台湾 13, server: tw065.jd.kunlunpx.com, port: 45916, type: ss, cipher: aes-128-gcm, password: cfc6f3f75f5ef7b2665c, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇦🇺 澳大利亚 04, server: hxa.dashuai.help, port: 45062, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇻🇳 越南 12, server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇩🇪 德国 079, server: 85.209.53.170, port: 443, type: hysteria2, password: 73239bf3-ed49-4ed6-9b56-5aea2fa204e2, auth: 73239bf3-ed49-4ed6-9b56-5aea2fa204e2, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 049, server: 85.209.53.170, port: 443, type: hysteria2, password: aa6ae5ce-e304-4e5f-98ed-4335783d1144, auth: aa6ae5ce-e304-4e5f-98ed-4335783d1144, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 071, server: 85.209.53.170, port: 443, type: hysteria2, password: 62eecd47-d92a-4d13-b6b7-2d7a7cc70908, auth: 62eecd47-d92a-4d13-b6b7-2d7a7cc70908, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港 33, server: 2a016552-t75z40-t7d1t3-81nv.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 47e91fb6-25b8-df52-bc18-3cdc8548192f, auth: 47e91fb6-25b8-df52-bc18-3cdc8548192f, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国 126, server: 85.209.53.170, port: 80, type: hysteria2, password: d49aa460-fb77-4200-a076-7766457c3def, auth: d49aa460-fb77-4200-a076-7766457c3def, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 40, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: ee60273d-84c4-4610-8aa9-330bc3eb244b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 066, server: 85.209.53.170, port: 443, type: hysteria2, password: dc41e5e8-91c9-45ad-a4c0-9961b07a04fd, auth: dc41e5e8-91c9-45ad-a4c0-9961b07a04fd, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇹🇼 台湾 15, server: tw030.jd.kunlunpx.com, port: 45914, type: ss, cipher: aes-128-gcm, password: b270fd77db2ecb7acbc8, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 022, server: 85.209.53.170, port: 443, type: hysteria2, password: 535e421a-03d1-46b7-8382-ca2ccfb356c4, auth: 535e421a-03d1-46b7-8382-ca2ccfb356c4, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 49, server: 43e82700-t744g0-tm23vf-1jk6u.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, auth: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 香港家宽 10, server: 90848257-t75z40-t9lc3n-z93q.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 40639730-e027-11ea-87ad-f23c913c8d2b, auth: 40639730-e027-11ea-87ad-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇦🇺 澳大利亚 07, server: hxb.dashuai.help, port: 45063, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 110, server: 85.209.53.170, port: 80, type: hysteria2, password: f9e16e90-e984-4e17-aa23-4c0499f69287, auth: f9e16e90-e984-4e17-aa23-4c0499f69287, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 16, server: 883eef79-t75z40-tb3p3s-lj7z.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, auth: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国 026, server: 85.209.53.170, port: 443, type: hysteria2, password: f820701a-5c24-485d-a2e2-07d69135aafa, auth: f820701a-5c24-485d-a2e2-07d69135aafa, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 52, server: 35912376-t744g0-tlvq5w-1jcwu.hk2.hyhuawei.com, port: 443, type: hysteria2, password: f93486ce-cc84-11ed-9e98-f23c913c8d2b, auth: f93486ce-cc84-11ed-9e98-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国 017, server: 85.209.53.170, port: 443, type: hysteria2, password: 36447b9d-85cb-4c1c-a460-74ba883343ee, auth: 36447b9d-85cb-4c1c-a460-74ba883343ee, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 146, server: 85.209.53.170, port: 80, type: hysteria2, password: 3f60b3eb-8e46-4e95-9a5e-d4a22915bcf6, auth: 3f60b3eb-8e46-4e95-9a5e-d4a22915bcf6, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇸🇬 新加坡 11, server: cdnfire.xiaomispeed.com, port: 23301, type: trojan, password: eae807a3-4935-4747-9cf6-9f495e7e5e4a, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 37, server: 4e69ec37-t75z40-tpw4i4-1pckg.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, auth: 526a1128-7487-11ee-9bca-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 香港家宽 39, server: 69304bfa-t75z40-tkn6t8-1i3g8.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 437cef58-f10b-11ef-8eaf-f23c9164ca5d, auth: 437cef58-f10b-11ef-8eaf-f23c9164ca5d, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 香港家宽 56, server: f6a90b84-t744g0-tbrhck-1thqb.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b, auth: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇸🇬 新加坡 18, server: sg078.jd.kunlunpx.com, port: 45579, type: ss, cipher: aes-128-gcm, password: 0722bd4137ff579e6917, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 042, server: 85.209.53.170, port: 443, type: hysteria2, password: 3f60b3eb-8e46-4e95-9a5e-d4a22915bcf6, auth: 3f60b3eb-8e46-4e95-9a5e-d4a22915bcf6, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇰🇷 韩国 07, server: hxb.dashuai.help, port: 45075, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾 02, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 060, server: 85.209.53.170, port: 443, type: hysteria2, password: dc318e56-ee8f-41c6-b735-27358db2c36e, auth: dc318e56-ee8f-41c6-b735-27358db2c36e, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 059, server: 85.209.53.170, port: 443, type: hysteria2, password: 579d280e-8f52-4061-96cd-c989f8b76184, auth: 579d280e-8f52-4061-96cd-c989f8b76184, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 127, server: 85.209.53.170, port: 80, type: hysteria2, password: 231ba15a-9a53-4682-916a-fafea52ced17, auth: 231ba15a-9a53-4682-916a-fafea52ced17, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 101, server: 85.209.53.170, port: 80, type: hysteria2, password: ea1cdc31-3518-44d1-9cfe-ad9db6a4fe41, auth: ea1cdc31-3518-44d1-9cfe-ad9db6a4fe41, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 064, server: 85.209.53.170, port: 443, type: hysteria2, password: 3b8791be-f45b-43cb-aaf3-4a5b91131d41, auth: 3b8791be-f45b-43cb-aaf3-4a5b91131d41, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 007, server: 85.209.53.170, port: 443, type: hysteria2, password: e05e31d5-576c-4b7d-a006-1300809b9ed8, auth: e05e31d5-576c-4b7d-a006-1300809b9ed8, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 28, server: 5e6dde44-t75z40-tnbkh1-1ejce.hk2.hyhuawei.com, port: 443, type: hysteria2, password: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, auth: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, ports: 30000-60000, udp: true}
-  - {name: 🇸🇬 新加坡 04, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 04, server: hxb.dashuai.help, port: 45075, type: vmess, uuid: 6b49e262-eab9-40aa-93b3-50a9783ec67c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 51, server: 108.181.23.231, port: 50000, type: hysteria2, password: 50af7daf-50d9-48ab-892f-ddbe53a177b7, auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7, sni: www.microsoft.com, skip-cert-verify: true, ports: 50000-53000, udp: true}
-  - {name: 🇭🇰 香港 29, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 8a71e435-8d86-4ac1-8445-0ed1f539116b, udp: true}
-  - {name: 🇸🇬 新加坡 14, server: green2.cdntencentmusic.com, port: 33301, type: trojan, password: ee60273d-84c4-4610-8aa9-330bc3eb244b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 014, server: 85.209.53.170, port: 80, type: hysteria2, password: aa4aef11-87da-4c84-a2aa-4e405032dcb4, auth: aa4aef11-87da-4c84-a2aa-4e405032dcb4, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 66, server: ed7340c8-t53wg0-t80cbx-1k0yf.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, auth: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, sni: ed7340c8-t53wg0-t80cbx-1k0yf.hk2.hyhuawei.com, skip-cert-verify: false, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 香港家宽 19, server: cb67b6e1-t75z40-tbnk1n-ueq.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, auth: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国 076, server: 85.209.53.170, port: 443, type: hysteria2, password: cc963553-6663-43ff-83e1-548207f7b364, auth: cc963553-6663-43ff-83e1-548207f7b364, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 30, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: 4fea3ab7-fa1e-4cf1-a126-c9ad9e77b013, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 37, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 9e26541e-a897-4d03-b8f7-7c6574557678, udp: true}
-  - {name: 🇩🇪 德国 051, server: 85.209.53.170, port: 443, type: hysteria2, password: 08437c04-297c-4069-82b9-ab4ddc611b58, auth: 08437c04-297c-4069-82b9-ab4ddc611b58, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 070, server: 85.209.53.170, port: 443, type: hysteria2, password: 231ba15a-9a53-4682-916a-fafea52ced17, auth: 231ba15a-9a53-4682-916a-fafea52ced17, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 083, server: 85.209.53.170, port: 80, type: hysteria2, password: 38d2cf22-a658-4967-9722-b974f305d634, auth: 38d2cf22-a658-4967-9722-b974f305d634, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇯🇵 日本 16, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: a07d1b91-364b-462b-aacd-3cd8d65dd24f, udp: true}
-  - {name: 🇭🇰 香港 20, server: green2.cdntencentmusic.com, port: 31104, type: trojan, password: 3a3f74f1-b14e-4781-846d-cf4cb6683cc1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 21, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 3a3f74f1-b14e-4781-846d-cf4cb6683cc1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 044, server: 85.209.53.170, port: 443, type: hysteria2, password: 38d2cf22-a658-4967-9722-b974f305d634, auth: 38d2cf22-a658-4967-9722-b974f305d634, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 135, server: 85.209.53.170, port: 80, type: hysteria2, password: a877b0da-7526-4281-9817-24832d9e6446, auth: a877b0da-7526-4281-9817-24832d9e6446, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 06, server: 58.152.25.242, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 17, server: sg035.jd.kunlunpx.com, port: 45919, type: ss, cipher: aes-128-gcm, password: b4c9e286a46bd6ecca13, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: b411ce5f-2814-4f2d-9310-473cf2a60181, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 31, server: gg.xn--9kq279fa.xyz, port: 22003, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ZjZmYjhhMTM3MTYwYzk4ZQ==:NjQ5ODYwODgtYzM5Zi00MA==, udp: true}
-  - {name: 🇹🇼 台湾 10, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 128, server: 85.209.53.170, port: 80, type: hysteria2, password: e504db30-c5e1-4e2a-88d8-957d355b4e37, auth: e504db30-c5e1-4e2a-88d8-957d355b4e37, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇲🇾 马来西亚 03, server: my075.jd.kunlunpx.com, port: 45576, type: ss, cipher: aes-128-gcm, password: fe51727afe2fca582ebf, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 039, server: 85.209.53.170, port: 443, type: hysteria2, password: f5f29134-d123-4822-b1ce-f5975b046988, auth: f5f29134-d123-4822-b1ce-f5975b046988, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 132, server: 85.209.53.170, port: 80, type: hysteria2, password: 20f80981-161f-46d1-a04e-4967331fc877, auth: 20f80981-161f-46d1-a04e-4967331fc877, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 100, server: 85.209.53.170, port: 80, type: hysteria2, password: 5f0e23eb-1802-4b07-a4b7-569449adb770, auth: 5f0e23eb-1802-4b07-a4b7-569449adb770, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港 12, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港家宽 17, server: 1846a5df-t75z40-taklwz-12bd.hk2.hyhuawei.com, port: 443, type: hysteria2, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, auth: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, ports: 30000-60000, udp: true}
-  - {name: 🇰🇷 韩国 08, server: hxa.dashuai.help, port: 45076, type: vmess, uuid: b411ce5f-2814-4f2d-9310-473cf2a60181, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 031, server: 85.209.53.170, port: 443, type: hysteria2, password: d788aa37-baad-49e6-ab20-f9814b38033f, auth: d788aa37-baad-49e6-ab20-f9814b38033f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 04, server: co-ce044a-330.9966663.xyz, port: 20131, type: anytls, password: 33201095-a59e-4f4d-bfc6-3de921adb8d3, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
-  - {name: 🇦🇺 澳大利亚 03, server: hxa.dashuai.help, port: 45062, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港家宽 60, server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, auth: a305ac08-d136-11ee-b6db-f23c91cfbbc9, sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com, udp: true}
-  - {name: 🇮🇳 印度 07, server: hxa.dashuai.help, port: 45074, type: vmess, uuid: b411ce5f-2814-4f2d-9310-473cf2a60181, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 07, server: co-7be4b6-20.9966663.xyz, port: 20133, type: anytls, password: 2e73ef78-ee16-4f30-9fc1-556d9f70f84a, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
-  - {name: 🇻🇳 越南 15, server: 103.186.155.202, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇩🇪 德国 028, server: 85.209.53.170, port: 443, type: hysteria2, password: 32004e3e-1616-4381-91c3-6e1981418be7, auth: 32004e3e-1616-4381-91c3-6e1981418be7, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 53, server: 90b05fcc-t75z40-tfi5fd-1imi4.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, auth: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国 103, server: 85.209.53.170, port: 80, type: hysteria2, password: 36447b9d-85cb-4c1c-a460-74ba883343ee, auth: 36447b9d-85cb-4c1c-a460-74ba883343ee, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇻🇳 越南 10, server: 103.186.154.180, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇨🇦 加拿大 05, server: hxa.dashuai.help, port: 45064, type: vmess, uuid: 6b49e262-eab9-40aa-93b3-50a9783ec67c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 11, server: hxa.dashuai.help, port: 45076, type: vmess, uuid: e9ef55d5-c170-4dfe-98c7-2c4f53273f53, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港家宽 33, server: 97a5a3bd-t75z40-tbicd9-1go3q.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, auth: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, ports: 30000-60000, udp: true}
-  - {name: 🇺🇸 美国 27, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: 6b49e262-eab9-40aa-93b3-50a9783ec67c, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 09, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: 4fea3ab7-fa1e-4cf1-a126-c9ad9e77b013, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 01, server: hk077.jd.kunlunpx.com, port: 45578, type: ss, cipher: chacha20-ietf-poly1305, password: 7243745919d6de49a5db, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港家宽 21, server: 7ae9f465-t75z40-t9byd7-1jfvb.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, auth: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, ports: 30000-60000, udp: true}
-  - {name: 🇻🇳 越南 14, server: 103.186.155.129, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇩🇪 德国 001, server: dg.jgpyjc.top, port: 40000, type: hysteria2, password: b61d5fe6-6fc8-4cfc-ac8d-80a6e41dbe92, auth: b61d5fe6-6fc8-4cfc-ac8d-80a6e41dbe92, sni: dg.jgpyjc.top, skip-cert-verify: false, obfs: salamander, obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==, ports: 40000-40050, udp: true}
-  - {name: 🇩🇪 德国 148, server: rb.kaixincloud.top, port: 25200, type: hysteria2, password: 13502763-d3f7-4f81-811a-52c2505bbc36, auth: 13502763-d3f7-4f81-811a-52c2505bbc36, sni: rb.kaixincloud.top, skip-cert-verify: false, ports: 25200-26200, udp: true}
-  - {name: 🇯🇵 日本 06, server: jp083.jd.kunlunpx.com, port: 45581, type: ss, cipher: aes-128-gcm, password: 6014caa3a323920c7fd0, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇰🇷 韩国 09, server: hxb.dashuai.help, port: 45075, type: vmess, uuid: b411ce5f-2814-4f2d-9310-473cf2a60181, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 32, server: feisha-us.kunlun06dns.com, port: 15017, type: trojan, password: 9e5d7ec6-d24d-41dc-848d-54a2e3429d2f, sni: openssl.nodesni.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 44, server: 208.87.242.97, port: 35000, type: hysteria2, password: 1347acec-0c12-46c0-9436-19603093d9ab, auth: 1347acec-0c12-46c0-9436-19603093d9ab, sni: www.apple.com, skip-cert-verify: true, ports: 35000-39000, udp: true}
-  - {name: 🇩🇪 德国 090, server: 85.209.53.170, port: 80, type: hysteria2, password: bf59cc0d-3c58-4c7b-84cf-744524a6201d, auth: bf59cc0d-3c58-4c7b-84cf-744524a6201d, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 25, server: hxb.dashuai.help, port: 45053, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 15, server: us067.jd.kunlunpx.com, port: 45935, type: ss, cipher: aes-128-gcm, password: 8bf642be1622a09558bb, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港家宽 38, server: aa574d22-t75z40-tnnrly-g43g.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, auth: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国 105, server: 85.209.53.170, port: 80, type: hysteria2, password: e24f77fb-0c1c-44cb-b2d4-98464e428bda, auth: e24f77fb-0c1c-44cb-b2d4-98464e428bda, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 131, server: 85.209.53.170, port: 80, type: hysteria2, password: 6b15ea3c-a512-4522-b5b7-6a2eb948ffbe, auth: 6b15ea3c-a512-4522-b5b7-6a2eb948ffbe, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇯🇵 日本 05, server: jp07.jd.kunlunpx.com, port: 45572, type: ss, cipher: aes-128-gcm, password: 722a54414ae6ee706ac9, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇰🇷 韩国 05, server: hxa.dashuai.help, port: 45076, type: vmess, uuid: 2b29c24c-112c-4252-9e20-ab8f594ba44f, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇻🇳 越南 08, server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港家宽 47, server: a5f72046-t744g0-tifnix-1ro8s.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, auth: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, ports: 30000-60000, udp: true}
-  - {name: 🇭🇰 香港 22, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 47a99059-0bd3-4dbc-b1c1-dce5e66643f4, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 19, server: fr034.jd.kunlunpx.com, port: 45927, type: ss, cipher: aes-128-gcm, password: 8141b20c775ce63fab96, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇮🇳 印度 03, server: hxb.dashuai.help, port: 45073, type: vmess, uuid: 4fea3ab7-fa1e-4cf1-a126-c9ad9e77b013, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 133, server: 85.209.53.170, port: 80, type: hysteria2, password: 08437c04-297c-4069-82b9-ab4ddc611b58, auth: 08437c04-297c-4069-82b9-ab4ddc611b58, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇻🇳 越南 07, server: 103.186.154.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇩🇪 德国 053, server: 85.209.53.170, port: 443, type: hysteria2, password: 71944cc1-b7d2-4ff5-822e-169606d85959, auth: 71944cc1-b7d2-4ff5-822e-169606d85959, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 085, server: 85.209.53.170, port: 80, type: hysteria2, password: 1777f3f1-42a4-4887-9c42-2594d147b5c8, auth: 1777f3f1-42a4-4887-9c42-2594d147b5c8, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国 015, server: 85.209.53.170, port: 443, type: hysteria2, password: b6b9dcbb-f9b6-4b7c-bb2d-3b03236ada9d, auth: b6b9dcbb-f9b6-4b7c-bb2d-3b03236ada9d, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 22, server: 57c15e75-t75z40-t7eqjm-m0b9.hk2.hyhuawei.com, port: 443, type: hysteria2, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, auth: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, ports: 30000-60000, udp: true}
-  - {name: 🇩🇪 德国家宽 01, server: de044.jd.kunlunpx.com, port: 45928, type: ss, cipher: aes-128-gcm, password: bd62dac6636078647014, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇨🇦 加拿大 08, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: b411ce5f-2814-4f2d-9310-473cf2a60181, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 德国 074, server: 85.209.53.170, port: 443, type: hysteria2, password: 334b52fb-445d-4fe6-a853-85a8ed073a58, auth: 334b52fb-445d-4fe6-a853-85a8ed073a58, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港 18, server: cdnfire.xiaomispeed.com, port: 21104, type: trojan, password: eae807a3-4935-4747-9cf6-9f495e7e5e4a, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 03, server: hk016.jd.kunlunpx.com, port: 45901, type: ss, cipher: aes-128-gcm, password: 7338d988d71591d76b3f, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
-  - {name: 🇩🇪 德国 117, server: 85.209.53.170, port: 80, type: hysteria2, password: 8fa1c151-4e75-40d8-ba87-cea0e562178f, auth: 8fa1c151-4e75-40d8-ba87-cea0e562178f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇺🇸 美国 50, server: us-phxplus-ddns.xn--4gqza090la383cba657a9rw23a362bz35amu9c.link, port: 12053, type: vless, uuid: f6ab3a91-3155-49d6-b5a7-930d46ee5f1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uy8bi1ijbVLqcq1YWMzddY5dU88HkmU9rE4LP7kX9xc, short-id: "95c96a2a" }, servername: gw.alicdn.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 03, server: jp050.jd.kunlunpx.com, port: 45939, type: ss, cipher: aes-128-gcm, password: 97b53b570db0917935e0, plugin: obfs, plugin-opts: {mode: http, host: ccc366d43e7ba2b39076.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 23, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 111, server: 6ac3826f-t75z40-t7pjgr-11p9g.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, auth: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 074, server: 85.209.53.170, port: 443, type: hysteria2, password: 535e421a-03d1-46b7-8382-ca2ccfb356c4, auth: 535e421a-03d1-46b7-8382-ca2ccfb356c4, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇸🇬 新加坡 07, server: green2.cdntencentmusic.com, port: 33301, type: trojan, password: b574ea88-168d-4504-a62d-fe9a2271d726, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 01, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 01, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 法国 04, server: hxa.dashuai.help, port: 45072, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 014, server: 96ab010e-t77ts0-t7mt0p-1sllg.hk2.hyhuawei.com, port: 443, type: hysteria2, password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, auth: d6e1207c-f41a-11ef-9495-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇻🇳 越南 06, server: 103.186.154.235, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 19, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 336fe134-e9f4-411a-9e98-aef495985717, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 20, server: didiaosanwan.fkfkd.cn, port: 43900, type: ss, cipher: aes-128-gcm, password: 62c4f4a7-5289-4a0f-98f0-407da8103dc0, udp: true}
+  - {name: 🇩🇪 德国 025, server: 85.209.53.170, port: 80, type: hysteria2, password: c5fd31d2-8514-444a-9fd9-6189b8d0d05c, auth: c5fd31d2-8514-444a-9fd9-6189b8d0d05c, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 16, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 4ebb37be-52b0-45e4-9c90-81155c5c400f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 009, server: 84d26aa2-t77ts0-taklwz-12bd.hk2.hyhuawei.com, port: 443, type: hysteria2, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, auth: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇺🇸 美国 14, server: co-7be4b6-20.9966663.xyz, port: 20131, type: anytls, password: 2e73ef78-ee16-4f30-9fc1-556d9f70f84a, client-fingerprint: chrome, udp: true, skip-cert-verify: true}
+  - {name: 🇻🇳 越南 01, server: 103.186.155.129, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇩🇪 德国 085, server: 85.209.53.170, port: 443, type: hysteria2, password: ddb2a9d5-a9ac-422a-ae48-592cc7843b14, auth: ddb2a9d5-a9ac-422a-ae48-592cc7843b14, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇳🇱 荷兰 01, server: 172.67.137.47, port: 2086, type: vless, uuid: 636de463-b509-4631-adc6-400b21733278, tls: false, network: ws, ws-opts: {path: /1qrxwiek8tujvr6h, headers: {Host: index.harmony510.workers.dev}}, udp: true}
+  - {name: 🇩🇪 德国 102, server: 85.209.53.170, port: 443, type: hysteria2, password: c1ee3f1d-1256-42d4-95c6-cc11a23e0679, auth: c1ee3f1d-1256-42d4-95c6-cc11a23e0679, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 051, server: 88516992-t744g0-t7hu58-1q1la.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 25b46954-9a33-11ee-8b86-f23c91cfbbc9, auth: 25b46954-9a33-11ee-8b86-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港家宽 007, server: abf97be7-t77ts0-tb74a6-1q9g2.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d, auth: 9d80dd14-ac44-11ee-a116-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港家宽 118, server: 613cd78e-t75z40-tifnix-1ro8s.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, auth: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇲🇩 摩尔多瓦 01, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🇩🇪 德国 115, server: 85.209.53.170, port: 443, type: hysteria2, password: 7d60ad5c-17ff-4d7c-ad94-bfadcd5dfcc4, auth: 7d60ad5c-17ff-4d7c-ad94-bfadcd5dfcc4, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 041, server: 6be77ea3-t77ts0-t7xcfs-1ldl3.hk2.hyhuawei.com, port: 443, type: hysteria2, password: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, auth: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 122, server: 85.209.53.170, port: 443, type: hysteria2, password: 463123ab-e4a6-406a-8e5a-e4a9384db542, auth: 463123ab-e4a6-406a-8e5a-e4a9384db542, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 18, server: us-phxplus-ddns.xn--4gqza090la383cba657a9rw23a362bz35amu9c.link, port: 12053, type: vless, uuid: f6ab3a91-3155-49d6-b5a7-930d46ee5f1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uy8bi1ijbVLqcq1YWMzddY5dU88HkmU9rE4LP7kX9xc, short-id: "95c96a2a" }, servername: gw.alicdn.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇩🇪 德国 043, server: 85.209.53.170, port: 80, type: hysteria2, password: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f, auth: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 100, server: 57c15e75-t75z40-t7eqjm-m0b9.hk2.hyhuawei.com, port: 443, type: hysteria2, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, auth: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 040, server: 85.209.53.170, port: 80, type: hysteria2, password: 08437c04-297c-4069-82b9-ab4ddc611b58, auth: 08437c04-297c-4069-82b9-ab4ddc611b58, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 056, server: 2b3913c6-t744g0-tpw4i4-1pckg.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, auth: 526a1128-7487-11ee-9bca-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇯🇵 日本 02, server: green2.cdntencentmusic.com, port: 34411, type: trojan, password: 4ebb37be-52b0-45e4-9c90-81155c5c400f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 15, server: green2.cdntencentmusic.com, port: 31104, type: trojan, password: 3e786874-c974-4890-a1ec-346d60226e0c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 089, server: db00038e-t729s0-taklwz-12bd.hk3.p5pv.com, port: 80, type: vmess, uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db00038e-t729s0-taklwz-12bd.hk3.p5pv.com}}, udp: true}
+  - {name: 🇺🇸 美国 40, server: www.visa.com, port: 80, type: vless, uuid: a0af2643-a236-463c-8056-3f71d05eed53, tls: false, network: ws, ws-opts: {path: "/🔒 [By EbraSha]", headers: {Host: shomal-g74f3znf-v2.shomal-321.workers.dev}}, udp: true}
+  - {name: 🇪🇸 西班牙 01, server: fs.ir-sub.fun, port: 80, type: vless, uuid: 45d5ff54-2fce-4e0a-9ab3-18fb566dbfb9, tls: false, network: ws, ws-opts: {path: /ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON, headers: {Host: zedd4.global.ssl.fastly.net}}, udp: true}
+  - {name: 🇩🇪 德国 057, server: 85.209.53.170, port: 80, type: hysteria2, password: 334b52fb-445d-4fe6-a853-85a8ed073a58, auth: 334b52fb-445d-4fe6-a853-85a8ed073a58, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 026, server: 819ac54a-t77ts0-tgzvop-hns7.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, auth: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港家宽 088, server: 74606267-t729s0-t92wi1-1qkeg.hk3.p5pv.com, port: 80, type: vmess, uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 74606267-t729s0-t92wi1-1qkeg.hk3.p5pv.com}}, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: green2.cdntencentmusic.com, port: 33301, type: trojan, password: 59a62e95-6262-4ba1-8027-c642b7c72713, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 01, server: hxb.dashuai.help, port: 45075, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 013, server: 6ab18f78-t77ts0-tnbkh1-1ejce.hk2.hyhuawei.com, port: 443, type: hysteria2, password: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, auth: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇻🇳 越南 12, server: 103.186.155.119, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港家宽 023, server: b8b340bf-t77ts0-tiuovf-v3c2.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, auth: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇺🇦 乌克兰 02, server: co-afb4b1-20.9966663.xyz, port: 20131, type: anytls, password: 33201095-a59e-4f4d-bfc6-3de921adb8d3, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇩🇪 德国 117, server: 85.209.53.170, port: 443, type: hysteria2, password: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f, auth: 9221bfd1-80bf-435b-8477-c6a27c4a6e5f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 30, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 59a62e95-6262-4ba1-8027-c642b7c72713, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 102, server: 5e6dde44-t75z40-tnbkh1-1ejce.hk2.hyhuawei.com, port: 443, type: hysteria2, password: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, auth: e534d120-d32f-11ef-bdb9-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇻🇳 越南 05, server: 103.186.154.213, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇦🇺 澳大利亚 02, server: hxb.dashuai.help, port: 45063, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 067, server: h110vpnde.outlinekeys.net, port: 7048, type: ss, cipher: chacha20-ietf-poly1305, password: AujQV9ERmJSRQfFjgxKBPx, udp: true}
+  - {name: 🇭🇰 香港家宽 130, server: didiaosanwan.fkfkd.cn, port: 34781, type: ss, cipher: aes-128-gcm, password: 62c4f4a7-5289-4a0f-98f0-407da8103dc0, udp: true}
+  - {name: 🇭🇰 香港家宽 128, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 德国 096, server: 85.209.53.170, port: 443, type: hysteria2, password: 9536d434-9e41-4f90-8402-c1dcb6ebce19, auth: 9536d434-9e41-4f90-8402-c1dcb6ebce19, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 007, server: 85.209.53.170, port: 80, type: hysteria2, password: ec243dd1-09e1-47f7-99c7-475502a7a777, auth: ec243dd1-09e1-47f7-99c7-475502a7a777, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 24, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 077, server: eba361fa-t6ngg0-tiuovf-v3c2.hk3.p5pv.com, port: 80, type: vmess, uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: eba361fa-t6ngg0-tiuovf-v3c2.hk3.p5pv.com}}, udp: true}
+  - {name: 🇭🇰 香港家宽 046, server: e82ab7b5-t77ts0-tifnix-1ro8s.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, auth: a18ef18e-293a-11ef-b76e-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇺🇸 美国 05, server: us1.kaixincloud.top, port: 25200, type: hysteria2, password: 13502763-d3f7-4f81-811a-52c2505bbc36, auth: 13502763-d3f7-4f81-811a-52c2505bbc36, sni: us1.kaixincloud.top, skip-cert-verify: false, ports: 25200-26200, udp: true}
+  - {name: 🇭🇰 香港家宽 087, server: 06f9c2b4-t729s0-tbnk1n-ueq.hk3.p5pv.com, port: 80, type: vmess, uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 06f9c2b4-t729s0-tbnk1n-ueq.hk3.p5pv.com}}, udp: true}
+  - {name: 🇫🇷 法国 08, server: 62.210.10.186, port: 35511, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇩🇪 德国 051, server: 85.209.53.170, port: 80, type: hysteria2, password: c7c7590b-9533-472c-8e41-68f46952e4d5, auth: c7c7590b-9533-472c-8e41-68f46952e4d5, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 44, server: 45.131.4.192, port: 80, type: vless, uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1, tls: false, network: ws, ws-opts: {path: "/Cczu8jOo6HDo?ed=2560", headers: {Host: silent-paper-fa57.fipiyag989.workers.dev}}, udp: true}
+  - {name: 🇩🇪 德国 018, server: 85.209.53.170, port: 80, type: hysteria2, password: 361ecd89-2a37-494e-9178-f56a3442cb77, auth: 361ecd89-2a37-494e-9178-f56a3442cb77, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 18, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 59a62e95-6262-4ba1-8027-c642b7c72713, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 100, server: 85.209.53.170, port: 443, type: hysteria2, password: daec2ab5-870a-4a85-9d46-650c9ac20e09, auth: daec2ab5-870a-4a85-9d46-650c9ac20e09, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 021, server: ada57846-t77ts0-t8be2y-1ryup.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, auth: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港 08, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: d446ca24-80b7-4e4a-8055-e23838e43705, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 017, server: 29a0bc3c-t77ts0-t92wi1-1qkeg.hk2.hyhuawei.com, port: 443, type: hysteria2, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, auth: a305ac08-d136-11ee-b6db-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 003, server: 85.209.53.170, port: 80, type: hysteria2, password: dc300059-75d1-457e-89f9-35935af683a6, auth: dc300059-75d1-457e-89f9-35935af683a6, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 064, server: 85.209.53.170, port: 80, type: hysteria2, password: bb504db7-831c-4bb6-8ead-694a31531095, auth: bb504db7-831c-4bb6-8ead-694a31531095, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 05, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 59a62e95-6262-4ba1-8027-c642b7c72713, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 141, server: 85.209.53.170, port: 80, type: hysteria2, password: 9fa21c8f-d527-4474-b8a1-b40866f63481, auth: 9fa21c8f-d527-4474-b8a1-b40866f63481, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 109, server: cb67b6e1-t75z40-tbnk1n-ueq.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, auth: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇸🇪 瑞典 01, server: fs.ir-sub.fun, port: 80, type: vless, uuid: 2e9177ce-d1cc-45cd-b27f-f16f8fbc117a, tls: false, network: ws, ws-opts: {path: /ZEDMODEON-ZEDMODEON-bia-ZEDMODEON, headers: {Host: zedd.global.ssl.fastly.net}}, udp: true}
+  - {name: 🇻🇳 越南 14, server: 103.186.155.130, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港家宽 067, server: 5f0f42e9-sv4n40-t7udc0-1pqhp.hk3.p5pv.com, port: 80, type: vmess, uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇩🇪 德国 135, server: 85.209.53.170, port: 443, type: hysteria2, password: 8f6fd782-cde5-404a-b7f0-d85e5dac0562, auth: 8f6fd782-cde5-404a-b7f0-d85e5dac0562, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇻🇳 越南 04, server: 103.186.155.136, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港家宽 032, server: d20a2f25-t77ts0-t7udc0-1pqhp.hk2.hyhuawei.com, port: 443, type: hysteria2, password: b02327ac-a49a-11ef-a673-f23c913c8d2b, auth: b02327ac-a49a-11ef-a673-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 086, server: 85.209.53.170, port: 443, type: hysteria2, password: 1777f3f1-42a4-4887-9c42-2594d147b5c8, auth: 1777f3f1-42a4-4887-9c42-2594d147b5c8, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 126, server: 58.152.18.71, port: 443, type: trojan, password: 76d630f2af6619c4a5de0ef953df3c6a, sni: www.nintendogames.net, udp: true}
+  - {name: 🇩🇪 德国 037, server: 85.209.53.170, port: 80, type: hysteria2, password: cd46cc92-bae9-44a3-b687-98583462a8cf, auth: cd46cc92-bae9-44a3-b687-98583462a8cf, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 106, server: ca4ec426-t75z40-tmynyz-1s3mx.hk2.hyhuawei.com, port: 443, type: hysteria2, password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, auth: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港家宽 003, server: f6eeb772-t77ts0-ta5i1s-1j61y.hk2.hyhuawei.com, port: 443, type: hysteria2, password: f13f964e-f06c-11ec-a858-f23c91cfbbc9, auth: f13f964e-f06c-11ec-a858-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇺🇸 美国 25, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 336fe134-e9f4-411a-9e98-aef495985717, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 03, server: cdnfire.xiaomispeed.com, port: 24411, type: trojan, password: 336fe134-e9f4-411a-9e98-aef495985717, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南 15, server: 103.186.154.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇩🇪 德国 024, server: 85.209.53.170, port: 80, type: hysteria2, password: 4077295f-4d0c-4130-af89-66cfef13ea6f, auth: 4077295f-4d0c-4130-af89-66cfef13ea6f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇬🇧 英国 02, server: didiaosanwan.fkfkd.cn, port: 34590, type: ss, cipher: aes-128-gcm, password: 62c4f4a7-5289-4a0f-98f0-407da8103dc0, udp: true}
+  - {name: 🇭🇰 香港家宽 062, server: 29760139-t744g0-tcinla-hrtf.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b, auth: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港家宽 010, server: 2c31d623-t77ts0-t7eqjm-m0b9.hk2.hyhuawei.com, port: 443, type: hysteria2, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, auth: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 030, server: 85.209.53.170, port: 80, type: hysteria2, password: 59c97b18-ef32-4c6d-bca7-db43449facc8, auth: 59c97b18-ef32-4c6d-bca7-db43449facc8, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇹🇼 台湾 03, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: e3f34843-77c8-45a7-9fe5-927f21bbe76e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港家宽 016, server: 22ee1880-t77ts0-tcop2n-tl32.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, auth: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇯🇵 日本 09, server: hxa.dashuai.help, port: 45056, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰 02, server: 51.159.226.1, port: 49003, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, protocol: udp, sni: apple.com, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇭🇰 香港家宽 098, server: 1846a5df-t75z40-taklwz-12bd.hk2.hyhuawei.com, port: 443, type: hysteria2, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, auth: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 092, server: 85.209.53.170, port: 443, type: hysteria2, password: dc318e56-ee8f-41c6-b735-27358db2c36e, auth: dc318e56-ee8f-41c6-b735-27358db2c36e, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 123, server: 85.209.53.170, port: 443, type: hysteria2, password: dc300059-75d1-457e-89f9-35935af683a6, auth: dc300059-75d1-457e-89f9-35935af683a6, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 09, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 3e786874-c974-4890-a1ec-346d60226e0c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 092, server: de2e5088-t6t0g0-tcdlur-1qwom.hk3.p5pv.com, port: 80, type: vmess, uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: de2e5088-t6t0g0-tcdlur-1qwom.hk3.p5pv.com}}, udp: true}
+  - {name: 🇭🇰 香港家宽 085, server: ba4465aa-t6wps0-tpn98f-1rcxl.hk3.p5pv.com, port: 80, type: vmess, uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ba4465aa-t6wps0-tpn98f-1rcxl.hk3.p5pv.com}}, udp: true}
+  - {name: 🇩🇪 德国 129, server: 85.209.53.170, port: 443, type: hysteria2, password: 16946742-5a43-4888-ad2c-eaeaaffafe7f, auth: 16946742-5a43-4888-ad2c-eaeaaffafe7f, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 054, server: d86e96da-t729s0-t85e8f-141tv.hk2.hyhuawei.com, port: 443, type: hysteria2, password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, auth: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇺🇸 美国 07, server: v4.hdacd.com, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 125, server: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com, port: 80, type: vmess, uuid: 3437f34e-1b77-11eb-8684-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com}}, udp: true}
+  - {name: 🇩🇪 德国 076, server: 85.209.53.170, port: 443, type: hysteria2, password: bbe45cac-4147-4832-b9e5-5248b0957e3f, auth: bbe45cac-4147-4832-b9e5-5248b0957e3f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 032, server: 85.209.53.170, port: 80, type: hysteria2, password: 579d280e-8f52-4061-96cd-c989f8b76184, auth: 579d280e-8f52-4061-96cd-c989f8b76184, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 124, server: 4f8acdc9-sv0xs0-sw5wi7-ufc0.hk3.p5pv.com, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, servername: 🇭🇰HK-219.79.36.145-0346 | 0.432MB, network: ws, ws-opts: {path: /, headers: {Host: 4f8acdc9-sv0xs0-sw5wi7-ufc0.hk3.p5pv.com}}, udp: true}
+  - {name: 🇩🇪 德国 097, server: 85.209.53.170, port: 443, type: hysteria2, password: 231ba15a-9a53-4682-916a-fafea52ced17, auth: 231ba15a-9a53-4682-916a-fafea52ced17, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 075, server: 85.209.53.170, port: 443, type: hysteria2, password: 5f0e23eb-1802-4b07-a4b7-569449adb770, auth: 5f0e23eb-1802-4b07-a4b7-569449adb770, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 030, server: 53b7fdd4-t77ts0-t99b5n-1hhyy.hk2.hyhuawei.com, port: 443, type: hysteria2, password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, auth: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 049, server: 85.209.53.170, port: 80, type: hysteria2, password: 24c9c801-8d30-4c46-88b6-254fc6bc0cf9, auth: 24c9c801-8d30-4c46-88b6-254fc6bc0cf9, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 46, server: 172.64.146.66, port: 2095, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: false, network: ws, ws-opts: {path: "/🔒 [By EbraSha]", headers: {Host: xijinpingnmsl.s4ar.workers.dev}}, udp: true}
+  - {name: 🇭🇰 香港家宽 065, server: cb745964-t744g0-t7udc0-1pqhp.hk2.hyhuawei.com, port: 443, type: hysteria2, password: b02327ac-a49a-11ef-a673-f23c913c8d2b, auth: b02327ac-a49a-11ef-a673-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港 25, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 3e786874-c974-4890-a1ec-346d60226e0c, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇩🇪 德国 109, server: 85.209.53.170, port: 443, type: hysteria2, password: e504db30-c5e1-4e2a-88d8-957d355b4e37, auth: e504db30-c5e1-4e2a-88d8-957d355b4e37, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 082, server: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com, port: 80, type: vmess, uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com}}, udp: true}
+  - {name: 🇩🇪 德国 094, server: 85.209.53.170, port: 443, type: hysteria2, password: aa6ae5ce-e304-4e5f-98ed-4335783d1144, auth: aa6ae5ce-e304-4e5f-98ed-4335783d1144, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 03, server: www.visa.com.sg, port: 2052, type: vless, uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30, tls: false, network: ws, ws-opts: {path: /, headers: {Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev}}, udp: true}
+  - {name: 🇩🇪 德国 080, server: 85.209.53.170, port: 443, type: hysteria2, password: cc963553-6663-43ff-83e1-548207f7b364, auth: cc963553-6663-43ff-83e1-548207f7b364, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 052, server: 0db90c5a-t729s0-t7kytf-1mqag.hk2.hyhuawei.com, port: 443, type: hysteria2, password: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, auth: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, ports: 30000-60000, udp: true}
+  - {name: 🇭🇰 香港家宽 094, server: d1fcae3e-t6ngg0-t7kytf-1mqag.hk3.p5pv.com, port: 80, type: vmess, uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: d1fcae3e-t6ngg0-t7kytf-1mqag.hk3.p5pv.com}}, udp: true}
+  - {name: 🇻🇳 越南 18, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇩🇪 德国 084, server: 85.209.53.170, port: 443, type: hysteria2, password: ce57af13-0389-4b71-a6c8-c93c0c89a65d, auth: ce57af13-0389-4b71-a6c8-c93c0c89a65d, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇯🇵 日本 10, server: v6.hdacd.com, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 083, server: 04fe41a4-t6ngg0-tnkuks-wujn.hk3.p5pv.com, port: 80, type: vmess, uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 04fe41a4-t6ngg0-tnkuks-wujn.hk3.p5pv.com}}, udp: true}
+  - {name: 🇩🇪 德国 069, server: 85.209.53.170, port: 443, type: hysteria2, password: 5afa1a27-8cc1-4fda-97ed-8598c78e6b14, auth: 5afa1a27-8cc1-4fda-97ed-8598c78e6b14, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 04, server: feisha-us.kunlun06dns.com, port: 15015, type: trojan, password: 9e5d7ec6-d24d-41dc-848d-54a2e3429d2f, sni: openssl.nodesni.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 120, server: 85.209.53.170, port: 443, type: hysteria2, password: ec243dd1-09e1-47f7-99c7-475502a7a777, auth: ec243dd1-09e1-47f7-99c7-475502a7a777, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 026, server: 85.209.53.170, port: 80, type: hysteria2, password: 545335c9-b692-4bf5-aa76-a8cb46de7f2f, auth: 545335c9-b692-4bf5-aa76-a8cb46de7f2f, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 19, server: co-74c5a9-20.9966663.xyz, port: 20134, type: anytls, password: 33201095-a59e-4f4d-bfc6-3de921adb8d3, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇭🇰 香港 01, server: didiaosanwan.fkfkd.cn, port: 43166, type: ss, cipher: aes-128-gcm, password: 62c4f4a7-5289-4a0f-98f0-407da8103dc0, udp: true}
+  - {name: 🇨🇦 加拿大 01, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: 493aae04-0cec-4d83-a069-0035a8395064, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇱 波兰 01, server: 51.250.99.190, port: 1488, type: vless, uuid: 4a6de183-2ad3-456c-b420-feeac81f6257, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港家宽 002, server: 149f8d14-t77ts0-t7c251-nx3b.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 32315324-cf6b-11ed-979b-f23c9164ca5d, auth: 32315324-cf6b-11ed-979b-f23c9164ca5d, ports: 30000-60000, udp: true}
+  - {name: 🇩🇪 德国 014, server: 85.209.53.170, port: 80, type: hysteria2, password: 3b8791be-f45b-43cb-aaf3-4a5b91131d41, auth: 3b8791be-f45b-43cb-aaf3-4a5b91131d41, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇩🇪 德国 012, server: 85.209.53.170, port: 80, type: hysteria2, password: 4fcb4d0b-2e70-40a3-b9f0-49bcd75a1c4a, auth: 4fcb4d0b-2e70-40a3-b9f0-49bcd75a1c4a, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港家宽 040, server: 971e42ed-t77ts0-tkka1f-1k25p.hk2.hyhuawei.com, port: 443, type: hysteria2, password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, auth: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, ports: 30000-60000, udp: true}
+  - {name: 🇺🇸 美国 09, server: co-7be4b6-20.9966663.xyz, port: 20132, type: anytls, password: 33201095-a59e-4f4d-bfc6-3de921adb8d3, client-fingerprint: chrome, udp: true, skip-cert-verify: true, alpn: [h2, http/1.1]}
+  - {name: 🇩🇪 德国 062, server: bp1.kaixincloud.top, port: 443, type: vless, uuid: 22a313d5-26f7-46c7-8145-60d1f58391d4, tls: true, servername: mnzagchfrmjw.xilucloud.top, client-fingerprint: chrome, network: ws, ws-opts: {path: /ai, headers: {Host: mnzagchfrmjw.xilucloud.top}}, udp: true}
+  - {name: 🇭🇰 香港 11, server: green2.cdntencentmusic.com, port: 31104, type: trojan, password: 3a18af76-df1d-4263-9edc-9f5564fc90c9, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 093, server: 04b28253-t6ngg0-tdcdb7-1k27l.hk3.p5pv.com, port: 80, type: vmess, uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 04b28253-t6ngg0-tdcdb7-1k27l.hk3.p5pv.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -163,312 +157,300 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -476,156 +458,150 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -645,196 +621,214 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇭🇰 香港家宽 04
-      - 🇹🇼 台湾 13
-      - 🇭🇰 香港 33
-      - 🇹🇼 台湾 15
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇭🇰 香港家宽 16
-      - 🇭🇰 香港家宽 52
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇹🇼 台湾 02
-      - 🇭🇰 香港家宽 28
-      - 🇭🇰 香港 29
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇭🇰 香港 20
-      - 🇭🇰 香港家宽 06
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇭🇰 香港家宽 60
-      - 🇭🇰 香港家宽 53
-      - 🇭🇰 香港家宽 33
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇭🇰 香港 32
-      - 🇭🇰 香港家宽 38
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇭🇰 香港家宽 22
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
+      - 🇹🇼 台湾 01
+      - 🇭🇰 香港家宽 014
+      - 🇭🇰 香港 19
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇭🇰 香港家宽 041
+      - 🇭🇰 香港家宽 100
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇭🇰 香港家宽 013
+      - 🇭🇰 香港家宽 023
+      - 🇭🇰 香港家宽 102
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇭🇰 香港家宽 087
       - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇭🇰 香港 05
+      - 🇭🇰 香港家宽 109
+      - 🇭🇰 香港家宽 067
+      - 🇭🇰 香港家宽 032
+      - 🇭🇰 香港家宽 126
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇭🇰 香港家宽 098
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇭🇰 香港家宽 054
+      - 🇭🇰 香港家宽 125
+      - 🇭🇰 香港家宽 124
+      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇭🇰 香港家宽 082
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇭🇰 香港家宽 083
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港家宽 002
+      - 🇭🇰 香港家宽 040
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -842,312 +836,300 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1155,156 +1137,150 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1321,156 +1297,150 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇰🇷 韩国 01
-      - 🇩🇪 德国 034
-      - 🇻🇳 越南 17
-      - 🇦🇺 澳大利亚 12
-      - 🇫🇷 法国 02
-      - 🇭🇰 香港家宽 30
-      - 🇭🇰 香港 30
-      - 🇮🇳 印度 05
-      - 🇩🇪 德国 142
-      - 🇺🇸 美国 38
-      - 🇻🇳 越南 16
-      - 🇺🇸 美国 09
-      - 🇩🇪 德国 140
-      - 🇸🇬 新加坡 09
-      - 🇺🇸 美国 53
-      - 🇩🇪 德国 097
-      - 🇩🇪 德国 057
-      - 🇩🇪 德国 119
-      - 🇮🇹 意大利 01
-      - 🇸🇬 新加坡 08
-      - 🇨🇦 加拿大 02
-      - 🇮🇳 印度 01
-      - 🇳🇱 荷兰 01
-      - 🇩🇪 德国 052
-      - 🇫🇷 法国 05
-      - 🇧🇷 巴西 02
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港家宽 04
-      - 🇩🇪 德国 021
-      - 🇹🇼 台湾 13
-      - 🇦🇺 澳大利亚 04
-      - 🇻🇳 越南 12
-      - 🇩🇪 德国 079
-      - 🇩🇪 德国 049
-      - 🇩🇪 德国 071
-      - 🇭🇰 香港 33
-      - 🇩🇪 德国 126
-      - 🇺🇸 美国 40
-      - 🇩🇪 德国 066
-      - 🇹🇼 台湾 15
-      - 🇩🇪 德国 022
-      - 🇭🇰 香港家宽 49
-      - 🇭🇰 香港家宽 10
-      - 🇦🇺 澳大利亚 07
-      - 🇩🇪 德国 110
-      - 🇭🇰 香港家宽 16
-      - 🇩🇪 德国 026
-      - 🇭🇰 香港家宽 52
-      - 🇩🇪 德国 017
-      - 🇩🇪 德国 146
-      - 🇸🇬 新加坡 11
-      - 🇭🇰 香港家宽 37
-      - 🇭🇰 香港家宽 39
-      - 🇭🇰 香港家宽 56
-      - 🇸🇬 新加坡 18
-      - 🇩🇪 德国 042
-      - 🇰🇷 韩国 07
-      - 🇹🇼 台湾 02
-      - 🇩🇪 德国 060
-      - 🇩🇪 德国 059
-      - 🇩🇪 德国 127
-      - 🇩🇪 德国 101
-      - 🇩🇪 德国 064
-      - 🇩🇪 德国 007
-      - 🇭🇰 香港家宽 28
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 01
-      - 🇰🇷 韩国 04
-      - 🇺🇸 美国 51
-      - 🇭🇰 香港 29
-      - 🇸🇬 新加坡 14
-      - 🇩🇪 德国 014
-      - 🇭🇰 香港家宽 66
-      - 🇭🇰 香港家宽 19
-      - 🇩🇪 德国 076
-      - 🇺🇸 美国 30
-      - 🇺🇸 美国 37
-      - 🇩🇪 德国 051
-      - 🇩🇪 德国 070
-      - 🇩🇪 德国 083
-      - 🇯🇵 日本 16
-      - 🇭🇰 香港 20
-      - 🇺🇸 美国 21
-      - 🇩🇪 德国 044
-      - 🇩🇪 德国 135
-      - 🇭🇰 香港家宽 06
-      - 🇸🇬 新加坡 17
-      - 🇸🇬 新加坡 03
-      - 🇭🇰 香港 31
-      - 🇹🇼 台湾 10
-      - 🇩🇪 德国 128
-      - 🇲🇾 马来西亚 03
-      - 🇩🇪 德国 039
-      - 🇩🇪 德国 132
-      - 🇩🇪 德国 100
-      - 🇭🇰 香港 12
-      - 🇭🇰 香港家宽 17
-      - 🇰🇷 韩国 08
-      - 🇩🇪 德国 031
-      - 🇺🇸 美国 04
-      - 🇦🇺 澳大利亚 03
-      - 🇭🇰 香港家宽 60
-      - 🇮🇳 印度 07
-      - 🇺🇸 美国 07
-      - 🇻🇳 越南 15
-      - 🇩🇪 德国 028
-      - 🇭🇰 香港家宽 53
-      - 🇩🇪 德国 103
-      - 🇻🇳 越南 10
-      - 🇨🇦 加拿大 05
-      - 🇰🇷 韩国 11
-      - 🇭🇰 香港家宽 33
-      - 🇺🇸 美国 27
-      - 🇯🇵 日本 09
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港家宽 21
-      - 🇻🇳 越南 14
-      - 🇩🇪 德国 001
-      - 🇩🇪 德国 148
-      - 🇯🇵 日本 06
-      - 🇰🇷 韩国 09
-      - 🇭🇰 香港 32
-      - 🇺🇸 美国 44
-      - 🇩🇪 德国 090
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 15
-      - 🇭🇰 香港家宽 38
-      - 🇩🇪 德国 105
-      - 🇩🇪 德国 131
-      - 🇯🇵 日本 05
-      - 🇰🇷 韩国 05
-      - 🇻🇳 越南 08
-      - 🇭🇰 香港家宽 47
-      - 🇭🇰 香港 22
-      - 🇫🇷 法国 19
-      - 🇮🇳 印度 03
-      - 🇩🇪 德国 133
-      - 🇻🇳 越南 07
-      - 🇩🇪 德国 053
-      - 🇩🇪 德国 085
-      - 🇩🇪 德国 015
-      - 🇭🇰 香港家宽 22
-      - 🇩🇪 德国家宽 01
-      - 🇨🇦 加拿大 08
+      - 🇭🇰 香港 23
+      - 🇭🇰 香港家宽 111
       - 🇩🇪 德国 074
-      - 🇭🇰 香港 18
-      - 🇭🇰 香港家宽 03
+      - 🇸🇬 新加坡 07
+      - 🇺🇸 美国 01
+      - 🇹🇼 台湾 01
+      - 🇫🇷 法国 04
+      - 🇭🇰 香港家宽 014
+      - 🇻🇳 越南 06
+      - 🇭🇰 香港 19
+      - 🇺🇸 美国 20
+      - 🇩🇪 德国 025
+      - 🇭🇰 香港 16
+      - 🇭🇰 香港家宽 009
+      - 🇺🇸 美国 14
+      - 🇻🇳 越南 01
+      - 🇩🇪 德国 085
+      - 🇳🇱 荷兰 01
+      - 🇩🇪 德国 102
+      - 🇭🇰 香港家宽 051
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港家宽 118
+      - 🇲🇩 摩尔多瓦 01
+      - 🇩🇪 德国 115
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 122
+      - 🇺🇸 美国 18
+      - 🇩🇪 德国 043
+      - 🇭🇰 香港家宽 100
+      - 🇩🇪 德国 040
+      - 🇭🇰 香港家宽 056
+      - 🇯🇵 日本 02
+      - 🇭🇰 香港 15
+      - 🇭🇰 香港家宽 089
+      - 🇺🇸 美国 40
+      - 🇪🇸 西班牙 01
+      - 🇩🇪 德国 057
+      - 🇭🇰 香港家宽 026
+      - 🇭🇰 香港家宽 088
+      - 🇸🇬 新加坡 01
+      - 🇰🇷 韩国 01
+      - 🇭🇰 香港家宽 013
+      - 🇻🇳 越南 12
+      - 🇭🇰 香港家宽 023
+      - 🇺🇦 乌克兰 02
       - 🇩🇪 德国 117
-      - 🇺🇸 美国 50
+      - 🇺🇸 美国 30
+      - 🇭🇰 香港家宽 102
+      - 🇻🇳 越南 05
+      - 🇦🇺 澳大利亚 02
+      - 🇩🇪 德国 067
+      - 🇭🇰 香港家宽 130
+      - 🇭🇰 香港家宽 128
+      - 🇩🇪 德国 096
+      - 🇩🇪 德国 007
+      - 🇭🇰 香港 24
+      - 🇭🇰 香港家宽 077
+      - 🇭🇰 香港家宽 046
+      - 🇺🇸 美国 05
+      - 🇭🇰 香港家宽 087
+      - 🇫🇷 法国 08
+      - 🇩🇪 德国 051
+      - 🇺🇸 美国 44
+      - 🇩🇪 德国 018
+      - 🇭🇰 香港 18
+      - 🇩🇪 德国 100
+      - 🇭🇰 香港家宽 021
+      - 🇭🇰 香港 08
+      - 🇭🇰 香港家宽 017
+      - 🇩🇪 德国 003
+      - 🇩🇪 德国 064
+      - 🇭🇰 香港 05
+      - 🇩🇪 德国 141
+      - 🇭🇰 香港家宽 109
+      - 🇸🇪 瑞典 01
+      - 🇻🇳 越南 14
+      - 🇭🇰 香港家宽 067
+      - 🇩🇪 德国 135
+      - 🇻🇳 越南 04
+      - 🇭🇰 香港家宽 032
+      - 🇩🇪 德国 086
+      - 🇭🇰 香港家宽 126
+      - 🇩🇪 德国 037
+      - 🇭🇰 香港家宽 106
+      - 🇭🇰 香港家宽 003
+      - 🇺🇸 美国 25
       - 🇯🇵 日本 03
+      - 🇻🇳 越南 15
+      - 🇩🇪 德国 024
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港家宽 062
+      - 🇭🇰 香港家宽 010
+      - 🇩🇪 德国 030
+      - 🇹🇼 台湾 03
+      - 🇭🇰 香港家宽 016
+      - 🇯🇵 日本 09
+      - 🇳🇱 荷兰 02
+      - 🇭🇰 香港家宽 098
+      - 🇩🇪 德国 092
+      - 🇩🇪 德国 123
+      - 🇭🇰 香港 09
+      - 🇭🇰 香港家宽 092
+      - 🇭🇰 香港家宽 085
+      - 🇩🇪 德国 129
+      - 🇭🇰 香港家宽 054
+      - 🇺🇸 美国 07
+      - 🇭🇰 香港家宽 125
+      - 🇩🇪 德国 076
+      - 🇩🇪 德国 032
+      - 🇭🇰 香港家宽 124
+      - 🇩🇪 德国 097
+      - 🇩🇪 德国 075
+      - 🇭🇰 香港家宽 030
+      - 🇩🇪 德国 049
+      - 🇺🇸 美国 46
+      - 🇭🇰 香港家宽 065
+      - 🇭🇰 香港 25
+      - 🇩🇪 德国 109
+      - 🇭🇰 香港家宽 082
+      - 🇩🇪 德国 094
+      - 🇺🇸 美国 03
+      - 🇩🇪 德国 080
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 094
+      - 🇻🇳 越南 18
+      - 🇩🇪 德国 084
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港家宽 083
+      - 🇩🇪 德国 069
+      - 🇺🇸 美国 04
+      - 🇩🇪 德国 120
+      - 🇩🇪 德国 026
+      - 🇺🇸 美国 19
+      - 🇭🇰 香港 01
+      - 🇨🇦 加拿大 01
+      - 🇵🇱 波兰 01
+      - 🇭🇰 香港家宽 002
+      - 🇩🇪 德国 014
+      - 🇩🇪 德国 012
+      - 🇭🇰 香港家宽 040
+      - 🇺🇸 美国 09
+      - 🇩🇪 德国 062
+      - 🇭🇰 香港 11
+      - 🇭🇰 香港家宽 093
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
