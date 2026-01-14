@@ -6,156 +6,153 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇩🇪 德国 34, server: 83.229.86.174, port: 8443, type: hysteria2, password: 93c426c5-a686-4e2b-b321-25998f606ea2, auth: 93c426c5-a686-4e2b-b321-25998f606ea2, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇮🇱 以色列 02, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 45035308-a4e3-486d-a945-df5c3ede9aec, udp: true}
-  - {name: 🇳🇱 荷兰 04, server: 188.114.96.163, port: 8443, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇰🇷 韩国 03, server: 120.232.235.202, port: 13051, type: ss, cipher: chacha20-ietf-poly1305, password: bdd108a0-bbda-4950-bd34-e5d30df94d0e, udp: true}
-  - {name: 🇺🇸 美国 127, server: 162.159.254.137, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
-  - {name: 🇭🇰 香港 016, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 12ff2435-3fd8-4b95-9530-871f517a5ae8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 148, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: d3a1072f-4f26-4385-818c-b024ce779866, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 15, server: freea.glyphara.com, port: 30403, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo, short-id: "1b3f5a2e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 015, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 3a1743ca-d48b-4d3c-93f6-dc71443ff2cd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇮 芬兰 01, server: 146.75.119.82, port: 80, type: vless, uuid: 74542945-0d84-4797-a56e-e7f31b84c5be, tls: false, servername: welcomtofreeboarders.com, client-fingerprint: chrome, network: ws, ws-opts: {path: "/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048", headers: {Host: welcomtofreeboarders.com}}, udp: true}
-  - {name: 🇺🇸 美国 057, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 115eff94-b83e-4853-b11e-34a59e47eebc, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯联邦 01, server: 130.49.213.103, port: 26824, type: vmess, uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: imafake.locker, network: ws, ws-opts: {path: /speedtest, headers: {Host: imafake.locker}}, udp: true}
-  - {name: 🇭🇰 香港家宽 047, server: 24a3f1e7-t8ysg0-ta00rd-1o8ak.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 123, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 12193b09-4ca1-4f63-a8cb-4cf23fd80877, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 069, server: 1c13c28a-t8nog0-thntyd-1f596.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1c13c28a-t8nog0-thntyd-1f596.hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇭🇰 香港家宽 054, server: a2bc10d7-t8ysg0-t8xdsu-nx3b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 026, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 761a3023-9c06-4197-a0d5-1f0c96337d8c, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 045, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: d3bc35df-2c99-461d-86fb-868cddb7a6a1, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 25, server: sg.zuomomo.top, port: 16666, type: hysteria2, password: b4b4f04c-f365-4edd-8297-7ce52f7e4bc6, auth: b4b4f04c-f365-4edd-8297-7ce52f7e4bc6, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 001, server: lvs.jueduibupao.top, port: 50001, type: hysteria2, password: 8b4c179c-d028-4e67-ba31-0ecd16062425, auth: 8b4c179c-d028-4e67-ba31-0ecd16062425, sni: lvs.jueduibupao.top, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 094, server: 4599746a-t8rds0-tbnk1n-ueq.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 4599746a-t8rds0-tbnk1n-ueq.hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇭🇰 香港家宽 017, server: 33ec3d57-t8ysg0-t9pc69-mv7m.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 020, server: 8a364476-t8ysg0-t95ncr-1slop.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 091, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: abf12a24-e9ca-4c2a-b640-81ab77453919, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇯🇵 日本 25, server: freea.glyphara.com, port: 30303, type: vless, uuid: 53df6dd8-585a-49a0-a206-7217a57798ce, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RuNAMARjcI4VNAkqWazbFm4sa3Kc-uViiruuByx2TiM, short-id: "4d77021d" }, servername: mensura.cdn-apple.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 037, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: e7b70a75-f4f1-4e1e-ab1e-4c76d96eb257, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 082, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: ecaeb42d-3290-47ea-9d40-49c368f11e75, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 124, server: 45.131.4.11, port: 80, type: vless, uuid: 8b478ea5-826d-45b5-bea2-4bdacf71a0e6, tls: false, servername: Dry-boNUs-2744.JENEWEd462.WorKErS.dEV, network: ws, ws-opts: {path: /kvgxxTpIKowHI0ZGTE, headers: {Host: Dry-boNUs-2744.JENEWEd462.WorKErS.dEV}}, udp: true}
-  - {name: 🇺🇸 美国 078, server: freea.glyphara.com, port: 30703, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI, short-id: "845532fa" }, servername: mensura.cdn-apple.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇯🇵 日本家宽 02, server: 57.180.65.162, port: 2053, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 031, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: ad26073b-b62e-4f11-9005-af92b5503283, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 127, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 9c372e9a-0601-4490-a7ff-d2609ccfcab5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 143, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: e7b70a75-f4f1-4e1e-ab1e-4c76d96eb257, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇭🇰 香港 062, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b7f662c3-8417-49f4-87ce-3d67235f45f5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 001, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 2d2a9f61-631e-4800-8771-5bbcf48bc0b4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 095, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇩🇪 德国 45, server: 83.229.86.174, port: 8443, type: hysteria2, password: 9f36e2f0-70b6-4182-9c67-1309595cbe60, auth: 9f36e2f0-70b6-4182-9c67-1309595cbe60, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇩🇪 德国商宽 07, server: 83.229.86.174, port: 8443, type: hysteria2, password: 25d36741-9c9a-4c5e-ba9c-16b760099524, auth: 25d36741-9c9a-4c5e-ba9c-16b760099524, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇸🇬 新加坡 40, server: 223.95.183.132, port: 39398, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
-  - {name: 🇬🇧 英国 01, server: uk1.jueduibupao.top, port: 44360, type: hysteria2, password: 8b4c179c-d028-4e67-ba31-0ecd16062425, auth: 8b4c179c-d028-4e67-ba31-0ecd16062425, sni: uk1.jueduibupao.top, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 13, server: 104.18.34.102, port: 2087, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
-  - {name: 🇺🇸 美国 116, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯 05, server: mosike.zuomomo.top, port: 16666, type: hysteria2, password: 4dd859b3-c9f6-477e-95f5-283abb3129e5, auth: 4dd859b3-c9f6-477e-95f5-283abb3129e5, sni: mosike.zuomomo.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 047, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 77cf3f64-3e7f-488e-bf84-cc360f11cc6a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 033, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 4349c43d-c77e-481a-bb7d-d4e6da062666, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国商宽 03, server: api.dark-coffe.com, port: 2087, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO}}, udp: true}
-  - {name: 🇺🇸 美国 143, server: los.zuomomo.top, port: 16666, type: hysteria2, password: de192f2c-c3c3-4050-8ba4-3743f5bd7bf9, auth: de192f2c-c3c3-4050-8ba4-3743f5bd7bf9, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 144, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 2260331b-bd95-47af-94bc-2f320d162bb9, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 05, server: 103.186.155.132, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 028, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 2d2a9f61-631e-4800-8771-5bbcf48bc0b4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 037, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: b55910ad-e173-42cb-afd9-fd7236d78cbc, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港家宽 087, server: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net, network: ws, ws-opts: {path: /, headers: {Host: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇯🇵 日本 18, server: 223.95.183.132, port: 26334, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
-  - {name: 🇯🇵 日本 24, server: freea.glyphara.com, port: 30303, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RuNAMARjcI4VNAkqWazbFm4sa3Kc-uViiruuByx2TiM, short-id: "4d77021d" }, servername: mensura.cdn-apple.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 022, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 12ff2435-3fd8-4b95-9530-871f517a5ae8, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇺🇸 美国 069, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 013e17fa-d240-4f5e-997c-e47e2ef89eb1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 075, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: b39240c6-0589-4d8e-8df7-f5207ff112f4, udp: true}
-  - {name: 🇺🇸 美国 119, server: freea.glyphara.com, port: 30701, type: vless, uuid: 2c1348d2-598f-43fe-91ef-7d6d4b95d639, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY, short-id: "e62db878" }, servername: www.amd.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 059, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 40c9fcce-3881-4ce6-a02a-3e28a82793d6, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 120, server: hk2.jueduibupao.top, port: 45742, type: hysteria2, password: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, auth: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, sni: hk2.jueduibupao.top, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 29, server: freea.glyphara.com, port: 30301, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM, short-id: "950cee8a" }, servername: lol.secure.dyn.riotcdn.net, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇻🇳 越南 01, server: 103.186.154.71, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 005, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: d3a03667-6154-44cd-867d-308391491c52, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 33, server: 162.159.152.235, port: 2053, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇩🇪 德国 01, server: 45.131.4.246, port: 2082, type: vless, uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441, tls: false, network: ws, ws-opts: {path: /, headers: {Host: GER.SODOGODPING.IR}}, udp: true}
-  - {name: 🇩🇪 德国 22, server: 162.159.153.61, port: 2096, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
-  - {name: 🇻🇳 越南 10, server: 103.186.155.5, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇸🇬 新加坡 14, server: freea.glyphara.com, port: 30403, type: vless, uuid: 53df6dd8-585a-49a0-a206-7217a57798ce, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo, short-id: "1b3f5a2e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇭🇰 香港家宽 099, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: hkt.gotochinatown.net, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇭🇰 香港家宽 071, server: 1384913f-t8lts0-t9lm1q-1p1b.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 1384913f-t8lts0-t9lm1q-1p1b.hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇭🇰 香港家宽 057, server: 8c8ab7cc-t8ysg0-tpftcp-13x18.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 116, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: c67bf403-83b9-417b-81f1-e1f37017746f, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇸🇬 新加坡 27, server: freea.glyphara.com, port: 30401, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk, short-id: "105a652c" }, servername: learn.microsoft.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇭🇰 香港家宽 029, server: d76ffac3-t8ysg0-t9eu8q-tlhh.hkt.gotochinatown.net, port: 80, type: vmess, uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国 088, server: 207.244.226.239, port: 45995, type: ss, cipher: chacha20-ietf-poly1305, password: 98f7aedd8adda6fe, udp: true}
-  - {name: 🇭🇰 香港 076, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: f8767d32-5a78-421b-914c-5d56d028d067, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 19, server: 223.95.183.132, port: 53596, type: ss, cipher: aes-128-gcm, password: b637f2e47b7827b308ebf399008075d2, udp: true}
-  - {name: 🇩🇪 德国 44, server: 83.229.86.174, port: 8443, type: hysteria2, password: 220b8ac7-b807-4e28-8ba3-c3cf95af8905, auth: 220b8ac7-b807-4e28-8ba3-c3cf95af8905, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇭🇰 香港家宽 068, server: 999e0c74-t8ysg0-tbc0ig-1ssud.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 013, server: 6455edd0-t8ysg0-tc67m2-1tjc4.hkt.gotochinatown.net, port: 80, type: vmess, uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国 083, server: 104.16.4.99, port: 2087, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇺🇸 美国 118, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 12193b09-4ca1-4f63-a8cb-4cf23fd80877, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 063, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 2260331b-bd95-47af-94bc-2f320d162bb9, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇭🇰 香港家宽 083, server: 58.152.25.130, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 101, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 12ff2435-3fd8-4b95-9530-871f517a5ae8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 014, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: ecaeb42d-3290-47ea-9d40-49c368f11e75, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 荷兰 03, server: 188.114.99.87, port: 2087, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇺🇸 美国 102, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 9db7c833-3f8a-406c-9f4c-db93513887dc, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 081, server: 172.64.67.205, port: 2096, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇹🇼 台湾 01, server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: a9b03cd5-f548-407a-a0f5-ad4325f13ea4, udp: true}
-  - {name: 🇭🇰 香港 032, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: e38dff3c-e7d0-4eb4-b433-4acc098efd6f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南 17, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港家宽 065, server: a83d225b-t8ysg0-tbnk1n-ueq.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国 131, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: a0194cb9-ee34-4f75-b620-6d4d72ab1cb0, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 114, server: 104.17.25.173, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🇭🇰 香港 080, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: b83c55a8-f481-4a92-b996-6badeecc0891, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 41, server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: a9b03cd5-f548-407a-a0f5-ad4325f13ea4, udp: true}
-  - {name: 🇭🇰 香港家宽 016, server: ae4ba967-t8ysg0-tiaexf-ufc0.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 014, server: b07b7851-t8ysg0-tc2x42-n09f.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 128, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 9c372e9a-0601-4490-a7ff-d2609ccfcab5, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇯🇵 日本 28, server: 162.159.45.232, port: 443, type: vless, uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97, tls: true, servername: l.ayovo.netlib.re, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: l.ayovo.netlib.re}}, udp: true}
-  - {name: 🇭🇰 香港家宽 101, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇺🇸 美国 051, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 40703eb9-d47b-4612-9555-68871f87a187, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 054, server: 104.16.65.91, port: 2087, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇺🇸 美国 144, server: www.gco.gov.qa, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
-  - {name: 🇺🇸 美国 025, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 9344280e-2ec7-40e2-a456-62b62b7d4e78, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 105, server: freea.glyphara.com, port: 30701, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY, short-id: "e62db878" }, servername: www.amd.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 077, server: hkp6.network-cdn-gw-yd.net, port: 48816, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
-  - {name: 🇸🇬 新加坡 28, server: freea.glyphara.com, port: 30403, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo, short-id: "1b3f5a2e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 018, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: e38dff3c-e7d0-4eb4-b433-4acc098efd6f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 14, server: 104.24.14.116, port: 2083, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
-  - {name: 🇭🇰 香港家宽 032, server: 7b48092b-t8ysg0-tkhmfr-1jm8i.hkt.gotochinatown.net, port: 80, type: vmess, uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国 120, server: china.embassy.gov.au, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
-  - {name: 🇯🇵 日本 15, server: 138.2.50.155, port: 44073, type: vless, uuid: 11d29ec6-be66-4f59-97c6-7cff836ea318, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4}, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡 18, server: 160.16.106.99, port: 3076, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 017, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 47eb0865-5fc1-4a88-a1de-94a7364f7e59, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 058, server: 27e7edc6-t8ysg0-tgzvop-hns7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 022, server: 21e20751-t8ysg0-tasors-1tdqt.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇩🇪 德国商宽 05, server: 5.10.214.5, port: 443, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, servername: GfV5t2331T.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: GfV5t2331T.sMaRtTeChZaAl.InFo}}, udp: true}
-  - {name: 🇹🇼 台湾 06, server: freea.glyphara.com, port: 30202, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U, short-id: "10fa499e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 06, server: linjp1.jueduibupao.top, port: 48818, type: hysteria2, password: 8b4c179c-d028-4e67-ba31-0ecd16062425, auth: 8b4c179c-d028-4e67-ba31-0ecd16062425, sni: linjp1.jueduibupao.top, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 090, server: d2965172-t8rds0-tpn98f-1rcxl.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: d2965172-t8rds0-tpn98f-1rcxl.hkt.gotochinatown.net}}, udp: true}
-  - {name: 🇭🇰 香港 085, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: a1049ee8-c121-42ed-8e3f-cdd48aa2bb77, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 129, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 12193b09-4ca1-4f63-a8cb-4cf23fd80877, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 12, server: 172.64.147.102, port: 2053, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
-  - {name: 🇭🇰 香港 097, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 40703eb9-d47b-4612-9555-68871f87a187, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇭🇰 香港家宽 045, server: 736052b3-t8ysg0-thntyd-1f596.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇸🇬 新加坡 36, server: freea.glyphara.com, port: 30402, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew, short-id: "f5f6e6f4" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇯🇵 日本 23, server: 120.232.235.202, port: 13048, type: ss, cipher: chacha20-ietf-poly1305, password: bdd108a0-bbda-4950-bd34-e5d30df94d0e, udp: true}
-  - {name: 🇭🇰 香港 083, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇸🇬 新加坡 33, server: freea.glyphara.com, port: 30403, type: vless, uuid: 23e2a6fb-51d5-4bc4-99bd-7380f903cbc0, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo, short-id: "1b3f5a2e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 095, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: d3bc35df-2c99-461d-86fb-868cddb7a6a1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 053, server: d3e1cee1-t8ysg0-tphxte-1h5u7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国 044, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: f308b3c2-40c2-4c06-b304-ce9cb2823a54, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 033, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: a1049ee8-c121-42ed-8e3f-cdd48aa2bb77, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 074, server: a17bffe2-t8wxs0-t8ygh3-81nv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 025, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 0fa58f96-ff09-4aed-b5e7-7b5d01d99d52, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 095, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 7e219114-9164-476b-8072-c9c19d37a791, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 106, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 12ff2435-3fd8-4b95-9530-871f517a5ae8, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 031, server: 23aa5ec8-t8ysg0-tcmken-19les.hkt.gotochinatown.net, port: 80, type: vmess, uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 015, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0fa58f96-ff09-4aed-b5e7-7b5d01d99d52, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 034, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 5d531627-3b7c-4e13-b5e3-067e2d054efb, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 22, server: 120.232.235.202, port: 13044, type: ss, cipher: chacha20-ietf-poly1305, password: bdd108a0-bbda-4950-bd34-e5d30df94d0e, udp: true}
-  - {name: 🇺🇸 美国 135, server: pages.cloudflare.com, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
-  - {name: 🇺🇸 美国 092, server: 120.198.71.187, port: 47084, type: vmess, uuid: bde21c3b-7580-4286-a79c-5dc54cf297e0, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇮 芬兰 04, server: fi4.node.sssrvpn.pro, port: 443, type: vless, uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: fi.reality.tv123.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡 34, server: freea.glyphara.com, port: 30403, type: vless, uuid: 2c1348d2-598f-43fe-91ef-7d6d4b95d639, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo, short-id: "1b3f5a2e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇦 乌克兰 01, server: 163.171.137.66, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 31d96fab76ea4008, udp: true}
-  - {name: 🇭🇰 香港家宽 064, server: 69731b36-t8ysg0-tnfe2z-1s4hc.hkt.gotochinatown.net, port: 80, type: vmess, uuid: aafedc64-9c23-11ef-a79f-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 030, server: 8c3e253f-t8ysg0-tac59v-i8ie.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港家宽 039, server: 011b0339-t8ysg0-tc9wl2-py5w.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇯🇵 日本 17, server: freea.glyphara.com, port: 30301, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM, short-id: "950cee8a" }, servername: lol.secure.dyn.riotcdn.net, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 071, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 4eb8c5d3-b8ac-4bea-ac8c-166b9c4279c1, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇮 芬兰 02, server: 45.144.52.37, port: 443, type: vless, uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc}, servername: fi.reality.tv123.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 069, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 7de5d3a8-bf15-42a2-8d63-27b05cdf58ab, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 43, server: www.aapanel.com, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
+  - {name: 🇯🇵 日本 10, server: 160.16.81.84, port: 4006, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 043, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b7aa4e87-d990-4f2d-8880-73b206953efc, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇩🇪 德国 31, server: 104.24.254.159, port: 2053, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇺🇸 美国 128, server: one.dash.cloudflare.com, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
+  - {name: 🇹🇷 土耳其商宽 01, server: 92.60.70.36, port: 2053, type: vless, uuid: 08c7f096-d057-4d53-82fd-c739d372887b, tls: false, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 096, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 9344280e-2ec7-40e2-a456-62b62b7d4e78, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇺🇸 美国 096, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: d3bc35df-2c99-461d-86fb-868cddb7a6a1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 008, server: f29a683e-t8ysg0-tqx9ef-1k0yf.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇸🇬 新加坡 23, server: 172.64.46.46, port: 2096, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇺🇸 美国 026, server: 104.16.227.167, port: 2087, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇬🇧 英国 04, server: uk1.jueduibupao.top, port: 40208, type: hysteria2, password: 15b5b40f-02e9-47cf-a56e-768f938cc9af, auth: 15b5b40f-02e9-47cf-a56e-768f938cc9af, sni: uk1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 055, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 9c372e9a-0601-4490-a7ff-d2609ccfcab5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 03, server: freea.glyphara.com, port: 30303, type: vless, uuid: 2c1348d2-598f-43fe-91ef-7d6d4b95d639, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RuNAMARjcI4VNAkqWazbFm4sa3Kc-uViiruuByx2TiM, short-id: "4d77021d" }, servername: mensura.cdn-apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港家宽 075, server: 01537585-t8wxs0-tgzvop-hns7.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 046, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 114461ce-789a-4564-a056-caf89b53e964, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇺🇸 美国 034, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 114461ce-789a-4564-a056-caf89b53e964, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 052, server: 88d2ed29-t8ysg0-tamumc-1lkbs.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇩🇪 德国 11, server: de1.jueduibupao.top, port: 44968, type: hysteria2, password: 70223341-1c5a-4ea5-b88a-b4fc1e2f5b35, auth: 70223341-1c5a-4ea5-b88a-b4fc1e2f5b35, sni: de1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 032, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 31b11cfd-7557-42f5-94ce-8f5a41a069a1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 049, server: 5b7dee02-t8ysg0-thiwul-1gcq2.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇺🇸 美国 106, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 0e55a9cb-4116-408e-895b-3653ad8b5392, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 076, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 香港 074, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 07234fca-0154-41d7-95ba-5ca9d29d6b78, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 04, server: freea.glyphara.com, port: 30202, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U, short-id: "10fa499e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 019, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 31b11cfd-7557-42f5-94ce-8f5a41a069a1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 142, server: los.zuomomo.top, port: 16667, type: hysteria2, password: 667c6d66-25bd-4d01-b147-b09645fd808e, auth: 667c6d66-25bd-4d01-b147-b09645fd808e, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 021, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b7a2ebab-a432-4962-8101-0cf9869e865a, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇭🇰 香港家宽 091, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇮🇸 冰岛 01, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 45035308-a4e3-486d-a945-df5c3ede9aec, udp: true}
+  - {name: 🇭🇰 香港 104, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 4eb8c5d3-b8ac-4bea-ac8c-166b9c4279c1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 134, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: abf12a24-e9ca-4c2a-b640-81ab77453919, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 147, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: c67bf403-83b9-417b-81f1-e1f37017746f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 141, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b7aa4e87-d990-4f2d-8880-73b206953efc, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 076, server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: a9b03cd5-f548-407a-a0f5-ad4325f13ea4, udp: true}
+  - {name: 🇩🇪 德国 37, server: clean.photoggenic.ir, port: 8880, type: vless, uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153, tls: false, network: ws, ws-opts: {path: "/?ed=8880", headers: {Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir}}, udp: true}
+  - {name: 🇺🇸 美国 140, server: convera.com, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
+  - {name: 🇩🇪 德国 48, server: singapore.com, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
+  - {name: 🇭🇰 香港 057, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 5e03e749-4b46-41b5-badd-49a1ae4a46db, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 039, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 07234fca-0154-41d7-95ba-5ca9d29d6b78, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 042, server: 807da387-t8ysg0-tnt75r-1k8ga.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 030, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 2eaddf63-95f0-4da1-af91-900b1e983fb6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 065, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 9f879bc7-3ac6-4ddd-8f7d-18d9f431f6a3, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国商宽 06, server: api.dark-coffe.com, port: 2096, type: vless, uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509, tls: true, servername: TzS7v35LfD.sMaRtTeChZaAl.InFo, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: TzS7v35LfD.sMaRtTeChZaAl.InFo}}, udp: true}
+  - {name: 🇺🇸 美国 132, server: freea.glyphara.com, port: 30701, type: vless, uuid: 23e2a6fb-51d5-4bc4-99bd-7380f903cbc0, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY, short-id: "e62db878" }, servername: www.amd.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港家宽 061, server: 83bb8dfb-t8ysg0-ta6lxc-jjv2.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇹🇼 台湾家宽 06, server: freea.glyphara.com, port: 30201, type: vless, uuid: 2c1348d2-598f-43fe-91ef-7d6d4b95d639, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ, short-id: "c1e12817" }, servername: lol.secure.dyn.riotcdn.net, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 131, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 0e55a9cb-4116-408e-895b-3653ad8b5392, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 039, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: abf12a24-e9ca-4c2a-b640-81ab77453919, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 136, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: e7b70a75-f4f1-4e1e-ab1e-4c76d96eb257, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 081, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 31b11cfd-7557-42f5-94ce-8f5a41a069a1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 12, server: 154.205.139.9, port: 11202, type: ss, cipher: chacha20-ietf-poly1305, password: 303ac65e30f28b0b, udp: true}
+  - {name: 🇺🇸 美国 040, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 5e03e749-4b46-41b5-badd-49a1ae4a46db, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 135, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 0e55a9cb-4116-408e-895b-3653ad8b5392, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 060, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: ad26073b-b62e-4f11-9005-af92b5503283, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 050, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 9c372e9a-0601-4490-a7ff-d2609ccfcab5, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 18, server: 162.159.153.164, port: 443, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇸🇬 新加坡 07, server: freea.glyphara.com, port: 30402, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew, short-id: "f5f6e6f4" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇯🇵 日本 07, server: linjp1.jueduibupao.top, port: 47787, type: hysteria2, password: 70223341-1c5a-4ea5-b88a-b4fc1e2f5b35, auth: 70223341-1c5a-4ea5-b88a-b4fc1e2f5b35, sni: linjp1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 031, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 517903c7-e559-4d84-a243-8ef72313ae7c, sni: cdnfire.xiaomispeed.com, udp: true}
+  - {name: 🇺🇸 美国 046, server: 50.62.172.48, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww20.allxniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww20.allxniu.qzz.io}}, udp: true}
+  - {name: 🇯🇵 日本 20, server: 221.139.87.28, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww20.allxniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww20.allxniu.qzz.io}}, udp: true}
+  - {name: 🇭🇰 香港 055, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f8b58beb-1cf6-443d-a1ba-0d873037538d, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 074, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 056, server: 7debe929-t8ysg0-te0v28-1mh67.hkt.gotochinatown.net, port: 80, type: vmess, uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 073, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: ac618770-e358-418e-b7a9-74dfa32afaf4, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇩🇪 德国 13, server: de1.jueduibupao.top, port: 41393, type: hysteria2, password: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, auth: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, sni: de1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 008, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: ad26073b-b62e-4f11-9005-af92b5503283, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 42, server: 83.229.86.174, port: 8443, type: hysteria2, password: 13a8f3ec-08d5-4734-a912-f80fea40cdc4, auth: 13a8f3ec-08d5-4734-a912-f80fea40cdc4, up: 2, down: 2, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇭🇰 香港 008, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 7e219114-9164-476b-8072-c9c19d37a791, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 006, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 977c2969-9427-494b-be6e-1813239ca23b, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 067, server: c1259cd2-t8ysg0-tiqsce-t6fv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇺🇸 美国 059, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: f8767d32-5a78-421b-914c-5d56d028d067, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 023, server: 104.16.25.49, port: 8443, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇺🇸 美国 058, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 4eb8c5d3-b8ac-4bea-ac8c-166b9c4279c1, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 016, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 2d2a9f61-631e-4800-8771-5bbcf48bc0b4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 024, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 970f06f2-d76f-4a23-9014-381776f8a68e, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 002, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b99f17f7-38f7-48e7-af00-b260a65d007d, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 130, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: f308b3c2-40c2-4c06-b304-ce9cb2823a54, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 17, server: 18.163.206.7, port: 1196, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 130, server: 15.204.74.40, port: 13021, type: ss, cipher: chacha20-ietf-poly1305, password: 913fcc3aeb16eba3, udp: true}
+  - {name: 🇭🇰 香港 038, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 2680016f-449e-4c72-b9d2-dc1fe5b97909, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国 16, server: 104.24.220.42, port: 2083, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇸🇬 新加坡 11, server: 173.245.58.52, port: 2096, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
+  - {name: 🇸🇬 新加坡 21, server: sg.zuomomo.top, port: 16667, type: hysteria2, password: de192f2c-c3c3-4050-8ba4-3743f5bd7bf9, auth: de192f2c-c3c3-4050-8ba4-3743f5bd7bf9, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 04, server: linjp1.jueduibupao.top, port: 41390, type: hysteria2, password: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, auth: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, sni: linjp1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 21, server: 18.183.158.211, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww20.allxniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww20.allxniu.qzz.io}}, udp: true}
+  - {name: 🇺🇸 美国 041, server: los.zuomomo.top, port: 16666, type: hysteria2, password: b4b4f04c-f365-4edd-8297-7ce52f7e4bc6, auth: b4b4f04c-f365-4edd-8297-7ce52f7e4bc6, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 30, server: freea.glyphara.com, port: 30401, type: vless, uuid: c4f85cf9-a21b-4c4a-8219-9b7676520619, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk, short-id: "105a652c" }, servername: learn.microsoft.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇩🇪 德国 20, server: 104.26.4.210, port: 2053, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
+  - {name: 🇩🇪 德国 28, server: 104.24.83.149, port: 2096, type: vless, uuid: 288e0174-2f12-4818-a809-b93507d92184, tls: true, servername: www.pjw5.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.pjw5.top}}, udp: true}
+  - {name: 🇬🇧 英国 02, server: uk1.jueduibupao.top, port: 47178, type: hysteria2, password: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, auth: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, sni: uk1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 018, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 761a3023-9c06-4197-a0d5-1f0c96337d8c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 126, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: c67bf403-83b9-417b-81f1-e1f37017746f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 073, server: 9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net, port: 80, type: vmess, uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: 9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net, network: ws, ws-opts: {path: /, headers: {Host: 9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 香港家宽 066, server: 2c4c0906-t8ysg0-tgr32b-wj6v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇷🇺 俄罗斯 03, server: mosike.zuomomo.top, port: 16667, type: hysteria2, password: b4b4f04c-f365-4edd-8297-7ce52f7e4bc6, auth: b4b4f04c-f365-4edd-8297-7ce52f7e4bc6, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港家宽 048, server: 1c2d10e4-t8ysg0-t96hzo-g3b3.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港家宽 001, server: 7c733709-t70f40-tcw58g-1p0be.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: 7c733709-t70f40-tcw58g-1p0be.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇺🇸 美国 107, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 2260331b-bd95-47af-94bc-2f320d162bb9, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 02, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 45035308-a4e3-486d-a945-df5c3ede9aec, udp: true}
+  - {name: 🇩🇪 德国 47, server: 25.25.25.0, port: 8880, type: vless, uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153, tls: false, network: ws, ws-opts: {path: "/?ed=8880", headers: {Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir}}, udp: true}
+  - {name: 🇺🇸 美国 035, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: f8767d32-5a78-421b-914c-5d56d028d067, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 094, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 40703eb9-d47b-4612-9555-68871f87a187, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 140, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: f308b3c2-40c2-4c06-b304-ce9cb2823a54, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇸🇬 新加坡 08, server: 104.18.47.126, port: 2096, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 052, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: d3a03667-6154-44cd-867d-308391491c52, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 04, server: freea.glyphara.com, port: 30402, type: vless, uuid: 2c1348d2-598f-43fe-91ef-7d6d4b95d639, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew, short-id: "f5f6e6f4" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港 078, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 31b11cfd-7557-42f5-94ce-8f5a41a069a1, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇯🇵 日本 27, server: freea.glyphara.com, port: 30301, type: vless, uuid: 23e2a6fb-51d5-4bc4-99bd-7380f903cbc0, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM, short-id: "950cee8a" }, servername: lol.secure.dyn.riotcdn.net, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇸🇬 新加坡 24, server: sg.zuomomo.top, port: 16666, type: hysteria2, password: de192f2c-c3c3-4050-8ba4-3743f5bd7bf9, auth: de192f2c-c3c3-4050-8ba4-3743f5bd7bf9, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本家宽 01, server: 160.16.89.176, port: 4006, type: trojan, password: 61d8077bfb174e171b8283f155a555ad, sni: www.nintendogames.net, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 068, server: www.visa.com.sg, port: 443, type: vless, uuid: 25577310-a767-4b2c-90c6-9fcf4bb387f0, tls: true, servername: fffb57cc.tacgne.pages.dev, client-fingerprint: random, network: ws, ws-opts: {path: /, headers: {Host: fffb57cc.tacgne.pages.dev}}, udp: true}
+  - {name: 🇺🇸 美国 123, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: a0194cb9-ee34-4f75-b620-6d4d72ab1cb0, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 087, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 115eff94-b83e-4853-b11e-34a59e47eebc, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇰🇷 韩国家宽 02, server: 221.139.79.20, port: 45833, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇩🇪 德国 38, server: docker.1panel.live, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
+  - {name: 🇭🇰 香港家宽 059, server: 1bcb11e6-t8ysg0-td1l1t-1s824.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇩🇪 德国 41, server: 104.26.12.27, port: 2053, type: vless, uuid: 6966f56c-eea5-1643-7e24-874d5d7c5f79, tls: true, servername: sss.2026.camdvr.org, client-fingerprint: chrome, network: ws, ws-opts: {path: /proxyip=sjc.o00o.ooo, headers: {Host: sss.2026.camdvr.org}}, udp: true}
+  - {name: 🇺🇸 美国 063, server: 50.62.172.12, port: 443, type: vless, uuid: e258977b-e413-4718-a3af-02d75492c349, tls: true, servername: ww20.allxniu.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ww20.allxniu.qzz.io}}, udp: true}
+  - {name: 🇭🇰 香港家宽 080, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 🇭🇰 香港家宽 037, server: b09997b1-t8ysg0-t9byd7-1jfvb.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇺🇸 美国 004, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: ac618770-e358-418e-b7a9-74dfa32afaf4, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 050, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: ecaeb42d-3290-47ea-9d40-49c368f11e75, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 04, server: 152.70.92.69, port: 80, type: vmess, uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇩🇪 德国 12, server: de1.jueduibupao.top, port: 47597, type: hysteria2, password: 8b4c179c-d028-4e67-ba31-0ecd16062425, auth: 8b4c179c-d028-4e67-ba31-0ecd16062425, sni: de1.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 09, server: 108.162.198.253, port: 2083, type: vless, uuid: 80d6cbef-6f0d-4e80-b9d0-d000d052119f, tls: true, servername: cf.ldy2023.eu.org, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: cf.ldy2023.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 029, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 07234fca-0154-41d7-95ba-5ca9d29d6b78, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 113, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 47eb0865-5fc1-4a88-a1de-94a7364f7e59, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港家宽 041, server: de57af2c-t8ysg0-t8ygh3-81nv.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇩🇪 德国 39, server: de.invisevps.ru, port: 443, type: vless, uuid: 5b74303c-748f-4e6b-b525-9f37218205e6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: jvKBNVo80dZWlY4X6Ui347VTr2Eou0bTGO4RdUNPilY}, servername: de.invisevps.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇭🇰 香港家宽 028, server: a4c30320-t8ysg0-toa9ad-4w8.hkt.gotochinatown.net, port: 80, type: vmess, uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港家宽 036, server: 2e4b9b34-t8ysg0-tbicd9-1go3q.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 053, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 2260331b-bd95-47af-94bc-2f320d162bb9, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 062, server: 104.16.63.239, port: 80, type: vless, uuid: 04969b01-ac6a-4056-b5cd-852ccf45f100, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: netherlands.vipserver14.workers.dev}}, udp: true}
+  - {name: 🇭🇰 香港 114, server: freea.glyphara.com, port: 30101, type: vless, uuid: ae0f9d58-76e2-483d-99e0-213683706fa8, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU, short-id: "176d4445" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 136, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 84afd818-e363-479a-ba59-9d7e802fb2aa, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 39, server: freea.glyphara.com, port: 30402, type: vless, uuid: 23e2a6fb-51d5-4bc4-99bd-7380f903cbc0, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew, short-id: "f5f6e6f4" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇭🇰 香港家宽 007, server: c6467880-t8ysg0-taksay-1tcuf.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇸🇦 沙特阿拉伯 01, server: 154.205.134.251, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 7bc8eeffd0325141, udp: true}
+  - {name: 🇭🇰 香港 044, server: hk3.network-cdn-gw-yd.net, port: 32058, type: ss, cipher: chacha20-ietf-poly1305, password: aed6e687-58a9-4836-ba62-7d8184c94df4, udp: true}
+  - {name: 🇮🇱 以色列 01, server: 163.171.213.46, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: d121385f700a6915, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -163,312 +160,306 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -476,156 +467,153 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -645,227 +633,220 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇭🇰 香港 082
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇭🇰 香港 144
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇭🇰 香港 022
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇭🇰 香港家宽 029
-      - 🇭🇰 香港 076
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇭🇰 香港家宽 065
-      - 🇭🇰 香港 080
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇭🇰 香港家宽 101
-      - 🇭🇰 香港 077
-      - 🇭🇰 香港家宽 032
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇹🇼 台湾 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇭🇰 香港 083
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇭🇰 香港 071
+      - 🇭🇰 香港 069
+      - 🇭🇰 香港 043
+      - 🇭🇰 香港 096
+      - 🇭🇰 香港家宽 008
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇭🇰 香港家宽 052
+      - 🇭🇰 香港家宽 049
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇭🇰 香港 057
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇭🇰 香港 031
+      - 🇭🇰 香港 055
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇭🇰 香港 008
+      - 🇭🇰 香港家宽 067
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇭🇰 香港 038
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇭🇰 香港 078
+      - 🇭🇰 香港 087
+      - 🇭🇰 香港家宽 059
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇭🇰 香港 114
+      - 🇭🇰 香港家宽 007
+      - 🇭🇰 香港 044
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -873,312 +854,306 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1186,156 +1161,153 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1352,156 +1324,153 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇩🇪 德国 34
-      - 🇮🇱 以色列 02
-      - 🇳🇱 荷兰 04
-      - 🇰🇷 韩国 03
-      - 🇺🇸 美国 127
-      - 🇭🇰 香港 016
-      - 🇭🇰 香港 148
-      - 🇸🇬 新加坡 15
-      - 🇺🇸 美国 015
-      - 🇫🇮 芬兰 01
-      - 🇺🇸 美国 057
-      - 🇷🇺 俄罗斯联邦 01
-      - 🇭🇰 香港家宽 047
-      - 🇭🇰 香港 123
-      - 🇭🇰 香港家宽 069
-      - 🇭🇰 香港家宽 054
-      - 🇭🇰 香港 026
-      - 🇭🇰 香港 045
-      - 🇸🇬 新加坡 25
-      - 🇺🇸 美国 001
-      - 🇭🇰 香港家宽 094
-      - 🇭🇰 香港家宽 017
-      - 🇭🇰 香港家宽 020
-      - 🇭🇰 香港 091
-      - 🇯🇵 日本 25
-      - 🇺🇸 美国 037
-      - 🇭🇰 香港 082
-      - 🇺🇸 美国 124
-      - 🇺🇸 美国 078
-      - 🇯🇵 日本家宽 02
-      - 🇺🇸 美国 031
-      - 🇭🇰 香港 127
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港 062
-      - 🇭🇰 香港 001
-      - 🇭🇰 香港家宽 095
-      - 🇩🇪 德国 45
-      - 🇩🇪 德国商宽 07
-      - 🇸🇬 新加坡 40
-      - 🇬🇧 英国 01
-      - 🇸🇬 新加坡 13
-      - 🇺🇸 美国 116
-      - 🇷🇺 俄罗斯 05
-      - 🇭🇰 香港 047
-      - 🇭🇰 香港 033
-      - 🇩🇪 德国商宽 03
-      - 🇺🇸 美国 143
-      - 🇭🇰 香港 144
-      - 🇻🇳 越南 05
-      - 🇭🇰 香港 028
-      - 🇭🇰 香港 037
-      - 🇭🇰 香港家宽 087
-      - 🇯🇵 日本 18
-      - 🇯🇵 日本 24
-      - 🇭🇰 香港 022
-      - 🇺🇸 美国 069
-      - 🇺🇸 美国 075
-      - 🇺🇸 美国 119
-      - 🇭🇰 香港 059
-      - 🇭🇰 香港 120
-      - 🇯🇵 日本 29
-      - 🇻🇳 越南 01
-      - 🇺🇸 美国 005
-      - 🇩🇪 德国 33
-      - 🇩🇪 德国 01
-      - 🇩🇪 德国 22
-      - 🇻🇳 越南 10
-      - 🇸🇬 新加坡 14
-      - 🇭🇰 香港家宽 099
-      - 🇭🇰 香港家宽 071
-      - 🇭🇰 香港家宽 057
-      - 🇭🇰 香港 116
-      - 🇸🇬 新加坡 27
-      - 🇭🇰 香港家宽 029
-      - 🇺🇸 美国 088
-      - 🇭🇰 香港 076
-      - 🇯🇵 日本 19
-      - 🇩🇪 德国 44
-      - 🇭🇰 香港家宽 068
-      - 🇭🇰 香港家宽 013
-      - 🇺🇸 美国 083
-      - 🇺🇸 美国 118
-      - 🇭🇰 香港 063
-      - 🇭🇰 香港家宽 083
-      - 🇺🇸 美国 101
-      - 🇺🇸 美国 014
-      - 🇳🇱 荷兰 03
-      - 🇺🇸 美国 102
-      - 🇺🇸 美国 081
-      - 🇹🇼 台湾 01
-      - 🇭🇰 香港 032
-      - 🇻🇳 越南 17
-      - 🇭🇰 香港家宽 065
-      - 🇺🇸 美国 131
-      - 🇺🇸 美国 114
-      - 🇭🇰 香港 080
-      - 🇸🇬 新加坡 41
-      - 🇭🇰 香港家宽 016
-      - 🇭🇰 香港家宽 014
-      - 🇭🇰 香港 128
-      - 🇯🇵 日本 28
-      - 🇭🇰 香港家宽 101
-      - 🇺🇸 美国 051
-      - 🇺🇸 美国 054
-      - 🇺🇸 美国 144
-      - 🇺🇸 美国 025
-      - 🇺🇸 美国 105
-      - 🇭🇰 香港 077
-      - 🇸🇬 新加坡 28
-      - 🇺🇸 美国 018
-      - 🇩🇪 德国 14
-      - 🇭🇰 香港家宽 032
-      - 🇺🇸 美国 120
-      - 🇯🇵 日本 15
-      - 🇸🇬 新加坡 18
-      - 🇭🇰 香港 017
-      - 🇭🇰 香港家宽 058
-      - 🇭🇰 香港家宽 022
-      - 🇩🇪 德国商宽 05
-      - 🇹🇼 台湾 06
-      - 🇯🇵 日本 06
-      - 🇭🇰 香港家宽 090
-      - 🇭🇰 香港 085
-      - 🇭🇰 香港 129
-      - 🇸🇬 新加坡 12
-      - 🇭🇰 香港 097
-      - 🇭🇰 香港家宽 045
-      - 🇸🇬 新加坡 36
-      - 🇯🇵 日本 23
-      - 🇭🇰 香港 083
-      - 🇸🇬 新加坡 33
-      - 🇭🇰 香港 095
-      - 🇭🇰 香港家宽 053
-      - 🇺🇸 美国 044
-      - 🇺🇸 美国 033
-      - 🇭🇰 香港家宽 074
-      - 🇭🇰 香港 025
-      - 🇺🇸 美国 095
-      - 🇭🇰 香港 106
-      - 🇭🇰 香港家宽 031
-      - 🇭🇰 香港 015
-      - 🇭🇰 香港 034
-      - 🇯🇵 日本 22
-      - 🇺🇸 美国 135
-      - 🇺🇸 美国 092
-      - 🇫🇮 芬兰 04
-      - 🇸🇬 新加坡 34
-      - 🇺🇦 乌克兰 01
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港家宽 030
+      - 🇭🇰 香港家宽 039
+      - 🇯🇵 日本 17
+      - 🇭🇰 香港 071
+      - 🇫🇮 芬兰 02
+      - 🇭🇰 香港 069
+      - 🇩🇪 德国 43
+      - 🇯🇵 日本 10
+      - 🇭🇰 香港 043
+      - 🇩🇪 德国 31
+      - 🇺🇸 美国 128
+      - 🇹🇷 土耳其商宽 01
+      - 🇭🇰 香港 096
+      - 🇺🇸 美国 096
+      - 🇭🇰 香港家宽 008
+      - 🇸🇬 新加坡 23
+      - 🇺🇸 美国 026
+      - 🇬🇧 英国 04
+      - 🇺🇸 美国 055
+      - 🇯🇵 日本 03
+      - 🇭🇰 香港家宽 075
+      - 🇭🇰 香港 046
+      - 🇺🇸 美国 034
+      - 🇭🇰 香港家宽 052
+      - 🇩🇪 德国 11
+      - 🇺🇸 美国 032
+      - 🇭🇰 香港家宽 049
+      - 🇺🇸 美国 106
+      - 🇭🇰 香港家宽 076
+      - 🇭🇰 香港 074
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港 019
+      - 🇺🇸 美国 142
+      - 🇭🇰 香港 021
+      - 🇭🇰 香港家宽 091
+      - 🇮🇸 冰岛 01
+      - 🇭🇰 香港 104
+      - 🇭🇰 香港 134
+      - 🇭🇰 香港 147
+      - 🇭🇰 香港 141
+      - 🇺🇸 美国 076
+      - 🇩🇪 德国 37
+      - 🇺🇸 美国 140
+      - 🇩🇪 德国 48
+      - 🇭🇰 香港 057
+      - 🇺🇸 美国 039
+      - 🇭🇰 香港家宽 042
+      - 🇭🇰 香港 030
+      - 🇺🇸 美国 065
+      - 🇩🇪 德国商宽 06
+      - 🇺🇸 美国 132
+      - 🇭🇰 香港家宽 061
+      - 🇹🇼 台湾家宽 06
+      - 🇭🇰 香港 131
+      - 🇭🇰 香港 039
+      - 🇭🇰 香港 136
+      - 🇭🇰 香港 081
+      - 🇯🇵 日本 12
+      - 🇺🇸 美国 040
+      - 🇭🇰 香港 135
+      - 🇭🇰 香港 060
+      - 🇭🇰 香港 050
+      - 🇩🇪 德国 18
+      - 🇸🇬 新加坡 07
+      - 🇯🇵 日本 07
+      - 🇭🇰 香港 031
+      - 🇺🇸 美国 046
+      - 🇯🇵 日本 20
+      - 🇭🇰 香港 055
+      - 🇺🇸 美国 074
+      - 🇭🇰 香港家宽 056
+      - 🇭🇰 香港 073
+      - 🇩🇪 德国 13
+      - 🇺🇸 美国 008
+      - 🇩🇪 德国 42
+      - 🇭🇰 香港 008
+      - 🇺🇸 美国 006
+      - 🇭🇰 香港家宽 067
+      - 🇺🇸 美国 059
+      - 🇺🇸 美国 023
+      - 🇺🇸 美国 058
+      - 🇺🇸 美国 016
+      - 🇭🇰 香港 024
+      - 🇭🇰 香港 002
+      - 🇭🇰 香港 130
+      - 🇸🇬 新加坡 17
+      - 🇺🇸 美国 130
+      - 🇭🇰 香港 038
+      - 🇩🇪 德国 16
+      - 🇸🇬 新加坡 11
+      - 🇸🇬 新加坡 21
+      - 🇯🇵 日本 04
+      - 🇯🇵 日本 21
+      - 🇺🇸 美国 041
+      - 🇸🇬 新加坡 30
+      - 🇩🇪 德国 20
+      - 🇩🇪 德国 28
+      - 🇬🇧 英国 02
+      - 🇭🇰 香港 018
+      - 🇭🇰 香港 126
+      - 🇭🇰 香港家宽 073
+      - 🇭🇰 香港家宽 066
+      - 🇷🇺 俄罗斯 03
+      - 🇭🇰 香港家宽 048
+      - 🇭🇰 香港家宽 001
+      - 🇺🇸 美国 107
+      - 🇰🇷 韩国 02
+      - 🇩🇪 德国 47
+      - 🇺🇸 美国 035
+      - 🇭🇰 香港 094
+      - 🇭🇰 香港 140
+      - 🇸🇬 新加坡 08
+      - 🇺🇸 美国 052
+      - 🇸🇬 新加坡 04
+      - 🇭🇰 香港 078
+      - 🇯🇵 日本 27
+      - 🇸🇬 新加坡 24
+      - 🇯🇵 日本家宽 01
+      - 🇺🇸 美国 068
+      - 🇺🇸 美国 123
+      - 🇭🇰 香港 087
+      - 🇰🇷 韩国家宽 02
+      - 🇩🇪 德国 38
+      - 🇭🇰 香港家宽 059
+      - 🇩🇪 德国 41
+      - 🇺🇸 美国 063
+      - 🇭🇰 香港家宽 080
+      - 🇭🇰 香港家宽 037
+      - 🇺🇸 美国 004
+      - 🇺🇸 美国 050
+      - 🇰🇷 韩国 04
+      - 🇩🇪 德国 12
+      - 🇯🇵 日本 09
+      - 🇺🇸 美国 029
+      - 🇭🇰 香港 113
+      - 🇭🇰 香港家宽 041
+      - 🇩🇪 德国 39
+      - 🇭🇰 香港家宽 028
+      - 🇭🇰 香港家宽 036
+      - 🇭🇰 香港 053
+      - 🇺🇸 美国 062
+      - 🇭🇰 香港 114
+      - 🇺🇸 美国 136
+      - 🇸🇬 新加坡 39
+      - 🇭🇰 香港家宽 007
+      - 🇸🇦 沙特阿拉伯 01
+      - 🇭🇰 香港 044
+      - 🇮🇱 以色列 01
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
