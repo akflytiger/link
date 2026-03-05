@@ -11,12 +11,12 @@ baseurl="https://akflytiger.i234.me:25501/sub?target=clash&udp=true&emoji=true&i
 soup = BeautifulSoup(html_content, 'html.parser')
 
 # 提取code标签中的token
-paragraphs = soup.find_all('code')
-print (paragraphs[1].get_text())
-token = paragraphs[1].get_text()
+paragraphs = soup.find_all('details')
+print (paragraphs[0].get_text())
+token = paragraphs[0].get_text().split("钥")[1]
 paragraphs2 = soup.find_all('p')
-url=paragraphs2[10].get_text().split('?', 1)[0].split('：',1)[1]
-
+url=paragraphs2[8].get_text().split('?', 1)[0].split('：',1)[1]
+print (token)
 print (url)
 
 # 第二步：使用url+token构建订阅URL并获取内容
