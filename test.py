@@ -22,7 +22,7 @@ print (url)
 # 第二步：使用url+token构建订阅URL并获取内容
 subscribe_url = f'{url}?token={token}&target=clash&list=0'
 
-#print("正在获取订阅内容URL:", subscribe_url)
+print("正在获取订阅内容URL:", subscribe_url)
 
 '''
 print (urlencode(subscribe_url))
