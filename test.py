@@ -22,7 +22,7 @@ paragraphs = soup.find_all('details')
 print (paragraphs[0].get_text())
 token = paragraphs[0].get_text().split("钥")[1]
 paragraphs2 = soup.find_all('p')
-url=paragraphs2[8].get_text().split('?', 1)[0].split('：',1)[1]
+url=paragraphs2[10].get_text().split('?', 1)[0].split('：',1)[1]
 print (token)
 print (url)
 
