@@ -3,13 +3,32 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlencode
 import os
 def get_proxy():
-    http_proxy = os.environ.get('HTTP_PROXY')
-    https_proxy = os.environ.get('HTTPS_PROXY')
+    """手动构建代理配置"""
+    # 从环境变量读取
+    proxy_user = os.environ.get('PROXY_USER', 'akflytiger')
+    proxy_pass = os.environ.get('PROXY_PASS', '369369369')
+    proxy_host = os.environ.get('PROXY_HOST', 'akflytiger.i234.me')
+    proxy_port = os.environ.get('PROXY_PORT', '7893')
+    
+    # 检查是否有缺失
+    if not all([proxy_user, proxy_pass, proxy_host, proxy_port]):
+        missing = []
+        if not proxy_user: missing.append('PROXY_USER')
+        if not proxy_pass: missing.append('PROXY_PASS')
+        if not proxy_host: missing.append('PROXY_HOST')
+        if not proxy_port: missing.append('PROXY_PORT')
+        print(f"警告: 缺少以下环境变量: {missing}")
+        return None
+    
+    # 手动构建代理 URL（确保所有值都是字符串）
+    proxy_url = f"http://{str(proxy_user)}:{str(proxy_pass)}@{str(proxy_host)}:{str(proxy_port)}"
     
     proxies = {
-        'http': http_proxy,
-        'https': https_proxy
+        'http': proxy_url,
+        'https': proxy_url
     }
+    
+    print(f"代理已配置: http://{proxy_user}:****@{proxy_host}:{proxy_port}")
     return proxies
 proxies=get_proxy()  
 headers = {
