@@ -21,7 +21,7 @@ headers = {
     }
 # 第一步：从GitHub issues页面获取token
 github_url = "https://github.com/wzdnzd/aggregator/issues/91"
-response = requests.get(github_url,headers=headers，proxies=proxies)
+response = requests.get(github_url,headers=headers,proxies=proxies)
 html_content = response.text
 baseurl="https://akflytiger.i234.me:25501/sub?target=clash&udp=true&emoji=true&include=%E9%A6%99%E6%B8%AF%7C%E6%97%A5%E6%9C%AC%7C%E6%96%B0%E5%8A%A0%E5%9D%A1&url="
 # 使用BeautifulSoup解析HTML
