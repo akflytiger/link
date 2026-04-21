@@ -36,8 +36,11 @@ jobs:
     - name: 安装依赖
       run: pip install -r requirements.txt
     - name: 节点获取并发布
-      run: | 
-        python test.py
+      env:
+        HTTP_PROXY: http://${{ secrets.PROXY_USER }}:${{ secrets.PROXY_PASS }}@${{ secrets.PROXY_HOST }}:${{ secrets.PROXY_PORT }}
+        HTTPS_PROXY: http://${{ secrets.PROXY_USER }}:${{ secrets.PROXY_PASS }}@${{ secrets.PROXY_HOST }}:${{ secrets.PROXY_PORT }}
+      run: 
+         python test.py
        
     - name: Commit and push output file
       run: |
