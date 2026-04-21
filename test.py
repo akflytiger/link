@@ -50,7 +50,7 @@ print (fullurl)
 
 
 # 获取订阅内容
-subscribe_response = requests.get(subscribe_url，headers=headers，proxies=proxies)
+subscribe_response = requests.get(subscribe_url,headers=headers,proxies=proxies)
 
 # 检查请求是否成功
 if subscribe_response.status_code == 200:
