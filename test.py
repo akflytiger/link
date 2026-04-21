@@ -1,6 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlencode
+def get_proxy():
+    http_proxy = os.environ.get('HTTP_PROXY')
+    https_proxy = os.environ.get('HTTPS_PROXY')
+    
+    proxies = {
+        'http': http_proxy,
+        'https': https_proxy
+    }
+    return proxies
+proxies=get_proxy()  
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -8,10 +18,10 @@ headers = {
     'Accept-Encoding': 'gzip, deflate, br',
     'Connection': 'keep-alive',
     'Upgrade-Insecure-Requests': '1'
-}
+    }
 # 第一步：从GitHub issues页面获取token
 github_url = "https://github.com/wzdnzd/aggregator/issues/91"
-response = requests.get(github_url,headers=headers)
+response = requests.get(github_url,headers=headers，proxies=proxies)
 html_content = response.text
 baseurl="https://akflytiger.i234.me:25501/sub?target=clash&udp=true&emoji=true&include=%E9%A6%99%E6%B8%AF%7C%E6%97%A5%E6%9C%AC%7C%E6%96%B0%E5%8A%A0%E5%9D%A1&url="
 # 使用BeautifulSoup解析HTML
@@ -40,7 +50,7 @@ print (fullurl)
 
 
 # 获取订阅内容
-subscribe_response = requests.get(subscribe_url)
+subscribe_response = requests.get(subscribe_url，headers=headers，proxies=proxies)
 
 # 检查请求是否成功
 if subscribe_response.status_code == 200:
